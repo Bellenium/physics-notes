@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{lipsum}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{tcolorbox}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage[hidelinks]{hyperref}
+\usepackage{mathtools}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\graphicspath{ {images/} }
+\begin{document}
+
+\author{Pugazharasu A D}
+\title{Notes on Electrodynamics}
+\date{August 2020}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./Chapters/Vector_Analysis}
+\include{./Chapters/Potentials_and_Fields}
+\include{./Chapters/EM_Waves}
+\include{./Chapters/EM_Radiation}
+\include{./Chapters/EM_Tensors,Lagrangian}
+\include{./Chapters/Helmholtz_Theorem}
+
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}
