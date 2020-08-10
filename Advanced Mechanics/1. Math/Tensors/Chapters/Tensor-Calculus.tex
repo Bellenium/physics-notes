@@ -1,22 +1,118 @@
 \chapter{Tensor-Calculus}
 \section{Derivatives}
-
+We can rewrite the gradient for a scalar field we know from vector calculus as, 
+\begin{equation}
+{(grad \ f)}_{\mu} = \frac{\partial f}{\partial x^{\mu}}
+\end{equation}
+we can write the gradient of a vector field as,
+\begin{equation}
+{(grad \ \vec{v})}^{\mu}_{\  \nu} = \frac{\partial x^{\mu}}{\partial x^{\nu}}
+\end{equation}
+and of a Tensor field,
+\begin{equation}
+{(grad \ t)}_{\mu \nu \alpha} = \frac{\partial t_{\mu \nu}}{\partial x^{\alpha}}
+\end{equation}
+We can use the following notation for simplicity,
+\begin{equation}
+v^{\mu}_{ \ ,\nu} = \partial_{\nu} v^{\mu} := \frac{\partial v^{\mu}}{\partial x^{\nu}}
+\end{equation}
+and 
+\begin{equation}
+v^{\mu,\nu} = \partial^{\nu} v^{\mu} := g^{\nu \rho} \frac{\partial v^{\mu}}{\partial x^{\rho}}
+\end{equation}
 \section{Covector Field}
 \section{Differential Forms}
 \section{Gradient}
 \section{Geodesics}
 \section{Covariant Derivative}
+The covariant derivative of a vector field $v^{\mu}$ is defined as,
+\begin{equation}
+\nabla_{\mu} v^{\alpha} = \partial_{\mu} v^{\alpha} + \Gamma^{\alpha}_{\mu \nu} v^{\nu}
+\end{equation}
+where, the object $\Gamma^{\alpha}_{\mu \nu}$ is called the Christoffel symbol. The Christoffel symbol is not a tensor because it contains all the information about the curvature of the coordinate system and can therefore be transformed entirely to zero if the coordinates are straightened. Nevertheless we treat it as any ordinary tensor in terms of the index notation.\\
+We define the Christoffel symbol in terms of the metric $g_{\mu \nu}$ and it's inverse $g^{\alpha \beta}$ as,
+\begin{equation}
+\Gamma^{\alpha}_{\ \mu \nu} = \frac{1}{2} g^{\alpha \beta} \left(\frac{\partial g_{\beta \nu}}{\partial x^{\mu}} + \frac{\partial g_{\beta \mu}}{\partial x^{\nu}} - \frac{\partial g_{\mu \nu}}{\partial x^{\beta}}\right) = \frac{1}{2}g^{\alpha \beta} \left(g_{\beta \nu, \mu} + g_{\beta \mu, \nu} - g_{\mu \nu, \beta}\right)
+\end{equation}
+We can define the covariant derivative of a covector as,
+\begin{equation}
+\nabla_{\mu} w_{\alpha} = \partial_{\mu} w_{\alpha} + \Gamma^{\alpha}_{\mu \nu} w_{\nu}
+\end{equation}
+The covariant derivative of a tensor $t^{\alpha\beta}$ is then,
+\begin{equation}
+\nabla_{\mu}t^{\alpha \beta} = \partial_{\mu} t^{\alpha \beta} + \Gamma^{\alpha}_{\mu \sigma}t^{\sigma \beta} + \Gamma^{\beta}_{\mu \sigma}t^{\alpha \sigma }
+\end{equation}
+and of a tensor $t^{\alpha}_{\beta}$,
+\begin{equation}
+\nabla_{\mu}t^{\alpha}_{\beta} = \partial_{\mu} t^{\alpha}_{\beta} + \Gamma^{\alpha}_{\mu \sigma}t^{\sigma}_{\beta} + \Gamma^{\beta}_{\mu \sigma}t^{\alpha}_{\sigma}
+\end{equation}
+\subsection{Properties}
+\begin{itemize}
+\item The covariant derivative produces, as its name says, covariant expressions.
+\item $\nabla_{\mu} g_{\alpha \beta} = 0$
+\item $g^{\alpha \gamma} \nabla_{\alpha}t^{\mu \nu}_{\gamma} = \nabla_{\alpha}(t^{\mu \nu}_{\gamma}g^{\alpha \gamma}) = \nabla_{\alpha}t^{\mu \nu \alpha}$
+\item $\nabla^{\alpha} = g^{\alpha \beta}\nabla_{\beta}$
+\end{itemize}
+ Therefore $c$ is a perfectly valid tensor. We can also contract indices: ,or with help of the metric: . Since  (as we saw in the above exercise) we can always bring the  and/or  inside or outside the operator.
+We can therefore write
 \section{Lie Brackets and Flow}
 \section{Interesting Tensors}
 \subsection{Kronecker delta}
 It simply has the ‘function’ of ‘renaming’ an index:
 $$\delta^{\mu}_{\nu} x^{\nu} = x^{\mu}$$
 it is in a sense simply the identity matrix.
+\subsection{Levi-Civita Pseudotensor}
+\label{Levi}
+The Levi-Civita Pseudotensor i.e. Tensor density is a completely anti-symmetric i.e. $\epsilon_{ijk} = -\epsilon_{jik} = -\epsilon_{ikj} = -\epsilon_{kji}$, we define it as:
+\begin{equation}
+\epsilon_{ijk} = \begin{cases}
+1 \ \text{if } ijk \text{ is an even permuation of } 123\\
+-1 \ \text{if } ijk \text{ is an odd permuation of } 123\\
+0  \text{ if two indices are equal}\\
+\end{cases}
+\end{equation}
+\subsubsection{Identities}
+\begin{equation}
+\epsilon_{\alpha \beta \nu}\epsilon_{\alpha \beta \sigma} = \delta_{\mu \rho} \delta_{\nu \sigma} - \delta_{\mu \sigma}\delta_{\nu \rho}
+\end{equation}
+From this it follows that,
+\begin{equation}
+\epsilon_{\alpha \beta \nu}\epsilon_{\alpha \beta \sigma} = 2\delta_{\nu \sigma}
+\end{equation}
+and
+\begin{equation}
+\epsilon_{\alpha \beta \gamma}\epsilon_{\alpha \beta \gamma} = 6
+\end{equation}
+\subsubsection{Cross-Product}
+Using these identities and the definition we can rewrite the cross-product of two vectors as,
+\begin{equation}
+\vec{a} = \vec{a} \cross \vec{b}  = \epsilon_{ijk}a_{j}b_{k}
+\end{equation}
+Thus the expressions in vector product notation can be changed to index notation for example,
+$$
+c = \nabla.(\nabla \cross \vec{a}) = \nabla_{i}(\epsilon_{ijk}\nabla_{j}a_{k}) = \epsilon_{ijk}\partial_{i}\partial_{j}a_{k}
+$$
+because,
+$$\nabla_{i} = \frac{\partial}{\partial x_{i}} := \partial_{i}$$
+\subsubsection{Rot}
+Rot is defined as the generalized rotation of a covector,
+\begin{equation}
+{(rot \tilde{w})}_{\alpha \beta} = \partial_{\alpha} w_{\beta} - \partial_{\beta}w_{\alpha}
+\end{equation}
 \subsection{Inertia Tensor}
 \subsection{Electromagnetic Field Tensor}
 \begin{equation}
 F^{\mu \nu} = 
 \end{equation}
+and it's 
+\begin{equation}
+F_{\mu \nu} = 
+\end{equation}
+and it's dual as,
+\begin{equation}
+G^{\mu \nu} = 
+\end{equation}
+We can now rewrite Maxwell's equations as:
 \subsection{Torsion Tensor}
 \subsection{The Riemann Curvature Tensor}
 \subsection{The Ricci Tensor}

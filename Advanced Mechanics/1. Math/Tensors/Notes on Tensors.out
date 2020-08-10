@@ -29,11 +29,13 @@
 \BOOKMARK [1][-]{section.2.4}{Gradient}{chapter.2}% 29
 \BOOKMARK [1][-]{section.2.5}{Geodesics}{chapter.2}% 30
 \BOOKMARK [1][-]{section.2.6}{Covariant Derivative}{chapter.2}% 31
-\BOOKMARK [1][-]{section.2.7}{Lie Brackets and Flow}{chapter.2}% 32
-\BOOKMARK [1][-]{section.2.8}{Interesting Tensors}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.8.1}{Kronecker delta}{section.2.8}% 34
-\BOOKMARK [2][-]{subsection.2.8.2}{Inertia Tensor}{section.2.8}% 35
-\BOOKMARK [2][-]{subsection.2.8.3}{Electromagnetic Field Tensor}{section.2.8}% 36
-\BOOKMARK [2][-]{subsection.2.8.4}{Torsion Tensor}{section.2.8}% 37
-\BOOKMARK [2][-]{subsection.2.8.5}{The Riemann Curvature Tensor}{section.2.8}% 38
-\BOOKMARK [2][-]{subsection.2.8.6}{The Ricci Tensor}{section.2.8}% 39
+\BOOKMARK [2][-]{subsection.2.6.1}{Properties}{section.2.6}% 32
+\BOOKMARK [1][-]{section.2.7}{Lie Brackets and Flow}{chapter.2}% 33
+\BOOKMARK [1][-]{section.2.8}{Interesting Tensors}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.8.1}{Kronecker delta}{section.2.8}% 35
+\BOOKMARK [2][-]{subsection.2.8.2}{Levi-Civita Pseudotensor}{section.2.8}% 36
+\BOOKMARK [2][-]{subsection.2.8.3}{Inertia Tensor}{section.2.8}% 37
+\BOOKMARK [2][-]{subsection.2.8.4}{Electromagnetic Field Tensor}{section.2.8}% 38
+\BOOKMARK [2][-]{subsection.2.8.5}{Torsion Tensor}{section.2.8}% 39
+\BOOKMARK [2][-]{subsection.2.8.6}{The Riemann Curvature Tensor}{section.2.8}% 40
+\BOOKMARK [2][-]{subsection.2.8.7}{The Ricci Tensor}{section.2.8}% 41
