@@ -1,30 +1,37 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  1 AUG 2020 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  24 AUG 2020 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Variational_Calc.tex
-(./Variational_Calc.tex
+**QM.tex
+(./QM.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-05-15>
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/artic
-le.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/book.
+cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/size1
-0.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/bk12.
+clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
+)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/base/input
+enc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/lipsum/lip
 sum.sty
@@ -35,7 +42,7 @@ Package: expl3 2020-05-15 L3 programming layer (loader)
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3backend/
 l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
+\l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box45
 ))
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3packages
@@ -44,10 +51,10 @@ Package: xparse 2020-05-15 L3 Experimental document command parser
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/l3packages
 /xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count176
-\g__xparse_grabber_int=\count177
-\l__xparse_m_args_int=\count178
-\l__xparse_v_nesting_int=\count179
+\l__xparse_current_arg_int=\count177
+\g__xparse_grabber_int=\count178
+\l__xparse_m_args_int=\count179
+\l__xparse_v_nesting_int=\count180
 ))
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -69,7 +76,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
 sgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
+\@emptytoks=\toks17
 \ex@=\dimen135
 ))
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsmath/am
@@ -81,13 +88,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 sopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count180
+\inf@bad=\count181
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count181
-\leftroot@=\count182
+\uproot@=\count182
+\leftroot@=\count183
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count183
-\DOTSCASE@=\count184
+\classnum@=\count184
+\DOTSCASE@=\count185
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -96,26 +103,26 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen137
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count185
-\c@MaxMatrixCols=\count186
+\macc@depth=\count186
+\c@MaxMatrixCols=\count187
 \dotsspace@=\muskip16
-\c@parentequation=\count187
-\dspbrk@lvl=\count188
-\tag@help=\toks16
-\row@=\count189
-\column@=\count190
-\maxfields@=\count191
-\andhelp@=\toks17
+\c@parentequation=\count188
+\dspbrk@lvl=\count189
+\tag@help=\toks18
+\row@=\count190
+\column@=\count191
+\maxfields@=\count192
+\andhelp@=\toks19
 \eqnshift@=\dimen138
 \alignsep@=\dimen139
 \tagshift@=\dimen140
 \tagwidth@=\dimen141
 \totwidth@=\dimen142
 \lineht@=\dimen143
-\@envbody=\toks18
+\@envbody=\toks20
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -146,7 +153,7 @@ ayer/pgf.sty
 ies/pgfrcs.sty
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
 ities/pgfutil-common.tex
-\pgfutil@everybye=\toks20
+\pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen144
 \pgfutil@tempdimb=\dimen145
 
@@ -177,7 +184,7 @@ Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/k
 eyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks23
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/graphics/g
 raphics.sty
@@ -208,12 +215,12 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
 ities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
 ities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen148
 \pgf@y=\dimen149
@@ -227,14 +234,14 @@ ities/pgfkeysfiltered.code.tex
 \pgf@yd=\dimen157
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count192
-\c@pgf@countb=\count193
-\c@pgf@countc=\count194
-\c@pgf@countd=\count195
-\t@pgf@toka=\toks25
-\t@pgf@tokb=\toks26
-\t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count196
+\c@pgf@counta=\count193
+\c@pgf@countb=\count194
+\c@pgf@countc=\count195
+\c@pgf@countd=\count196
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count197
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
 emlayer/pgf.cfg
@@ -253,8 +260,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
 emlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count197
-\pgfsyssoftpath@bigbuffer@items=\count198
+\pgfsyssoftpath@smallbuffer@items=\count198
+\pgfsyssoftpath@bigbuffer@items=\count199
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/syst
 emlayer/pgfsysprotocol.code.tex
@@ -292,11 +299,11 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
 /pgfmathparser.code.tex
 \pgfmath@dimen=\dimen158
-\pgfmath@count=\count199
+\pgfmath@count=\count266
 \pgfmath@box=\box49
-\pgfmath@toks=\toks28
-\pgfmath@stack@operand=\toks29
-\pgfmath@stack@operation=\toks30
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
 /pgfmathfunctions.code.tex
@@ -318,7 +325,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 /pgfmathfunctions.integerarithmetics.code.tex)))
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
 /pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count266
+\c@pgfmathroundto@lastzeros=\count267
 ))
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
 /pgfint.code.tex)
@@ -358,7 +365,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box50
 \pgf@hbox=\box51
 \pgf@layerbox@main=\box52
-\pgf@picture@serial@count=\count267
+\pgf@picture@serial@count=\count268
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
 clayer/pgfcoregraphicstate.code.tex
@@ -393,8 +400,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 clayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen182
-\pgf@sys@shading@range@num=\count268
-\pgf@shadingcount=\count269
+\pgf@sys@shading@range@num=\count269
+\pgf@shadingcount=\count270
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/basi
 clayer/pgfcoreimage.code.tex
@@ -443,8 +450,8 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/tools/verb
 atim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks31
-\verbatim@line=\toks32
+\every@verbatim=\toks33
+\verbatim@line=\toks34
 \verbatim@in@stream=\read3
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/environ/en
@@ -458,15 +465,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/etoolbox/e
 toolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
+\etb@tempcnta=\count271
 )
 \tcb@titlebox=\box55
 \tcb@upperbox=\box56
 \tcb@lowerbox=\box57
 \tcb@phantombox=\box58
-\c@tcbbreakpart=\count271
-\c@tcblayer=\count272
-\c@tcolorbox@number=\count273
+\c@tcbbreakpart=\count272
+\c@tcblayer=\count273
+\c@tcolorbox@number=\count274
 \tcb@temp=\box59
 \tcb@temp=\box60
 \tcb@temp=\box61
@@ -528,8 +535,8 @@ kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count274
-\Hy@pagecounter=\count275
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hyperref/p
 d1enc.def
@@ -545,7 +552,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 /etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count276
+\Hy@SavedSpaceFactor=\count277
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -553,7 +560,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count277
+\c@Hy@tempcnt=\count278
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/url/url.st
 y
@@ -572,7 +579,7 @@ lc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count278
+\Fld@menulength=\count279
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -589,9 +596,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 /atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count279
-\c@Item=\count280
-\c@Hfootnote=\count281
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -603,8 +610,8 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count282
-\c@bookmark@seq@number=\count283
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/rerunfilec
 heck/rerunfilecheck.sty
@@ -626,15 +633,15 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/tools/calc
 .sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count284
-\calc@Bcount=\count285
+\calc@Acount=\count285
+\calc@Bcount=\count286
 \calc@Adimen=\dimen189
 \calc@Bdimen=\dimen190
 \calc@Askip=\skip53
 \calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count286
+\calc@Ccount=\count287
 \calc@Cskip=\skip55
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/mathtools/
@@ -645,7 +652,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count287
+\g_MT_multlinerow_int=\count288
 \l_MT_multwidth_dim=\dimen191
 \origjot=\skip56
 \l_MT_shortvdotswithinadjustabove_dim=\dimen192
@@ -670,146 +677,64 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen262
 \cmidrulekern=\dimen263
 \defaultaddspace=\dimen264
-\@cmidla=\count288
-\@cmidlb=\count289
+\@cmidla=\count289
+\@cmidlb=\count290
 \@aboverulesep=\dimen265
 \@belowrulesep=\dimen266
-\@thisruleclass=\count290
-\@lastruleclass=\count291
+\@thisruleclass=\count291
+\@lastruleclass=\count292
 \@thisrulewidth=\dimen267
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/beamer/xmp
 multi.sty
-\@mpm@count=\count292
+\@mpm@count=\count293
 )
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/fronte
-ndlayer/tikz.sty
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/utilit
-ies/pgffor.sty
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/utilit
-ies/pgfkeys.sty
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
-ities/pgfkeys.code.tex))
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/pgf/math/p
-gfmath.sty
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
-/pgfmath.code.tex))
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/util
-ities/pgffor.code.tex
-Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/fundus-cal
+ligra/calligra.sty
+Package: calligra 2012/04/10 v1.9 LaTeX package calligra
+) (./QM.aux (./TeX_files/chapter01.aux)
+(./TeX_files/chapter02.aux) (./TeX_files/chapter03.aux)
+(./TeX_files/chapter04.aux) (./TeX_files/chapter05.aux)
+(./TeX_files/chapter06.aux) (./TeX_files/chapter07.aux)
+(./TeX_files/chapter08.aux) (./TeX_files/chapter09.aux)
+(./TeX_files/chapter10.aux) (./TeX_files/chapter11.aux)
+(./TeX_files/chapter12.aux) (./TeX_files/chapter13.aux)
+(./TeX_files/chapter14.aux) (./TeX_files/chapter15.aux)
+(./TeX_files/chapter16.aux) (./TeX_files/chapter17.aux)
+(./TeX_files/chapter18.aux) (./TeX_files/chapter19.aux))
+\openout1 = `QM.aux'.
 
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/math
-/pgfmath.code.tex)
-\pgffor@iter=\dimen268
-\pgffor@skip=\dimen269
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
-))
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/fron
-tendlayer/tikz/tikz.code.tex
-Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/libr
-aries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count293
-\pgfplotmarksize=\dimen270
-)
-\tikz@lastx=\dimen271
-\tikz@lasty=\dimen272
-\tikz@lastxsaved=\dimen273
-\tikz@lastysaved=\dimen274
-\tikz@lastmovetox=\dimen275
-\tikz@lastmovetoy=\dimen276
-\tikzleveldistance=\dimen277
-\tikzsiblingdistance=\dimen278
-\tikz@figbox=\box64
-\tikz@figbox@bg=\box65
-\tikz@tempbox=\box66
-\tikz@tempbox@bg=\box67
-\tikztreelevel=\count294
-\tikznumberofchildren=\count295
-\tikznumberofcurrentchild=\count296
-\tikz@fig@count=\count297
-
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/modu
-les/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count298
-\pgfmatrixcurrentcolumn=\count299
-\pgf@matrix@numberofcolumns=\count300
-)
-\tikz@expandcount=\count301
-
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/generic/pgf/fron
-tendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/caption/ca
-ption.sty
-Package: caption 2020/05/10 v3.4j Customizing captions (AR)
-
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/caption/ca
-ption3.sty
-Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen279
-\captionmargin@=\dimen280
-\captionwidth=\dimen281
-\caption@tempdima=\dimen282
-\caption@indent=\dimen283
-\caption@parindent=\dimen284
-\caption@hangindent=\dimen285
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count302
-\c@continuedfloat=\count303
-Package caption Info: hyperref package is loaded.
-)
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/caption/su
-bcaption.sty
-Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-\c@subfigure=\count304
-\c@subtable=\count305
-)
-(d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/cite/cite.
-sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-) (./Variational_Calc.aux)
-\openout1 = `Variational_Calc.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/context/base/mki
 i/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen286
-\scratchbox=\box68
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\scratchcounter=\count294
+\scratchdimen=\dimen268
+\scratchbox=\box64
+\nofMPsegments=\count295
+\nofMParguments=\count296
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen287
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen269
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks36
 )
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/epstopdf-p
@@ -823,8 +748,8 @@ g/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 27.
+\AtBeginShipoutBox=\box65
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/hyperref/n
 ameref.sty
@@ -838,112 +763,249 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 string/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
- (./Variational_Calc.out) (./Variational_Calc.out)
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+ (./QM.out) (./QM.out)
 \@outlinefile=\write6
-\openout6 = `Variational_Calc.out'.
+\openout6 = `QM.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsfonts/u
 msa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/tex/latex/amsfonts/u
 msb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 39.
+) [1
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\delta' on input line 39.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 39.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 41.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 41.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 41.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 41.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
-
-
-Overfull \hbox (3.8696pt too wide) in paragraph at lines 53--53
-[]\OT1/cmr/bx/n/14.4 Estimation of Eigen-val-ues and Eigen-func-tions 
- []
-
-[1
 
 {d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-var/fonts/map/pdftex/updm
-ap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
- (./Variational_Calc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
-Package rerunfilecheck Info: File `Variational_Calc.out' has not changed.
-(rerunfilecheck)             Checksum: C0A8F6A9BE072A4F175C2243FD246E90;1341.
+ap/pdftex.map}] [2
+
+] (./QM.toc [3])
+\tf@toc=\write7
+\openout7 = `QM.toc'.
+
+ [4]
+\openout2 = `./TeX_files/chapter01.aux'.
+
+ (./TeX_files/chapter01.tex
+Chapter 1.
+) [1
+
+
+
+]
+\openout2 = `./TeX_files/chapter02.aux'.
+
+ (./TeX_files/chapter02.tex [2
+
+
+
+]
+Chapter 2.
+) [3]
+\openout2 = `./TeX_files/chapter03.aux'.
+
+ (./TeX_files/chapter03.tex [4
+
+
+
+]
+Chapter 3.
+) [5]
+\openout2 = `./TeX_files/chapter04.aux'.
+
+ (./TeX_files/chapter04.tex [6
+
+
+
+]
+Chapter 4.
+) [7]
+\openout2 = `./TeX_files/chapter05.aux'.
+
+ (./TeX_files/chapter05.tex [8
+
+
+
+]
+Chapter 5.
+) [9]
+\openout2 = `./TeX_files/chapter06.aux'.
+
+ (./TeX_files/chapter06.tex [10
+
+
+
+]
+Chapter 6.
+) [11]
+\openout2 = `./TeX_files/chapter07.aux'.
+
+ (./TeX_files/chapter07.tex [12
+
+
+
+]
+Chapter 7.
+) [13]
+\openout2 = `./TeX_files/chapter08.aux'.
+
+ (./TeX_files/chapter08.tex [14
+
+
+
+]
+Chapter 8.
+) [15]
+\openout2 = `./TeX_files/chapter09.aux'.
+
+ (./TeX_files/chapter09.tex [16
+
+
+
+]
+Chapter 9.
+) [17]
+\openout2 = `./TeX_files/chapter10.aux'.
+
+ (./TeX_files/chapter10.tex [18
+
+
+
+]
+Chapter 10.
+) [19]
+\openout2 = `./TeX_files/chapter11.aux'.
+
+ (./TeX_files/chapter11.tex [20
+
+
+
+]
+Chapter 11.
+) [21]
+\openout2 = `./TeX_files/chapter12.aux'.
+
+ (./TeX_files/chapter12.tex [22
+
+
+
+]
+Chapter 12.
+) [23]
+\openout2 = `./TeX_files/chapter13.aux'.
+
+ (./TeX_files/chapter13.tex [24
+
+
+
+]
+Chapter 13.
+) [25]
+\openout2 = `./TeX_files/chapter14.aux'.
+
+ (./TeX_files/chapter14.tex [26
+
+
+
+]
+Chapter 14.
+) [27]
+\openout2 = `./TeX_files/chapter15.aux'.
+
+ (./TeX_files/chapter15.tex [28
+
+
+
+]
+Chapter 15.
+) [29]
+\openout2 = `./TeX_files/chapter16.aux'.
+
+ (./TeX_files/chapter16.tex [30
+
+
+
+]
+Chapter 16.
+) [31]
+\openout2 = `./TeX_files/chapter17.aux'.
+
+ (./TeX_files/chapter17.tex [32
+
+
+
+]
+Chapter 17.
+) [33]
+\openout2 = `./TeX_files/chapter18.aux'.
+
+ (./TeX_files/chapter18.tex [34
+
+
+
+]
+Chapter 18.
+) [35]
+\openout2 = `./TeX_files/chapter19.aux'.
+
+ (./TeX_files/chapter19.tex [36
+
+
+
+]
+Chapter 19.
+) [37] [38
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+ (./QM.aux (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux)
+(./TeX_files/chapter03.aux) (./TeX_files/chapter04.aux)
+(./TeX_files/chapter05.aux) (./TeX_files/chapter06.aux)
+(./TeX_files/chapter07.aux) (./TeX_files/chapter08.aux)
+(./TeX_files/chapter09.aux) (./TeX_files/chapter10.aux)
+(./TeX_files/chapter11.aux) (./TeX_files/chapter12.aux)
+(./TeX_files/chapter13.aux) (./TeX_files/chapter14.aux)
+(./TeX_files/chapter15.aux) (./TeX_files/chapter16.aux)
+(./TeX_files/chapter17.aux) (./TeX_files/chapter18.aux)
+(./TeX_files/chapter19.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `QM.out' has not changed.
+(rerunfilecheck)             Checksum: 4B8B458C794AA8C8C4C7D2A43E1A57FD;1022.
  ) 
 Here is how much of TeX's memory you used:
- 21567 strings out of 480476
- 422635 string characters out of 5888293
- 749776 words of memory out of 5000000
- 37180 multiletter control sequences out of 15000+600000
- 541102 words of font info for 58 fonts, out of 8000000 for 9000
+ 18159 strings out of 480476
+ 347206 string characters out of 5888293
+ 684172 words of memory out of 5000000
+ 33645 multiletter control sequences out of 15000+600000
+ 536799 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,6n,75p,884b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,6n,75p,870b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/0.Library/0. Software/TeX Live
-/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/0.Librar
-y/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Variational_Calc.pdf (2 pages, 65235 bytes).
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/0.Library/0. Software/TeX Live
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/0.Library
+/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sl12.pfb>
+Output written on QM.pdf (42 pages, 61276 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 266 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

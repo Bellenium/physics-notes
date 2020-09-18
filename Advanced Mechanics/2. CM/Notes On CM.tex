@@ -1,4 +1,20 @@
 \documentclass[]{article}
+\usepackage{lipsum}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{tcolorbox}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{xmpmulti}
+\usepackage{calligra}
+\usepackage{tabularx}
+\graphicspath{{./images/}}
 
 %opening
 \title{Notes on Classical Mechanics}
@@ -11,18 +27,51 @@
 \begin{abstract}
 
 \end{abstract}
-
+\pagebreak
 \section{Hamilton's Principle}
+\begin{equation}
+\delta  \int_{A}^{B}( T - U ) dt = o
+\end{equation}
 \section{Gneralized Coordinates}
+
 \section{Lagrange's Equations of Motion in Generalized Coordinates}
+\begin{equation}
+\frac{\partial L}{\partial q_{i}} = \frac{d}{dt} \left( \frac{ \partial L}{\partial \dot{q}_{i}} \right)
+\end{equation}
+\begin{equation}
+\frac{\partial L}{\partial q_{i}} = \dot{p}
+\end{equation}
+$$p = \frac{ \partial L}{\partial \dot{q}_{i}}$$
+	\begin{itemize}
+	\item The forces acting on the system (apart from any forces of constraint) must be derivable from potentials
+	\item The equations of constraint must be relations that connect the coordinates of the particles and may be functions of the time
+\end{itemize}
+\section{Harmonic Oscillator}
+\subsection{}
+\subsection{}
 \section{Lagrange's Equations With Undetermined Multipliers}
+	\begin{itemize}
+	\item The Lagrange multipliers are closely related to the forces of constraint that are often needed
+	\item When a proper set of generalized coordinates is not desired or too difficult to obtain, the method may be used to increase the number of generalized coordinates by including constraint relations between the coordinates
+\end{itemize}
 \section{Equivalence of Lagrange's and Newton's Equations}
 \section{Essence of Lagrangian Dynamics}
+\begin{itemize}
+\item While Newtonian mechanics , Lagrangian method deals only with quantities associated with the body
+\end{itemize}
 \section{A Theorem Concerning the Kinetic Energy}
 \section{Conservation Theorems Revisited}
+\subsection{Conservation of Linear Momentum}
+\subsection{Conservation of Angular}
+\subsection{Conservation of Energy}
+\begin{itemize}
+	\item The equations of the transformation connecting the rectangular and generalized coordinates must be independent of the time, thus ensuring that the kinetic energy is a homogeneous quadratic function of the $\dot{q}_{i}$
+	\item The potential energy must be velocity independent, thus allowing the elimination of the terms $\partial U / \partial \dot{q}_{i}$ from the equations for $H$.
+\end{itemize}
 \section{Canonical Equations of Motion - Hamiltonian Dynamics}
 \section{Some Comments Regarding Dynamical Variables and Variational Calculations in Physics}
 \section{Phase Space and Liouville's Theorem}
 \section{Virial Theorem}
 
 \end{document}
+
