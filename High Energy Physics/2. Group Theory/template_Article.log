@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  3 OCT 2020 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  5 OCT 2020 07:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -54,33 +54,48 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 134.
  [1
 
 {d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-var/fonts/map/pdftex/updm
-ap/pdftex.map}]
-(./template_Article.aux) ) 
+ap/pdftex.map}] [2]
+Overfull \hbox (3.62105pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/m/n/10 Shankar, R. (1994). Prin-ci-ples of quan-tum me-chan-ics. New
+ York: Springer. 
+ []
+
+[3] (./template_Article.aux) ) 
 Here is how much of TeX's memory you used:
- 392 strings out of 480476
- 6831 string characters out of 5888293
- 240159 words of memory out of 5000000
- 16489 multiletter control sequences out of 15000+600000
- 536920 words of font info for 39 fonts, out of 8000000 for 9000
+ 398 strings out of 480476
+ 6925 string characters out of 5888293
+ 243159 words of memory out of 5000000
+ 16495 multiletter control sequences out of 15000+600000
+ 537842 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,19p,151b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/0.Library/0. Software/TeX Live/texlive/2020/texmf
--dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/0.Library/0. Software/TeX L
-ive/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/0.Lib
-rary/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx9.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><d:/0.Library/0. Software/TeX Live/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/0.Library/0. Software
-/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/
-0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1000.pfb>
-Output written on template_Article.pdf (1 page, 62427 bytes).
+ 25i,6n,20p,1057b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/0.Library/0. Software/TeX Live/texlive/2020/t
+exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/0.Library/0. Software/T
+eX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/0
+.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx9.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><d:/0.Library/0. Software/TeX Live/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/0.Library/0. So
+ftware/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/0.Library/0. Software/TeX Live/
+texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/0.Library/0
+. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb>
+Output written on template_Article.pdf (3 pages, 102408 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

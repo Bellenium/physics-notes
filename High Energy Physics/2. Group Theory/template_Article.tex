@@ -11,16 +11,146 @@
 \begin{abstract}
 
 \end{abstract}
+\section{Transformations}
+What are transformations and why do physicists care about it? Well there are four distinct types of transformations
 
-\section{What is Group Theory?}
+Physicists care about transformations for purely physical reasons that follow from the second postulate of Special Relativity:
+"The Laws of Physics remains the same for all observers"
+So. This however is a very non-trivial activity that will require us to build new mathematical structures and use their strengths whilst still gluing them to Ontology i.e. not just utilizing them as objects that ease away calculation or throw complexity under the rug but as objects whose relations provide us an understanding of reality.
+
+
+\section{What is a Group?}
+What is a Group? In Physics speak, a group is a set of transformations which are related to one another. Let's look at a very naive model of this: rotations of a triangle. We first start by labelling the vertices of a triangle
 
 \section{Rotation Groups}
+The simplest example of a Group is present in rotations. This is also the easiest one to picture. So let's try to imagine a rotation in a two-dimensional plane (the Euclidian plane). We have a picture similar to this,
+\subsection{Rotations in 3-dimensions}
 
-\section{Spinors}
+\section{Lie Theory}
+\subsection{Generators}
+\subsection{Abstract Defintion of Lie Algebra}
+\subsection{Abstract Defintion of Lie Groups}
 
+\section{A Deeper Look at $SU(2)$}
+\section{The Lorentz Group}
+%\section{A Little Quantum Mechanics}
+%$$⁍$$
 
+%This is known as a "Ket" or column vector. We can extract maximal information (i.e. as much as we can. This is not necessarily everything) about the system by applying operations to it, thus there is by nature an unpredictability about the future of the system. This is in stark contrast ([or maybe not](https://arxiv.org/abs/1909.04514)) to classical physics, where knowing the state of something corresponds to knowing everything that can be known about it. The obvious question to ask is, "whether the unpredictability is due to an incompleteness in the a quantum state or is it due *hidden variables* that are inaccessible to us?". There are various opinions about this matter, this is still an [open issue](https://plato.stanford.edu/entries/qt-issues/#QuesQuanStatReal). However, for now we'll act as if there is an inherent unpredictability (despite newer theories having deterministic features) . This approach is called the "Copenhagen interpretation". We can also express the state vector as a superposition of other states
+
+%Another interesting thing that we could do is express the state vector as a superposition of other states:
+
+%$$⁍$$
+
+%Provided the complex numbers $\alpha$ and $\beta$, satisfy the condition
+
+%$$\alpha \alpha^{*} + \beta \beta^{*} = 1 (it)$$
+
+%They are said to be normalized, we impose this condition because the complex conjugation represents the probability of something occurring and we want to ensure that all the probabilities add up to 1. Where the $*$ *symbol represents complex conjugation. Similarly we can introduce a row vector called the "Bra", but however, since the elements are complex numbers we need to conjugate them as well*
+
+%$$⁍$$
+
+%*Where $T$ represents the transposition of a matrix and the $\dagger$ (dagger) represents complex conjugation followed by transpose.* 
+
+%*We can write it as,*
+%
+%$$\langle \psi | \psi \rangle = \begin{pmatrix}
+%\psi^{*}_1 \ \psi^{*}_2
+%\end{pmatrix}\begin{pmatrix}
+%\psi_1 \\
+%\psi_2
+%\end{pmatrix}$$
+
+%$$\langle \psi | \psi \rangle = 
+%\psi_1 \psi^{*}_1 +  \psi_2\psi^{*}_2$$
+
+%This can still have negative numbers, so we take absolute value of it. However, this still doesn't represent probabilities since . Thus, we square it. This is analogous to finding the square of the length of the vector representing $\psi$,
+
+%$$|\langle \psi |\psi\rangle | ^{2} = 1$$
+
+%This is called the ***"Born rule"***, as it was first suggested by Max Born.
+
+%## Observables
+
+%*We can apply operations to the state vector to find out what happens to measurable quantities such as momentum and position. The operations are termed as **operators** and are represented using matrices*
+
+%$*\hat{O} = \begin{pmatrix}
+%O_{11} & O_{12}\\
+%O_{21} & O_{22}
+%\end{pmatrix}*$
+%These operators are termed linear that is they follow the properties:
+%$(\hat{O}_1 + \hat{O}_2)|\psi\rangle = \hat{O}_1|\psi\rangle+ \hat{O}_2 |\psi\rangle$
+%$\hat{O} (\alpha |\psi\rangle) = \alpha \hat{O} |\psi\rangle$$\forall \ \alpha \in \mathbb{C}$
+%$\forall$ indicates all values in set
+
+%For example the momentum operator is given by the equation
+%$\hat{P} = -i \hbar \frac{\partial}{\partial x}$
+%where $i$ is the imaginary number, $\hbar$ a physical constant\footnote{$\hbar = \frac{h}{2 \pi}$}
+%So if we look at how it operates it is easy to see that
+
+%$\hat{P}|\psi\rangle = -i \hbar \frac{\partial | \psi \rangle}{\partial x}$
+
+%Math interlude: Matrices
+
+%Matrix Multiplication
+
+%When we multiply two number A and B for instance, we have this property
+%$AB = BA$
+%this is called as commutativity. However, when deal with operators we're dealing with matrices, so in general
+%$\hat{A}\hat{B} \neq \hat{B}\hat{A}$
+
+%[]()
+
+%But in a few cases two operators can commute, thus we use a measure called the *"Commutator"* to quantify if or not two operators commute
+%$[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$
+%Thus, if the commutator is 0 then the operators commute, if not then they don't commute. As the commutator can only be zero if the condition Eq.(1) is satisfied.\footnote{SPOILER: We shall find that if two operators commute then it is possible to measure them both simultaneously}
+
+%Moreover we can represent the multiplication of a Bra and a Ket as\footnote{This is quite analogous to the dot product operation},
+%$\langle X|Y \rangle = \langle X | \  |Y\rangle = \begin{pmatrix}
+%x_1 \ x_2
+%\end{pmatrix} \begin{pmatrix}
+%y_1 \\
+%y_2
+%\end{pmatrix}$
+%and it is quite easy to see that
+%$\langle X | X \rangle = |X|^2$
+
+%Eigen-stuff
+
+%Since operators are basically matrices, we can also have the "transformation" picture in mind. That is, when I multiply a vector or in this case the state vector with a matrix I make a change to it. EXPAND
+
+%Most of the time the , but there are a few vectors such that their direction remains unchanged, they are called ***Eigenvectors***. Their direction isn't changed however there is no constraint on how the length is changed, so sometimes their length is scaled up or down by multiplying it with a real number called an ***Eigenvalue***. 
+
+%[]()
+
+%That is in summary, the effect the operator has on that particular vector is equal to multiplying it by a real number.
+
+%$$⁍$$
+
+%What does this mean for Quantum Mechanics? Each Eigenvalue represents something that can be measured by applying that operator. More importantly, this will always be a real number as we can only measure real numbers. For more dig deep into Eigen-stuff head to [article promo text](https://elliptigon.com/eigendecomposition/).
+
+\section{Spin}
+One may ask what is spin but not why spin? To answer this question in a physical sense, spin is simply the internal angular monetum of a quantum mechanical object. It is yet another entity in quantum mechanics that does not have a classical analog. What do we know of it? We know for a fact that it is discete. 
+However, $s$ can in fact be a "half-integer" as well as an integer, which is to say:
+$$s = 0, \frac{1}{2}, 1, \frac{3}{2}, 2, \frac{5}{2}, 3, ...$$
+\subsection{Addition of Angular Momenta}
+Another interesting question that we can pose is, how do we add Angular momenta? 
+\subsection{Spin $\frac{1}{2}$}
+
+\section{A Short tale about Quarks}
+It all begins in Heisenberg's Hypothesis
 \section*{References}
 \begin{itemize}
 \item Alex Flournoy's Lectures on Particle Physics, 2016
+\item A Child’s Guide to Spinors by William O. Straub
+\item arXiv:1312.3824 [math-ph], An introduction to spinors by Andrew M. Steane 
+\item Carter, N. (2009). Visual Group Theory. Cambridge Univ Pr.
+\item Stillwell, J. (2012). Naive lie theory. Beijing: World Publishing Corporation.
+\item Griffiths, D. J. (2005). Introduction to quantum mechanics. Upper Saddle River, NJ: Pearson/Prentice Hall.
+\item Shankar, R. (1994). Principles of quantum mechanics. New York: Springer.
+\item Artin, M. (2018). Algebra. NY, NY: Pearson.
+\item Schwichtenberg, J. (2018). Physics from symmetry. Cham, Switzerland: Springer.
+\item Griffiths, D. J. (2014). Introduction to elementary particles. Weinheim: Wiley-VCH Verlag.
+\item Larkoski, A. J. (2019). Elementary particle physics: An intuitive introduction. Cambridge, United Kingdom: Cambridge University Press.
 \end{itemize}
 \end{document}
