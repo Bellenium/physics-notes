@@ -1,5 +1,18 @@
 \documentclass[]{article}
-
+\usepackage{lipsum}
+%\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{tcolorbox}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{xmpmulti}
+\usepackage{calligra}
 %opening
 \title{Group Theory and Particle Physics}
 \author{Pugazharasu A D and Rishi Kumar}
@@ -14,13 +27,19 @@
 \section{Transformations}
 What are transformations and why do physicists care about it? Well there are four distinct types of transformations
 
-Physicists care about transformations for purely physical reasons that follow from the second postulate of Special Relativity:
-"The Laws of Physics remains the same for all observers"
+Physicists care about transformations for purely physical reasons that follow from the second postulate of Special Relativity:\\
+"The Laws of Physics remains the same for all observers"\\
 So. This however is a very non-trivial activity that will require us to build new mathematical structures and use their strengths whilst still gluing them to Ontology i.e. not just utilizing them as objects that ease away calculation or throw complexity under the rug but as objects whose relations provide us an understanding of reality.
 
 
 \section{What is a Group?}
-What is a Group? In Physics speak, a group is a set of transformations which are related to one another. Let's look at a very naive model of this: rotations of a triangle. We first start by labelling the vertices of a triangle
+What is a Group? In Physics speak, a group is a set of transformations which are related to one another. Let's look at a very naive model of this: rotations of a triangle. We first start by labelling the vertices of a triangle:
+
+Well this is all pretty concrete, but what does it mean abstractly? A Group is simply a mathematical structure that follows a set of rules:
+\begin{itemize}
+\item asfd
+\item asfd
+\end{itemize}
 
 \section{Rotation Groups}
 The simplest example of a Group is present in rotations. This is also the easiest one to picture. So let's try to imagine a rotation in a two-dimensional plane (the Euclidian plane). We have a picture similar to this,
@@ -32,21 +51,18 @@ The simplest example of a Group is present in rotations. This is also the easies
 \subsection{Abstract Defintion of Lie Groups}
 
 \section{A Deeper Look at $SU(2)$}
-\section{The Lorentz Group}
 \section{A Little Quantum Mechanics}
-%$$⁍$$
+$$\ket{\psi}$$
 
-%This is known as a "Ket" or column vector. We can extract maximal information (i.e. as much as we can. This is not necessarily everything) about the system by applying operations to it, thus there is by nature an unpredictability about the future of the system. This is in stark contrast ([or maybe not](https://arxiv.org/abs/1909.04514)) to classical physics, where knowing the state of something corresponds to knowing everything that can be known about it. The obvious question to ask is, "whether the unpredictability is due to an incompleteness in the a quantum state or is it due *hidden variables* that are inaccessible to us?". There are various opinions about this matter, this is still an [open issue](https://plato.stanford.edu/entries/qt-issues/#QuesQuanStatReal). However, for now we'll act as if there is an inherent unpredictability (despite newer theories having deterministic features) . This approach is called the "Copenhagen interpretation". We can also express the state vector as a superposition of other states
-
-%Another interesting thing that we could do is express the state vector as a superposition of other states:
+This is known as a "Ket" or column vector. We can extract maximal information (i.e. as much as we can. This is not necessarily everything) about the system by applying operations to it, thus there is by nature an unpredictability about the future of the system. This is in stark contrast \href{https://arxiv.org/abs/1909.04514}{or maybe not} to classical physics, where knowing the state of something corresponds to knowing everything that can be known about it. The obvious question to ask is, "whether the unpredictability is due to an incompleteness in the a quantum state or is it due *hidden variables* that are inaccessible to us?". There are various opinions about this matter, this is still an \href{https://plato.stanford.edu/entries/qt-issues/#QuesQuanStatReal}{open issue}. However, for now we'll act as if there is an inherent unpredictability (despite newer theories having deterministic features) . This approach is called the "Copenhagen interpretation". We can also express the state vector as a superposition of other states\\
 
 %$$⁍$$
 
-%Provided the complex numbers $\alpha$ and $\beta$, satisfy the condition
+Provided the complex numbers $\alpha$ and $\beta$, satisfy the condition
 
-%$$\alpha \alpha^{*} + \beta \beta^{*} = 1 (it)$$
+$$\alpha \alpha^{*} + \beta \beta^{*} = 1 $$
 
-%They are said to be normalized, we impose this condition because the complex conjugation represents the probability of something occurring and we want to ensure that all the probabilities add up to 1. Where the $*$ *symbol represents complex conjugation. Similarly we can introduce a row vector called the "Bra", but however, since the elements are complex numbers we need to conjugate them as well*
+They are said to be normalized, we impose this condition because the complex conjugation represents the probability of something occurring and we want to ensure that all the probabilities add up to 1. Where the $*$ symbol represents complex conjugation. Similarly we can introduce a row vector called the "Bra", but however, since the elements are complex numbers we need to conjugate them as well
 
 %$$⁍$$
 
@@ -70,40 +86,37 @@ The simplest example of a Group is present in rotations. This is also the easies
 
 %This is called the ***"Born rule"***, as it was first suggested by Max Born.
 
-%## Observables
+\subsection{Observables}
 
-%*We can apply operations to the state vector to find out what happens to measurable quantities such as momentum and position. The operations are termed as **operators** and are represented using matrices*
+We can apply operations to the state vector to find out what happens to measurable quantities such as momentum and position. The operations are termed as \textbf{operators} and are represented using matrices
 
-%$*\hat{O} = \begin{pmatrix}
-%O_{11} & O_{12}\\
-%O_{21} & O_{22}
-%\end{pmatrix}*$
-%These operators are termed linear that is they follow the properties:
-%$(\hat{O}_1 + \hat{O}_2)|\psi\rangle = \hat{O}_1|\psi\rangle+ \hat{O}_2 |\psi\rangle$
-%$\hat{O} (\alpha |\psi\rangle) = \alpha \hat{O} |\psi\rangle$$\forall \ \alpha \in \mathbb{C}$
-%$\forall$ indicates all values in set
+$$\hat{O} = \begin{pmatrix}
+O_{11} & O_{12}\\
+O_{21} & O_{22}
+\end{pmatrix}$$
+These operators are termed linear that is they follow the properties:
+$$(\hat{O}_1 + \hat{O}_2)|\psi\rangle = \hat{O}_1|\psi\rangle+ \hat{O}_2 |\psi\rangle$$
+$$\hat{O} (\alpha |\psi\rangle) = \alpha \hat{O} |\psi\rangle$$
+$\forall \ \alpha \in \mathbb{C}$
 
-%For example the momentum operator is given by the equation
+For example the momentum operator is given by the equation
 %$\hat{P} = -i \hbar \frac{\partial}{\partial x}$
 %where $i$ is the imaginary number, $\hbar$ a physical constant\footnote{$\hbar = \frac{h}{2 \pi}$}
 %So if we look at how it operates it is easy to see that
 
 %$\hat{P}|\psi\rangle = -i \hbar \frac{\partial | \psi \rangle}{\partial x}$
 
-%Math interlude: Matrices
+\subsection{Math interlude: Matrices}
 
-%Matrix Multiplication
+\subsubsection{Matrix Multiplication}
 
-%When we multiply two number A and B for instance, we have this property
-%$AB = BA$
-%this is called as commutativity. However, when deal with operators we're dealing with matrices, so in general
-%$\hat{A}\hat{B} \neq \hat{B}\hat{A}$
-
-%[]()
-
-%But in a few cases two operators can commute, thus we use a measure called the *"Commutator"* to quantify if or not two operators commute
-%$[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$
-%Thus, if the commutator is 0 then the operators commute, if not then they don't commute. As the commutator can only be zero if the condition Eq.(1) is satisfied.\footnote{SPOILER: We shall find that if two operators commute then it is possible to measure them both simultaneously}
+When we multiply two number A and B for instance, we have this property
+$$AB = BA$$
+this is called as commutativity. However, when deal with operators we're dealing with matrices, so in general
+$$\hat{A}\hat{B} \neq \hat{B}\hat{A}$$
+But in a few cases two operators can commute, thus we use a measure called the *"Commutator"* to quantify if or not two operators commute
+$$[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$$
+Thus, if the commutator is 0 then the operators commute, if not then they don't commute. As the commutator can only be zero if the condition Eq.(1) is satisfied.\footnote{SPOILER: We shall find that if two operators commute then it is possible to measure them both simultaneously}
 
 %Moreover we can represent the multiplication of a Bra and a Ket as\footnote{This is quite analogous to the dot product operation},
 %$\langle X|Y \rangle = \langle X | \  |Y\rangle = \begin{pmatrix}
@@ -132,12 +145,12 @@ The simplest example of a Group is present in rotations. This is also the easies
 \section{title}
 A Casimir is defined as the sum of the operators squared in a particular representation. For example, let's look at Spin:
 \begin{equation}
-\hat{S}^{2} = 
+\hat{S}^{2} = \hat{S}_{x}^{2}
 \end{equation}
 It is rotation invariant and measures the magnitude of spin
 
 \section{Spin}
-One may ask what is spin but not why spin? To answer this question in a physical sense, spin is simply the internal angular monetum of a quantum mechanical object. It is yet another entity in quantum mechanics that does not have a classical analog. What do we know of it? We know for a fact that it is discete. 
+One may ask what is spin but not why spin? To answer this question in a physical sense, spin is simply the internal angular monetum of a quantum mechanical object. It is yet another entity in quantum mechanics that does not have a classical analog. What do we know of it? We know for a fact that it is discete. That is when you act with the spin operator on a 
 However, $s$ can in fact be a "half-integer" as well as an integer, which is to say:
 $$s = 0, \frac{1}{2}, 1, \frac{3}{2}, 2, \frac{5}{2}, 3, ...$$
 
@@ -149,7 +162,22 @@ Another interesting question that we can pose is, how do we add Angular momenta?
 \subsection{Spin $\frac{1}{2}$}
 
 \section{A Short tale about Quarks}
-It all begins in Heisenberg's Hypothesis
+It all begins in Heisenberg's Hypothesis that based on this data,
+he suggested that there must exist an approximate symmetry called Isospin between protons and neutrons. Let's try to see how this works, first lets consider the state vectors for a neutron and for a proton with the following properties.
+\begin{equation}
+\braket{n}{n} = \braket{p}{p} = 1
+\end{equation}
+\begin{equation}
+\braket{p}{n} = \braket{n}{p} = 0
+\end{equation}
+In a sesnse symmetry between protons and neutrons means that any linear combination i.e. superpositions of their wavefunctions describes the same physics. We'll call this generic combination the nucleon state, denoted by:
+\begin{equation}
+\ket{N} = \alpha \ket{p} +  \beta \ket{n}
+\end{equation}
+where, $\alpha, \beta \in \mathbb{C}$ and $\abs{\alpha}^{2} + \abs{\beta}^{2} = 1 = \braket{N}{N}$
+Correspondingly, the proton and neutron transform as a two-dimensional representation of isospin, appropriately referred to as an isospin doublet. Higher-dimensional representations of these groups exist, but they have the property that they can be formed from the smallest dimensional representation. As such, the smallest-dimensional representation of a group is called the fundamental representation.
+In this universe where there is an exact SU(2) isospin symmetry between protons and neutrons, Noether’s theorem tells us that in reactions involving protons and neutrons, isospin is conserved. Of course, this isn’t our universe, but in processes where the differences between protons and neutrons are irrelevant (or not dominant), we do expect isospin conservation. In particular,
+as long as we study protons and neutrons in a way that doesn’t involve electromagnetism or don’t care about the neutron decay, then isospin should be conserved. And this what we see happening. Essentially what we've done so far is construct an internal space called Isospin for every point in spacetime and argue that it be invariant under representations of a particular group. This representation is the 
 \section*{References}
 \begin{itemize}
 \item Alex Flournoy's Lectures on Particle Physics, 2016
