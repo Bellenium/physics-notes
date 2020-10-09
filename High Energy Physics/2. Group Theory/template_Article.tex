@@ -47,8 +47,25 @@ The simplest example of a Group is present in rotations. This is also the easies
 
 \section{Lie Theory}
 \subsection{Generators}
-\subsection{Abstract Defintion of Lie Algebra}
-\subsection{Abstract Defintion of Lie Groups}
+Any small transformation, for example a small rotation can be expressed as:
+\begin{equation}
+R(\theta) = I + \epsilon. g
+\end{equation}
+Where Epsilon is just a very small number and $g$ a matrix that expresses the transformation in a sense. Now, we can re-write $\epsilon$ as,
+$$\epsilon = \frac{\theta}{N}$$
+Thus, becomes:
+\begin{equation}
+R(\theta) = I + \epsilon. g
+\end{equation}
+How do we get to finite transformations? By repeatedly applying \ref{}. So we get something like:
+\begin{equation}
+R(\theta) = (I + \frac{\theta}{N}g)^{N}
+\end{equation}
+for $n$ transformations. Now if we consider it to be an infinitesimal transformation, we get:
+\begin{equation}
+R(\theta) = \lim\limits_{N \rightarrow \infty}(I + \frac{\theta}{N}g)^{N} = e^{g \theta}
+\end{equation}
+This is simply just the exponetial map. \footnote{}
 
 \section{A Deeper Look at $SU(2)$}
 \section{A Little Quantum Mechanics}
@@ -66,25 +83,25 @@ They are said to be normalized, we impose this condition because the complex con
 
 %$$⁍$$
 
-%*Where $T$ represents the transposition of a matrix and the $\dagger$ (dagger) represents complex conjugation followed by transpose.* 
+*Where $T$ represents the transposition of a matrix and the $\dagger$ (dagger) represents complex conjugation followed by transpose.* 
 
-%*We can write it as,*
-%
-%$$\langle \psi | \psi \rangle = \begin{pmatrix}
-%\psi^{*}_1 \ \psi^{*}_2
-%\end{pmatrix}\begin{pmatrix}
-%\psi_1 \\
-%\psi_2
-%\end{pmatrix}$$
+*We can write it as,*
 
-%$$\langle \psi | \psi \rangle = 
-%\psi_1 \psi^{*}_1 +  \psi_2\psi^{*}_2$$
+$$\langle \psi | \psi \rangle = \begin{pmatrix}
+\psi^{*}_1 \ \psi^{*}_2
+\end{pmatrix}\begin{pmatrix}
+\psi_1 \\
+\psi_2
+\end{pmatrix}$$
 
-%This can still have negative numbers, so we take absolute value of it. However, this still doesn't represent probabilities since . Thus, we square it. This is analogous to finding the square of the length of the vector representing $\psi$,
+$$\langle \psi | \psi \rangle = 
+\psi_1 \psi^{*}_1 +  \psi_2\psi^{*}_2$$
 
-%$$|\langle \psi |\psi\rangle | ^{2} = 1$$
+This can still have negative numbers, so we take absolute value of it. However, this still doesn't represent probabilities since . Thus, we square it. This is analogous to finding the square of the length of the vector representing $\psi$,
 
-%This is called the ***"Born rule"***, as it was first suggested by Max Born.
+$$|\langle \psi |\psi\rangle | ^{2} = 1$$
+
+This is called the ***"Born rule"***, as it was first suggested by Max Born.
 
 \subsection{Observables}
 
@@ -100,11 +117,10 @@ $$\hat{O} (\alpha |\psi\rangle) = \alpha \hat{O} |\psi\rangle$$
 $\forall \ \alpha \in \mathbb{C}$
 
 For example the momentum operator is given by the equation
-%$\hat{P} = -i \hbar \frac{\partial}{\partial x}$
-%where $i$ is the imaginary number, $\hbar$ a physical constant\footnote{$\hbar = \frac{h}{2 \pi}$}
-%So if we look at how it operates it is easy to see that
+$$\hat{P} = -i \hbar \frac{\partial}{\partial x}$$
+where $i$ is the imaginary number, $\hbar = \frac{h}{2 \pi}$ a physical constant. So if we look at how it operates it is easy to see that
 
-%$\hat{P}|\psi\rangle = -i \hbar \frac{\partial | \psi \rangle}{\partial x}$
+$$\hat{P}|\psi\rangle = -i \hbar \frac{\partial | \psi \rangle}{\partial x}$$
 
 \subsection{Math interlude: Matrices}
 
@@ -118,21 +134,21 @@ But in a few cases two operators can commute, thus we use a measure called the *
 $$[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$$
 Thus, if the commutator is 0 then the operators commute, if not then they don't commute. As the commutator can only be zero if the condition Eq.(1) is satisfied.\footnote{SPOILER: We shall find that if two operators commute then it is possible to measure them both simultaneously}
 
-%Moreover we can represent the multiplication of a Bra and a Ket as\footnote{This is quite analogous to the dot product operation},
-%$\langle X|Y \rangle = \langle X | \  |Y\rangle = \begin{pmatrix}
-%x_1 \ x_2
-%\end{pmatrix} \begin{pmatrix}
-%y_1 \\
-%y_2
-%\end{pmatrix}$
-%and it is quite easy to see that
-%$\langle X | X \rangle = |X|^2$
+Moreover we can represent the multiplication of a Bra and a Ket as\footnote{This is quite analogous to the dot product operation},
+$$\langle X|Y \rangle = \langle X | \  |Y\rangle = \begin{pmatrix}
+x_1 \ x_2
+\end{pmatrix} \begin{pmatrix}
+y_1 \\
+y_2
+\end{pmatrix}$$
+and it is quite easy to see that
+$\langle X | X \rangle = |X|^2$
 
-%Eigen-stuff
+\subsection{Eigen-stuff}
 
-%Since operators are basically matrices, we can also have the "transformation" picture in mind. That is, when I multiply a vector or in this case the state vector with a matrix I make a change to it. EXPAND
+Since operators are basically matrices, we can also have the "transformation" picture in mind. That is, when I multiply a vector or in this case the state vector with a matrix I make a change to it. EXPAND
 
-%Most of the time the , but there are a few vectors such that their direction remains unchanged, they are called ***Eigenvectors***. Their direction isn't changed however there is no constraint on how the length is changed, so sometimes their length is scaled up or down by multiplying it with a real number called an ***Eigenvalue***. 
+Most of the time the , but there are a few vectors such that their direction remains unchanged, they are called ***Eigenvectors***. Their direction isn't changed however there is no constraint on how the length is changed, so sometimes their length is scaled up or down by multiplying it with a real number called an ***Eigenvalue***. 
 
 %[]()
 
