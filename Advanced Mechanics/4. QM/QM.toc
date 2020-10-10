@@ -1,19 +1,81 @@
-\contentsline {chapter}{\numberline {1}Preliminaries}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}The Second Chapter}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}The Second Chapter}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}The Second Chapter}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}The Second Chapter}{9}{chapter.5}%
-\contentsline {chapter}{\numberline {6}The Second Chapter}{11}{chapter.6}%
-\contentsline {chapter}{\numberline {7}The Second Chapter}{13}{chapter.7}%
-\contentsline {chapter}{\numberline {8}The Second Chapter}{15}{chapter.8}%
-\contentsline {chapter}{\numberline {9}The Second Chapter}{17}{chapter.9}%
-\contentsline {chapter}{\numberline {10}The Second Chapter}{19}{chapter.10}%
-\contentsline {chapter}{\numberline {11}The Second Chapter}{21}{chapter.11}%
-\contentsline {chapter}{\numberline {12}The Second Chapter}{23}{chapter.12}%
-\contentsline {chapter}{\numberline {13}The Second Chapter}{25}{chapter.13}%
-\contentsline {chapter}{\numberline {14}The Second Chapter}{27}{chapter.14}%
-\contentsline {chapter}{\numberline {15}The Second Chapter}{29}{chapter.15}%
-\contentsline {chapter}{\numberline {16}The Second Chapter}{31}{chapter.16}%
-\contentsline {chapter}{\numberline {17}The Second Chapter}{33}{chapter.17}%
-\contentsline {chapter}{\numberline {18}The Second Chapter}{35}{chapter.18}%
-\contentsline {chapter}{\numberline {19}The Second Chapter}{37}{chapter.19}%
+\contentsline {chapter}{\numberline {1}A Historical Overview}{1}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Blackbody Radiation}{1}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}The de Broglie Hypothesis}{1}{subsection.1.0.2}%
+\contentsline {chapter}{\numberline {2}Mathematical Preliminaries}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Matrix Inversion}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Complex Numbers}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Addition}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Multiplication}{3}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Properties}{4}{subsection.2.2.3}%
+\contentsline {subsubsection}{Commutativity}{4}{section*.2}%
+\contentsline {subsubsection}{Associativity}{4}{section*.3}%
+\contentsline {subsubsection}{Identities}{4}{section*.4}%
+\contentsline {subsubsection}{Additive Inverse}{4}{section*.5}%
+\contentsline {subsubsection}{Multiplicative Inverse}{4}{section*.6}%
+\contentsline {subsubsection}{Distributive Property}{4}{section*.7}%
+\contentsline {subsection}{\numberline {2.2.4}Notation}{4}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Wessel Plane}{5}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Linear Vector Spaces}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Commutativity}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Associativity}{5}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Additive Identity}{5}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Additive Inverse}{5}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Multiplicative identity}{6}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Distributive properties}{6}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Inner Product Spaces}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Dual Spaces}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Dirac Notation}{6}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Subspaces}{6}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Hilbert Spaces}{7}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Linear Operators}{7}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Eigenvalue Problem}{7}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Eigenfunctions of a Hermitian Operator}{7}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Transformations}{7}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Active Tranformation}{7}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Passive Tranformation}{8}{section.2.14}%
+\contentsline {subsection}{\numberline {2.14.1}Equivalence of Transformation types}{8}{subsection.2.14.1}%
+\contentsline {section}{\numberline {2.15}Functions of Operators}{8}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Generalization to Infinite Dimensions}{8}{section.2.16}%
+\contentsline {section}{\numberline {2.17}Probability}{8}{section.2.17}%
+\contentsline {subsection}{\numberline {2.17.1}Discrete Variables}{8}{subsection.2.17.1}%
+\contentsline {subsection}{\numberline {2.17.2}Continuous Variables}{8}{subsection.2.17.2}%
+\contentsline {section}{\numberline {2.18}Expectation Values}{9}{section.2.18}%
+\contentsline {section}{\numberline {2.19}Fourier Analysis}{10}{section.2.19}%
+\contentsline {subsection}{\numberline {2.19.1}Dirichelet's Theorem}{10}{subsection.2.19.1}%
+\contentsline {subsection}{\numberline {2.19.2}Fourier Transform}{10}{subsection.2.19.2}%
+\contentsline {section}{\numberline {2.20}Delta Function}{10}{section.2.20}%
+\contentsline {subsection}{\numberline {2.20.1}The Divergence of $\frac {\hat {r}}{r^{2}}$}{10}{subsection.2.20.1}%
+\contentsline {subsection}{\numberline {2.20.2}The One-Dimensional Dirac Delta Functional}{10}{subsection.2.20.2}%
+\contentsline {subsubsection}{A few interesting properties}{11}{section*.8}%
+\contentsline {subsection}{\numberline {2.20.3}The Three-Dimensional Dirac Delta Function}{12}{subsection.2.20.3}%
+\contentsline {section}{\numberline {2.21}Gaussian Integrals}{12}{section.2.21}%
+\contentsline {section}{\numberline {2.22}The $i \epsilon $ Prescription}{12}{section.2.22}%
+\contentsline {section}{\numberline {2.23}Permutation Functions}{13}{section.2.23}%
+\contentsline {subsection}{\numberline {2.23.1}Kronecker delta}{13}{subsection.2.23.1}%
+\contentsline {subsection}{\numberline {2.23.2}Levi-Civita Pseudotensor}{13}{subsection.2.23.2}%
+\contentsline {subsubsection}{Identities}{13}{section*.9}%
+\contentsline {chapter}{\numberline {3}Formalism}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Normalization}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Summary of Postulates}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Generalized Uncertainty Principle}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The Uncertainty Principle}{17}{section.3.4}%
+\contentsline {chapter}{\numberline {4}The Free particle}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Time-Dependent Schrodinger Equation}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Time-Independent Schrodinger Equation}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Statinogry States}{19}{section.4.3}%
+\contentsline {section}{\numberline {4.4}The Infinite Square Well}{19}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Harmonic Oscillator}{19}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Free Particle}{19}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Delta-Function Potential}{19}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Finite Square Well}{19}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Wave-Packets}{19}{section.4.9}%
+\contentsline {chapter}{\numberline {5}Systems with N degrees of freedom}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Symmetries and their Consequences}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Hydrogen Atom}{25}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Approximations}{27}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Pertubation Theory}{29}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Scattering}{31}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Path Integral Formulation}{33}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Dirac Equation}{35}{chapter.12}%
+\contentsline {chapter}{\numberline {13}The Heisenberg Picture/Theorems that connect to classical mech}{37}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Epilogue: What lies ahead}{39}{chapter.14}%

@@ -1,1 +1,44 @@
-\chapter{The Second Chapter}
+\chapter{Formalism}
+In Quantum Mechanics, we start with an object called the state vector $\ket{\psi}$. All the information about the system is contained in it. The position basis representation of the state vector is called the wavefunction $\psi (\vec{x}, t)$. \\
+If we wish to know about a particular physical measurable such as an object's position of momentum, we can extract this information from the State vector by means of acting on with an Operator that corresponds to the measurable quantity.\\
+
+To get down to even more specifics if I consider an observable $\hat{O}$, then in general I have the form:
+\begin{equation}
+\hat{O} \ket{\psi} = o \ket{\psi}
+\end{equation}
+Where, $o$ is an Eigenvalue . The only types of operators that are constrained in such a fashion are "Hermitian Operators", they are identified with the condition:
+\begin{equation}
+	content...
+\end{equation}
+Where\\
+If we consider the Schrodinger picture i.e. the State vector evovles with time whereas the Observables are in a loose sense eternal. The time evolution of the state vector is given by the Schrodinger equation:
+\begin{equation}
+	i \hbar \frac{\partial \ket{\psi}}{\partial t} = \hat{H} \ket{\psi}
+\end{equation}
+Or,
+\begin{equation}
+i \hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+\end{equation}
+in terms of the Wavefunction. Where, $\hat{H}$ is the Hamiltonian operator, which can be expressed as:
+\begin{equation}
+\hat{H} = -\frac{\hbar^{2} \nabla^2}{2m} + V(\vec{x})
+\end{equation}
+for a free particle. According to Born's rule
+\begin{equation}
+	\int_{a}^{b} \abs{\psi(\vec{x}, t)}^{2} dx = \text{Probability of finding the particle at a time t between positions a and b}
+\end{equation}
+Thus, . Physically speaking this lends a kind of indeterminancy to the wavefunction. We can only speak of probabilities. Therefore, we can only , this brings to the measurement hypothesis, that is the State vector evolves to the state corresponding to the measurement being made. And unlike the Schrodinger equation, this evolution is non-deterministic. This tension is often called the "measurement problem", i.e. why is the measurement of an observable a special process distinct from others? Several theories and models claim to have resolved this, but we shall save that discussion for another time. We will fully focus on understanding the theory of Quantum Mechanics in a pragmatic lens before we question its foundations (although the converse isn't necessarily a bad thing, it isn't the purpose of this manuscript).
+\section{Normalization}
+Normalization is a process through which we ensure that,
+\begin{equation}\label{norm}
+\int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = 1
+\end{equation}
+This is a natural consequence of Born's rule, we simply want all the probabilities to add up to 1. Thus, to rule out any other absurd scenarios, we make a ruling that non-Normalizable and non-square integrable Wavefunctions are unphysical.\\
+We can also prove that once normalized, the wavefunction always remains normalized, we start by differentiating \ref{norm} with respect to time\\
+$$\frac{d}{dt} \int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = \frac{\partial}{\partial t}\int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx$$
+Dealing with the term inside the integral,
+$$ \abs{\psi(\vec{x}, t)}^{2} = $$
+\section{Summary of Postulates}
+\section{Generalized Uncertainty Principle}
+
+\section{The Uncertainty Principle}

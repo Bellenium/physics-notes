@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{book}
 \usepackage[utf8]{inputenc}
 
+\usepackage{graphicx}
 \usepackage{lipsum}
 %\usepackage[utf8]{inputenc}
 %\usepackage{graphicx}
@@ -9,13 +10,20 @@
 \usepackage{physics}
 \usepackage{tcolorbox}
 \usepackage{color}   %May be necessary if you want to color links
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{mathtools}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage{xmpmulti}
 \usepackage{calligra}
+\usepackage{mathrsfs}
+%\usepackage{rsfso}
 
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\newcommand{\scriptr}{\mathcalligra{r}\,}
+\newcommand{\boldscriptr}{\pmb{\mathcalligra{r}}\,}
+
+\graphicspath{{Images/}}
 \begin{document}
 
 \author{Rishi Kumar, Pugazharasu A D}
@@ -27,6 +35,7 @@
 \tableofcontents
 
 \mainmatter
+\include{./TeX_files/chapter13}
 \include{./TeX_files/chapter01}
 \include{./TeX_files/chapter02}
 \include{./TeX_files/chapter03}
@@ -39,14 +48,7 @@
 \include{./TeX_files/chapter10}
 \include{./TeX_files/chapter11}
 \include{./TeX_files/chapter12}
-\include{./TeX_files/chapter13}
 \include{./TeX_files/chapter14}
-\include{./TeX_files/chapter15}
-\include{./TeX_files/chapter16}
-\include{./TeX_files/chapter17}
-\include{./TeX_files/chapter18}
-\include{./TeX_files/chapter19}
-
 \backmatter
 % bibliography, glossary and index would go here.
 
