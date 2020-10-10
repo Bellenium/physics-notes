@@ -45,9 +45,6 @@ Well this is all pretty concrete, but what does it mean abstractly? A Group is s
 \end{itemize}
 \section{Rotation Groups}
 The simplest example of a Group is present in rotations. This is also the easiest one to picture. So let's try to imagine a rotation in a two-dimensional plane (the Euclidian plane). We have a picture similar to this,
-\begin{center}
-	\includegraphics[width= 0.8\paperwidth, height= 0.8\paperheight]{2.png}
-\end{center}
 \subsection{Rotations in 3-dimensions}
 
 \section{Lie Theory}
@@ -175,9 +172,30 @@ What does this mean for Quantum Mechanics? Each Eigenvalue represents something 
 One may ask what is spin but not why spin? To answer this question in a physical sense, spin is simply the internal angular monetum of a quantum mechanical object. It is yet another entity in quantum mechanics that does not have a classical analog. What do we know of it? We know for a fact that it is discete. That is when you act with the spin operator on a 
 However, $s$ can in fact be a "half-integer" as well as an integer, which is to say:
 $$s = 0, \frac{1}{2}, 1, \frac{3}{2}, 2, \frac{5}{2}, 3, ...$$
-
+$$\hat{J} \ket{\psi} = l(l+1)\hbar^{2}\ket{\psi}$$
 \section{A Deeper Look at $SU(2)$}
+Here,
+$$$$
+\begin{equation}
+\left[\frac{\sigma_{i}}{2}, \frac{\sigma_{j}}{2}\right] = i \epsilon_{ijk}\frac{\sigma_{k}}{2}
+\end{equation}
+and
+\begin{equation}
+\left[J_{i}, J_{j}\right] = i \epsilon_{ijk}J_{k}
+\end{equation}
 
+\begin{itemize}
+\item The one-dimensional representation consists of one-dimensional matrices
+with determinant 1 or just the number 1. That is, the one-dimensional
+representation consists of a single spin state that is unchanged by a
+rotation; that is, a spin-0 object.
+\item We’ve discussed the two-dimensional representation a bit already. This
+consists of 2 × 2 matrices that rotate two-component spinors. That is,
+they rotate an object that has two spin states: spin-up and spin-down.
+This corresponds to a spin-1/2 object.
+\item The three-dimensional representation consists of 3×3 matrices that implement rotations on three-component vectors. This describes a spin1 object, which has three possible spin states: spin 1, spin 0, and spin -1.
+\item A spin l object rotates with SU(2) matrices in the 2l + 1 dimensional representation, where l is a half- or whole-integer value
+\end{itemize}
 \subsection{Addition of Angular Momenta}
 Another interesting question that we can pose is, how do we add Angular momenta? 
 \subsection{Spin $\frac{1}{2}$}
@@ -185,10 +203,20 @@ Another interesting question that we can pose is, how do we add Angular momenta?
 \section{A Little More Lie Theory}
 Irreps are the smallest set of states of a representation of a given dimension that is closed under the action of the symmetry group. A Casimir is defined as the sum of the operators squared in a particular representation. For example, let's look at Spin:
 \begin{equation}
-\hat{S}^{2} = \hat{S}_{x}^{2}
+\hat{S}^{2} = \hat{S}_{x}^{2} + \hat{S}_{y}^{2} + \hat{S}_{z}^{2}
 \end{equation}
-It is rotation invariant and measures the magnitude of spin
-
+It is rotation invariant and measures the magnitude of spin.
+\begin{equation}
+\hat{S}^{2} = \frac{\sigma^{2}_{1}}{4} + \frac{\sigma^{2}_{2}}{4} + \frac{\sigma^{2}_{3}}{4} = \frac{3}{4} \mathbb{I}
+\end{equation}d
+When applied 
+\begin{equation}
+\hat{S}^{2} \ket{e^{-}} = s(s+1) \ket{e^{-}} = \frac{3}{4} \ket{e^{-}}
+\end{equation}
+Charge operator:
+\begin{equation}
+\hat{C} \ket{e^{-}} = - e \ket{e^{-}}
+\end{equation}
 \section{A Short tale about Quarks}
 It all begins in Heisenberg's Hypothesis that based on this data,
 he suggested that there must exist an approximate symmetry called Isospin between protons and neutrons. Let's try to see how this works, first lets consider the state vectors for a neutron and for a proton with the following properties.
@@ -203,6 +231,10 @@ In a sesnse symmetry between protons and neutrons means that any linear combinat
 \ket{N} = \alpha \ket{p} +  \beta \ket{n}
 \end{equation}
 where, $\alpha, \beta \in \mathbb{C}$ and $\abs{\alpha}^{2} + \abs{\beta}^{2} = 1 = \braket{N}{N}$
+Now if we construct an operator,
+\begin{equation}
+\hat{U} = \alpha \ket{p} \bra{p} + \beta \ket{n} \bra{n} + \gamma \ket{p} \bra{n} + \delta \ket{p} \bra{n}
+\end{equation}
 Correspondingly, the proton and neutron transform as a two-dimensional representation of isospin, appropriately referred to as an isospin doublet. Higher-dimensional representations of these groups exist, but they have the property that they can be formed from the smallest dimensional representation. As such, the smallest-dimensional representation of a group is called the fundamental representation.
 In this universe where there is an exact SU(2) isospin symmetry between protons and neutrons, Noether’s theorem tells us that in reactions involving protons and neutrons, isospin is conserved. Of course, this isn’t our universe, but in processes where the differences between protons and neutrons are irrelevant (or not dominant), we do expect isospin conservation. In particular,
 as long as we study protons and neutrons in a way that doesn’t involve electromagnetism or don’t care about the neutron decay, then isospin should be conserved. And this what we see happening. Essentially what we've done so far is construct an internal space called Isospin for every point in spacetime and argue that it be invariant under representations of a particular group. This representation is the 
