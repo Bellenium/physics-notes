@@ -17,6 +17,8 @@
 \title{Group Theory and Particle Physics}
 \author{Pugazharasu A D and Rishi Kumar}
 
+\DeclareSymbolFontAlphabet{\mathnormal}{letters}
+\graphicspath{ {./images/} }
 \begin{document}
 
 \maketitle
@@ -25,24 +27,27 @@
 
 \end{abstract}
 \section{Transformations}
-What are transformations and why do physicists care about it? Well there are four distinct types of transformations
-
-Physicists care about transformations for purely physical reasons that follow from the second postulate of Special Relativity:\\
-"The Laws of Physics remains the same for all observers"\\
+What are transformations and why do physicists care about it? Physicists care about transformations for purely physical reasons that follow from the second postulate of Special Relativity:\\
+\begin{center}
+"The Laws of Physics remains the same for all observers"
+\end{center}
 So. This however is a very non-trivial activity that will require us to build new mathematical structures and use their strengths whilst still gluing them to Ontology i.e. not just utilizing them as objects that ease away calculation or throw complexity under the rug but as objects whose relations provide us an understanding of reality.
-
 
 \section{What is a Group?}
 What is a Group? In Physics speak, a group is a set of transformations which are related to one another. Let's look at a very naive model of this: rotations of a triangle. We first start by labelling the vertices of a triangle:
-
+\begin{center}
+	\includegraphics[width= 0.4\paperwidth, height= 0.07\paperheight]{1.png}
+\end{center}
 Well this is all pretty concrete, but what does it mean abstractly? A Group is simply a mathematical structure that follows a set of rules:
 \begin{itemize}
-\item asfd
-\item asfd
+\item $\forall \ a,b \in G: a \circ b \in G$
+\item $\forall \ a,b,c \in G: a \circ (b \circ c) = (a \circ b) \circ c$	
 \end{itemize}
-
 \section{Rotation Groups}
 The simplest example of a Group is present in rotations. This is also the easiest one to picture. So let's try to imagine a rotation in a two-dimensional plane (the Euclidian plane). We have a picture similar to this,
+\begin{center}
+	\includegraphics[width= 0.8\paperwidth, height= 0.8\paperheight]{2.png}
+\end{center}
 \subsection{Rotations in 3-dimensions}
 
 \section{Lie Theory}
@@ -65,9 +70,17 @@ for $n$ transformations. Now if we consider it to be an infinitesimal transforma
 \begin{equation}
 R(\theta) = \lim\limits_{N \rightarrow \infty}(I + \frac{\theta}{N}g)^{N} = e^{g \theta}
 \end{equation}
-This is simply just the exponetial map. \footnote{}
+This is simply just the exponetial map. Here we call $g$, the \textbf{Generator} of rotations and $\theta$, the parameter. Why do we care about this you may ask?
+\subsection{Lie Algebra}
+Simply put, it's easier to deal with them for the following reasons:
+\begin{itemize}
+\item There are finite amount of Generators whereas infinite number of Group elements
+\item All the elements of the Group can be built from the Generator itself
+\item The elements of the Lie algebra form "neat" relationships
+\end{itemize}
 
-\section{A Deeper Look at $SU(2)$}
+Formally speaking, the Lie algebras form a differentiable manifold that obey the following axioms:
+
 \section{A Little Quantum Mechanics}
 $$\ket{\psi}$$
 
@@ -152,30 +165,29 @@ Most of the time the , but there are a few vectors such that their direction rem
 
 %[]()
 
-%That is in summary, the effect the operator has on that particular vector is equal to multiplying it by a real number.
+That is in summary, the effect the operator has on that particular vector is equal to multiplying it by a real number.
 
 %$$⁍$$
 
-%What does this mean for Quantum Mechanics? Each Eigenvalue represents something that can be measured by applying that operator. More importantly, this will always be a real number as we can only measure real numbers. For more dig deep into Eigen-stuff head to [article promo text](https://elliptigon.com/eigendecomposition/).
-
-\section{title}
-A Casimir is defined as the sum of the operators squared in a particular representation. For example, let's look at Spin:
-\begin{equation}
-\hat{S}^{2} = \hat{S}_{x}^{2}
-\end{equation}
-It is rotation invariant and measures the magnitude of spin
+What does this mean for Quantum Mechanics? Each Eigenvalue represents something that can be measured by applying that operator. More importantly, this will always be a real number as we can only measure real numbers. For more dig deep into Eigen-stuff head to [article promo text](https://elliptigon.com/eigendecomposition/).
 
 \section{Spin}
 One may ask what is spin but not why spin? To answer this question in a physical sense, spin is simply the internal angular monetum of a quantum mechanical object. It is yet another entity in quantum mechanics that does not have a classical analog. What do we know of it? We know for a fact that it is discete. That is when you act with the spin operator on a 
 However, $s$ can in fact be a "half-integer" as well as an integer, which is to say:
 $$s = 0, \frac{1}{2}, 1, \frac{3}{2}, 2, \frac{5}{2}, 3, ...$$
 
-Irreps are
-the smallest set of states of a representation of a given dimension that is
-closed under the action of the symmetry group
+\section{A Deeper Look at $SU(2)$}
+
 \subsection{Addition of Angular Momenta}
 Another interesting question that we can pose is, how do we add Angular momenta? 
 \subsection{Spin $\frac{1}{2}$}
+
+\section{A Little More Lie Theory}
+Irreps are the smallest set of states of a representation of a given dimension that is closed under the action of the symmetry group. A Casimir is defined as the sum of the operators squared in a particular representation. For example, let's look at Spin:
+\begin{equation}
+\hat{S}^{2} = \hat{S}_{x}^{2}
+\end{equation}
+It is rotation invariant and measures the magnitude of spin
 
 \section{A Short tale about Quarks}
 It all begins in Heisenberg's Hypothesis that based on this data,
