@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.6)  9 OCT 2020 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.6)  10 OCT 2020 12:39
 entering extended mode
 **./QM.tex
 (QM.tex
@@ -811,7 +811,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
-) [16] [17]
+[16]
+Overfull \hbox (20.97621pt too wide) in paragraph at lines 53--67
+\OT1/cmr/m/n/12 sub-sti-tute in the right hand of the equa-tion $2\OML/cmm/m/it
+/12 i[] \OMS/cmsy/m/n/12  jh\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 j[][]j\OML/cmm/
+m/it/12  \OMS/cmsy/m/n/12 i  
+ []
+
+) [17]
 \openout2 = `./TeX_files/chapter03.aux'.
 
  (TeX_files/chapter03.tex [18
@@ -936,9 +943,14 @@ Chapter 14.
 (TeX_files/chapter05.aux) (TeX_files/chapter06.aux) (TeX_files/chapter07.aux)
 (TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
 (TeX_files/chapter11.aux) (TeX_files/chapter12.aux) (TeX_files/chapter14.aux))
-Package rerunfilecheck Info: File `QM.out' has not changed.
-(rerunfilecheck)             Checksum: DA55A7FE9FA7D5D3F32F196FE8B85434;4962.
 
+Package rerunfilecheck Warning: File `QM.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `QM.out':
+(rerunfilecheck)             Before: DA55A7FE9FA7D5D3F32F196FE8B85434;4962
+(rerunfilecheck)             After:  445A8FD253B9D4DD87DE893D863F1C9D;4975.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -970,7 +982,7 @@ cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb
 /share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/
 miktex-texmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/share/m
 iktex-texmf/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on QM.pdf (46 pages, 405772 bytes).
+Output written on QM.pdf (46 pages, 412075 bytes).
 PDF statistics:
  774 PDF objects out of 1000 (max. 8388607)
  189 named destinations out of 1000 (max. 500000)

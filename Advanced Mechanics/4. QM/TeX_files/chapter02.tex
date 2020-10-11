@@ -40,5 +40,52 @@ Dealing with the term inside the integral,
 $$ \abs{\psi(\vec{x}, t)}^{2} = $$
 \section{Summary of Postulates}
 \section{Generalized Uncertainty Principle}
+Suppose we have a ket $\ket{\psi}$ and two operators $\hat{A}$ and $\hat{B}$, we define two new vectors
 
-\section{The Uncertainty Principle}
+$$,$$
+
+$$,$$
+
+We use the Cauchy-Shwarz inequality,
+
+$$ 2|X||Y| \geq |\langle X|Y \rangle + \langle Y|X \rangle |$$
+
+Substituting in the left-hand side,
+$2\sqrt{\langle X|X\rangle\langle Y|Y\rangle} \geq |\langle X| Y  \rangle+ \langle Y | X \rangle|$
+Plugging in Eqs. (4) and (5),
+$2\sqrt{\langle \psi |A^{2} |\psi \rangle \langle \psi | -B^{2}| \psi \rangle} \geq |\langle X | Y \rangle + \langle Y | X \rangle |$
+Taking the $-1$ outside,
+$2i\sqrt{\langle \psi |A^{2} |\psi \rangle \langle \psi | B^{2}| \psi \rangle} \geq |\langle X | Y \rangle + \langle Y | X \rangle|$
+We now substitute in the right hand of the equation
+$2i\sqrt{\langle \psi |A^{2} |\psi \rangle \langle \psi | B^{2}| \psi \rangle} \geq | \langle {\psi} |\hat{A}\hat{B}| {\psi} \rangle - \langle {\psi} |\hat{B}\hat{A}| {\psi} \rangle|$
+The negative sign is due to the $i$, this also seems to represent the commutator, so we substitute
+$2i\sqrt{\langle \psi |A^{2} |\psi \rangle \langle \psi | B^{2}| \psi \rangle }\geq |\langle\psi |[\hat{A},\hat{B}]|\psi\rangle$
+Again, the right hand side looks like the expectation value of a quantity, so
+$2i\sqrt{\langle A^{2} \rangle \langle B^{2} \rangle} \geq |\langle [\hat{A},\hat{B}] \rangle |$
+$\sqrt{\langle A^{2} \rangle \langle B^{2} \rangle} \geq \frac{1}{2i} |\langle [\hat{A},\hat{B}] \rangle |$
+We use Eq. (2),
+
+$\sqrt{\sigma_{A}^{2}\sigma_{B}^{2}} \geq \frac{1}{2i} |\langle [\hat{A},\hat{B}] \rangle|$
+Removing the square root we get the expression:
+$\sigma_{A}\sigma_{B} \geq \frac{1}{2i} |\langle[\hat{A}, \hat{B}]\rangle|$
+
+This is called the generalized uncertainty principle. This basically states that two variables that do not commute cannot be measured with precision simultaneously.
+
+Talking about position and momentum
+
+We know that observable properties can be represented using operators, here we'll 
+
+$\hat{x} = x$
+$\hat{P} = -i\hbar \frac{\partial}{\partial x}$
+So we now try to find the commutator now
+$[\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x}$
+$[\hat{x}, \hat{p}] = -ix\hbar \frac{\partial}{\partial x} + i\hbar \frac{\partial}{\partial x}$
+Now let's apply this to state vector to obtain the expectation value
+$[\hat{x}, \hat{p}] |\psi\rangle = -ix\hbar \frac{\partial}{\partial x} |\psi\rangle + i\hbar \frac{\partial x|\psi\rangle}{\partial x}$
+$$[\hat{x}, \hat{p}] |\psi\rangle = -ix\hbar \frac{\partial}{\partial x} |\psi\rangle + ix\hbar \pdv{(|\psi\rangle)}{x} + i\hbar$$
+$[\hat{x}, \hat{p}] |\psi\rangle = i\hbar$
+Substituting this into Eq.(),
+$\sigma_{x}\sigma_{p} \geq \frac{1}{2i} i\hbar$
+$\sigma_{x}\sigma_{p} \geq \frac{\hbar}{2}$ 
+$\sigma_{x}\sigma_{p} \geq \frac{h}{4 \pi}$
+\section{Generalized Statistical Interpretation}
