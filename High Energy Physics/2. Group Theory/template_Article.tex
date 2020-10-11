@@ -34,10 +34,8 @@ What are transformations and why do physicists care about it? Physicists care ab
 So. This however is a very non-trivial activity that will require us to build new mathematical structures and use their strengths whilst still gluing them to Ontology i.e. not just utilizing them as objects that ease away calculation or throw complexity under the rug but as objects whose relations provide us an understanding of reality.
 
 \section{What is a Group?}
-What is a Group? In Physics speak, a group is a set of transformations which are related to one another. Let's look at a very naive model of this: rotations of a triangle. We first start by labelling the vertices of a triangle:
-\begin{center}
-	\includegraphics[width= 0.4\paperwidth, height= 0.07\paperheight]{1.png}
-\end{center}
+What is a Group? In Physics speak, a group is a set of transformations which are related to one another. Let's look at a very naive model of this: rotations of a triangle. We first start by labelling the vertices of a triangle:\\
+
 Well this is all pretty concrete, but what does it mean abstractly? A Group is simply a mathematical structure that follows a set of rules:
 \begin{itemize}
 \item $\forall \ a,b \in G: a \circ b \in G$
@@ -173,15 +171,32 @@ One may ask what is spin but not why spin? To answer this question in a physical
 However, $s$ can in fact be a "half-integer" as well as an integer, which is to say:
 $$s = 0, \frac{1}{2}, 1, \frac{3}{2}, 2, \frac{5}{2}, 3, ...$$
 $$\hat{J} \ket{\psi} = l(l+1)\hbar^{2}\ket{\psi}$$
+$$\hat{S} \ket{\psi} = s(s+1)\hbar^{2}\ket{\psi}$$
 \section{A Deeper Look at $SU(2)$}
 Here,
-$$$$
+$$\sigma_{i} = \{ \begin{pmatrix}
+0 & 1\\
+1 & 0
+\end{pmatrix}, \begin{pmatrix}
+0 & -i\\
+i & 0
+\end{pmatrix}, \begin{pmatrix}
+1 & 0\\
+0 & -1
+\end{pmatrix} \}$$
 \begin{equation}
 \left[\frac{\sigma_{i}}{2}, \frac{\sigma_{j}}{2}\right] = i \epsilon_{ijk}\frac{\sigma_{k}}{2}
 \end{equation}
 and
 \begin{equation}
 \left[J_{i}, J_{j}\right] = i \epsilon_{ijk}J_{k}
+\end{equation}
+
+\begin{equation}
+\mathbb{M} (\theta) = e^{i \phi  \frac{\sigma_{3}}{2}} = \begin{pmatrix}
+e^{i \frac{\phi}{2}} & 0 \\
+0 & e^{-i \frac{\phi}{2}}
+\end{pmatrix}
 \end{equation}
 
 \begin{itemize}
