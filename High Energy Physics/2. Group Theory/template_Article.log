@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.6)  11 OCT 2020 07:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.6)  11 OCT 2020 09:12
 entering extended mode
 **./template_Article.tex
 (template_Article.tex
@@ -711,13 +711,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 216.
 
-[6]
-Overfull \hbox (3.62105pt too wide) in paragraph at lines 264--265
+[6] [7]
+Overfull \hbox (3.62105pt too wide) in paragraph at lines 272--273
 []\OT1/cmr/m/n/10 Shankar, R. (1994). Prin-ci-ples of quan-tum me-chan-ics. New
  York: Springer. 
  []
 
-[7] [8] (template_Article.aux)
+[8] (template_Article.aux)
 Package rerunfilecheck Info: File `template_Article.out' has not changed.
 (rerunfilecheck)             Checksum: CF479639B142D3F73419413F584881E2;1081.
 
@@ -726,9 +726,9 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17597 strings out of 480258
- 326857 string characters out of 2888538
- 705836 words of memory out of 3000000
+ 17599 strings out of 480258
+ 326883 string characters out of 2888538
+ 705837 words of memory out of 3000000
  33751 multiletter control sequences out of 15000+200000
  545140 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -751,9 +751,9 @@ are/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/share/mikt
 ex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/share/miktex-tex
 mf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/share/miktex-texmf/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template_Article.pdf (8 pages, 234040 bytes).
+Output written on template_Article.pdf (8 pages, 234346 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
