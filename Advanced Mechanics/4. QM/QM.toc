@@ -72,10 +72,17 @@
 \contentsline {chapter}{\numberline {5}Systems with N degrees of freedom}{21}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Symmetries and their Consequences}{23}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Hydrogen Atom}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Approximations}{27}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Pertubation Theory}{29}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Scattering}{31}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Path Integral Formulation}{33}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Dirac Equation}{35}{chapter.12}%
-\contentsline {chapter}{\numberline {13}The Heisenberg Picture/Theorems that connect to classical mech}{37}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Epilogue: What lies ahead}{39}{chapter.14}%
+\contentsline {section}{\numberline {7.1}Fine Structure}{25}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Lamb Shift}{25}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}The Zeeman Effect}{26}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Weak-Field Zeeman Effect}{27}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Strong-Field Zeeman Effect}{27}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Intermediate Zeeman Effect}{27}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Hyperfine Splitting in Hydrogen}{27}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Approximations}{29}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Pertubation Theory}{31}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Scattering}{33}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Path Integral Formulation}{35}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Dirac Equation}{37}{chapter.12}%
+\contentsline {chapter}{\numberline {13}The Heisenberg Picture/Theorems that connect to classical mech}{39}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Epilogue: What lies ahead}{41}{chapter.14}%
