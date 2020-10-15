@@ -120,7 +120,7 @@ We now move to a continuous probability distribution, we'll create continuous an
 	P_{ab} = \int_{a}^{b} \rho(x) dx
 \end{equation}
 where $\rho(x)$ is the called the probability density i.e. the probability of getting $x$, or more concretely,
-$$\rho(x)dx = \text{Probability that an individual is chosend at random lies between x and x + dx}$$
+$$\rho(x)dx = \text{Probability that an individual is chosend at random lies between } x \text{ and } x + dx$$
 Now supposing the rules we held for discrete variables hold, the continuous analogs look like this:
 \begin{equation}
 	1 = \int_{- \infty}^{\infty} \rho(x) dx
@@ -179,13 +179,12 @@ But if we calculate this using the Divergence theorem, we find that ,
 This is paradoxical. The issue is that it blows up at $r=0$ but is is neglible everywhere else. How do we fix this? The Dirac Delta functional!
 \subsection{The One-Dimensional Dirac Delta Functional}
 The Dirac Delta is a functional \footnote{An object that is a map between functions} which we define as,
-\begin{equation}
+\begin{equation} \label{deltadef}
 \delta(x-a)= 
 \begin{cases}
 0, & \text{if } x \neq a\\
 \infty,              & \text{if } x = a
 \end{cases}
-\label{del1}
 \end{equation}
 \begin{equation}
 \int_{- \infty}^{+ \infty} \delta(x-a) dx = 1
@@ -227,7 +226,7 @@ o,              & \text{if } x \leq 0
 \end{equation}
 
 \subsection{The Three-Dimensional Dirac Delta Function}
-We generalize () to three dimensions,
+We generalize (\ref{deltadef}) to three dimensions,
 \begin{equation}
 \delta^{3}(\vec{r} - \vec{a}) = \delta(x-a_{x})\delta(y-a_{y})\delta(z-a_{z})
 \end{equation}
