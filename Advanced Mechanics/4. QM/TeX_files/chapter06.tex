@@ -1,7 +1,7 @@
 \chapter{Hydrogen Atom}
 \section{Fine Structure}
 \subsection{Lamb Shift}
-An interesting feature of the fine structure formula is that it depends only on $j$ and not $l$, moreover in general two different values of $l$ share the same energy. For example, the $2S_{}$ and $2P$ states should remain perfectly degenerate. However in 1947 Lamb and Retherford performed an experiment that displayed something to the contrary. The $S$ state is slightly higher in energy than the $p$ state. The explanation of this "Lamb" shift was later explained by Bethe, Feynman, Schwinger and Tomonaga (the founders of QED) as a corollary of the electromagnetic field itself being quantised.  Sharply in contrast to the hyperfine structure of Hydrogen, the Lamb shift is a completely novel i.e. non-classical (as the hyperfine structure is explained through Coulomb's law and the Biot-Savart Law) phenomena. It arises from a radiative correction in Quantum Electrodynamics to which classical theories are mute. In Feynman lingo, this arises from loop corrections as potrayed below.
+An interesting feature of the fine structure formula is that it depends only on $j$ and not $l$, moreover in general two different values of $l$ share the same energy. For example, the $2S_{1/2} ()$ and $2P_{1/2} ()$ states should remain perfectly degenerate. However in 1947 Lamb and Retherford performed an experiment that displayed something to the contrary. The $S$ state is slightly higher in energy than the $p$ state. The explanation of this "Lamb" shift was later explained by Bethe, Feynman, Schwinger and Tomonaga (the founders of QED) as a corollary of the electromagnetic field itself being quantised.  Sharply in contrast to the hyperfine structure of Hydrogen, the Lamb shift is a completely novel i.e. non-classical (as the hyperfine structure is explained through Coulomb's law and the Biot-Savart Law) phenomena. It arises from a radiative correction in Quantum Electrodynamics to which classical theories are mute. In Feynman lingo, this arises from loop corrections as potrayed below.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\linewidth, height=0.3\linewidth]{feyn-loop.png}
@@ -35,15 +35,15 @@ H^{'}_{Z} = -(\mu_{l} + \mu_{s}).B_{Ext.}
 \end{equation}
 Where,
 \begin{equation}
-content...
+\mu_{s} = -\frac{e}{m_{e}}S
 \end{equation}
 is the magnetic dipole moment associated with electron spin, and
 \begin{equation}
-	content...
+\mu_{l} = -\frac{e}{2m_{e}}L
 \end{equation}
 is the dipole moment associated with orbital motion. The gyromagnetic ratio in this case is simply classical i.e. $q/2m$, it is only for spin that we have an extra factor of 2. We now rewrite () as:
 \begin{equation}
-asd
+H^{'}_{Z} = \frac{e}{2m_{e}}(L + 2S).B_{Ext.}
 \end{equation}
 The nature of the Zeeman splitting depnds on the strength of the external field vs. the internal one that gives rise to spin-orbit/spin-spin coupling. This table provides a short review of the different cases:
 \begin{center}
@@ -65,6 +65,32 @@ The nature of the Zeeman splitting depnds on the strength of the external field 
 In the next few sections we'll explore all of them in depth.
 \subsection{Weak-Field Zeeman Effect}
 \subsection{Strong-Field Zeeman Effect}
+In this case, the Zeeman effect is often referred to as the "Paschen-Back" effect. 
 \subsection{Intermediate Zeeman Effect}
+In this case, we must treat both the effect as perturbations to the Bohr Hamiltonian,
+\begin{equation}
+H^{'} = H^{'}_{Z} + H^{'}_{fs}
+\end{equation}
+In section we'll discuss the case $n = 2$, and use it as the basis for degerate perturbation theory. The states here are characterized by l, j and $m_{j}$
+$$l = 0 = \begin{cases}
+\psi_{1} & \ket{\frac{1}{2} \frac{1}{2}} = \ket{0 \ 0}\ket{\frac{1}{2}\frac{1}{2}}\\
+\psi_{2} & \ket{\frac{1}{2} \frac{-1}{2}} = \ket{0 \ 0}\ket{\frac{1}{2}\frac{-1}{2}}
+\end{cases} $$
+$$l = 1 = \begin{cases}
+\psi_{1} & \ket{\frac{1}{2} \frac{1}{2}} = \ket{0 \ 0}\ket{\frac{1}{2}\frac{1}{2}}\\
+\psi_{2} & \ket{\frac{1}{2} \frac{-1}{2}} = \ket{0 \ 0}\ket{\frac{1}{2}\frac{-1}{2}}
+\end{cases} $$
+\begin{equation}
+\begin{pmatrix}
+5 \gamma - \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 5 \gamma + \beta & 0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}
+\end{equation}
 \section{Hyperfine Splitting in Hydrogen}
 
