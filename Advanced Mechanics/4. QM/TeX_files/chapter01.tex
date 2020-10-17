@@ -91,10 +91,10 @@ Where, $c_{n} \in \mathbb{C}$
 \section{Eigenvalue Problem}
 \section{Eigenfunctions of a Hermitian Operator}
 \section{Transformations}
-\section{Active Tranformation}
+\subsection{Active Tranformation}
 In a loose sense this can be thought of as,
 
-\section{Passive Tranformation}
+\subsection{Passive Tranformation}
 From our discussion before it is also clear that the same transformation can be implemented as,
 \begin{equation}
 \hat{O} \rightarrow U^{\dagger}\hat{O}U
@@ -110,10 +110,37 @@ Suppose we have a frequency distribution
 \begin{equation}
 N = \sum_{j=0}^{\infty} N(j)
 \end{equation}
-The probability of $N_{j}$ is defined as,
+The probability of an event $N_{j}$ is defined as,
 \begin{equation}
 P(j) = \frac{N(j)}{N}
 \end{equation}
+In probability theory, the sum of all probabilities is 1,
+\begin{equation}
+\sum_{j = 0}^{\infty}P(j) = \sum_{j = 0}^{\infty}\frac{N(j)}{N} = 1
+\end{equation}
+The average/mean/expectation value of a value $j$ is given by the formula:
+\begin{equation}
+	\expval{j} = \frac{\sum j N(j)}{N} = \sum_{j =0 }^{\infty} j P(j)
+\end{equation}
+and in general, the average of some function of $j$, is given by,
+\begin{equation}
+\expval{f(j)} = \sum_{j =0 }^{\infty} f(j) P(j)
+\end{equation}
+The spread of a variable's value from it's mean is called it's variance, written as
+\begin{equation}
+\sigma^{2} = \expval{{(\Delta j)}^{2}}
+\end{equation}
+where,
+$$\Delta j = j - \expval{j}$$
+It's square root is called the standard deviation,
+\begin{equation}
+\sigma = \sqrt{\expval{{(\Delta j)}^{2}}} =  \sqrt{\expval{j^{2}} - \expval{j}^{2}}
+\end{equation}
+Which comes from a theorem on variances that we'll find useful later on:
+$$\sigma^{2} = \expval{{(\Delta j)}^{2}} = \sum {(\Delta j)}^{2} P(j) = \sum {(j- \expval{j})}^{2} P(j)$$
+$$ = \sum (j^{2} - 2j \expval{j} + \expval{j}^{2}) P(j)$$
+$$ = \sum j^{2}P(j) - 2 \expval{j} \sum jP(j) + \expval{j}^{2}\sum P(j)$$
+$$ = \expval{j^{2}} - 2 \expval{j}\expval{j} + \expval{j}^{2} = \expval{j^{2}} - \expval{j}^{2}$$
 \subsection{Continuous Variables}
 We now move to a continuous probability distribution, we'll create continuous analogs of all the quantities we just introduced. Let's start with probability, the probability of that $x$ lies between $a$ and $b$
 \begin{equation}

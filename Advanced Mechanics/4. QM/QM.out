@@ -25,27 +25,27 @@
 \BOOKMARK [1][-]{section.2.10}{Eigenvalue Problem}{chapter.2}% 25
 \BOOKMARK [1][-]{section.2.11}{Eigenfunctions of a Hermitian Operator}{chapter.2}% 26
 \BOOKMARK [1][-]{section.2.12}{Transformations}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.13}{Active Tranformation}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.14}{Passive Tranformation}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.14.1}{Equivalence of Transformation types}{section.2.14}% 30
-\BOOKMARK [1][-]{section.2.15}{Functions of Operators}{chapter.2}% 31
-\BOOKMARK [1][-]{section.2.16}{Generalization to Infinite Dimensions}{chapter.2}% 32
-\BOOKMARK [1][-]{section.2.17}{Probability}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.17.1}{Discrete Variables}{section.2.17}% 34
-\BOOKMARK [2][-]{subsection.2.17.2}{Continuous Variables}{section.2.17}% 35
-\BOOKMARK [1][-]{section.2.18}{Expectation Values}{chapter.2}% 36
-\BOOKMARK [1][-]{section.2.19}{Fourier Analysis}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.19.1}{Dirichelet's Theorem}{section.2.19}% 38
-\BOOKMARK [2][-]{subsection.2.19.2}{Fourier Transform}{section.2.19}% 39
-\BOOKMARK [1][-]{section.2.20}{Delta Function}{chapter.2}% 40
-\BOOKMARK [2][-]{subsection.2.20.1}{The Divergence of r2}{section.2.20}% 41
-\BOOKMARK [2][-]{subsection.2.20.2}{The One-Dimensional Dirac Delta Functional}{section.2.20}% 42
-\BOOKMARK [2][-]{subsection.2.20.3}{The Three-Dimensional Dirac Delta Function}{section.2.20}% 43
-\BOOKMARK [1][-]{section.2.21}{Gaussian Integrals}{chapter.2}% 44
-\BOOKMARK [1][-]{section.2.22}{The i \040Prescription}{chapter.2}% 45
-\BOOKMARK [1][-]{section.2.23}{Permutation Functions}{chapter.2}% 46
-\BOOKMARK [2][-]{subsection.2.23.1}{Kronecker delta}{section.2.23}% 47
-\BOOKMARK [2][-]{subsection.2.23.2}{Levi-Civita Pseudotensor}{section.2.23}% 48
+\BOOKMARK [2][-]{subsection.2.12.1}{Active Tranformation}{section.2.12}% 28
+\BOOKMARK [2][-]{subsection.2.12.2}{Passive Tranformation}{section.2.12}% 29
+\BOOKMARK [2][-]{subsection.2.12.3}{Equivalence of Transformation types}{section.2.12}% 30
+\BOOKMARK [1][-]{section.2.13}{Functions of Operators}{chapter.2}% 31
+\BOOKMARK [1][-]{section.2.14}{Generalization to Infinite Dimensions}{chapter.2}% 32
+\BOOKMARK [1][-]{section.2.15}{Probability}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.15.1}{Discrete Variables}{section.2.15}% 34
+\BOOKMARK [2][-]{subsection.2.15.2}{Continuous Variables}{section.2.15}% 35
+\BOOKMARK [1][-]{section.2.16}{Expectation Values}{chapter.2}% 36
+\BOOKMARK [1][-]{section.2.17}{Fourier Analysis}{chapter.2}% 37
+\BOOKMARK [2][-]{subsection.2.17.1}{Dirichelet's Theorem}{section.2.17}% 38
+\BOOKMARK [2][-]{subsection.2.17.2}{Fourier Transform}{section.2.17}% 39
+\BOOKMARK [1][-]{section.2.18}{Delta Function}{chapter.2}% 40
+\BOOKMARK [2][-]{subsection.2.18.1}{The Divergence of r2}{section.2.18}% 41
+\BOOKMARK [2][-]{subsection.2.18.2}{The One-Dimensional Dirac Delta Functional}{section.2.18}% 42
+\BOOKMARK [2][-]{subsection.2.18.3}{The Three-Dimensional Dirac Delta Function}{section.2.18}% 43
+\BOOKMARK [1][-]{section.2.19}{Gaussian Integrals}{chapter.2}% 44
+\BOOKMARK [1][-]{section.2.20}{The i \040Prescription}{chapter.2}% 45
+\BOOKMARK [1][-]{section.2.21}{Permutation Functions}{chapter.2}% 46
+\BOOKMARK [2][-]{subsection.2.21.1}{Kronecker delta}{section.2.21}% 47
+\BOOKMARK [2][-]{subsection.2.21.2}{Levi-Civita Pseudotensor}{section.2.21}% 48
 \BOOKMARK [0][-]{chapter.3}{Formalism}{}% 49
 \BOOKMARK [1][-]{section.3.1}{Normalization}{chapter.3}% 50
 \BOOKMARK [1][-]{section.3.2}{Summary of Postulates}{chapter.3}% 51
@@ -74,7 +74,14 @@
 \BOOKMARK [0][-]{chapter.8}{Approximations}{}% 74
 \BOOKMARK [0][-]{chapter.9}{Pertubation Theory}{}% 75
 \BOOKMARK [0][-]{chapter.10}{Scattering}{}% 76
-\BOOKMARK [0][-]{chapter.11}{Path Integral Formulation}{}% 77
-\BOOKMARK [0][-]{chapter.12}{Dirac Equation}{}% 78
-\BOOKMARK [0][-]{chapter.13}{The Heisenberg Picture/Theorems that connect to classical mech}{}% 79
-\BOOKMARK [0][-]{chapter.14}{Epilogue: What lies ahead}{}% 80
+\BOOKMARK [1][-]{section.10.1}{Phase Shift}{chapter.10}% 77
+\BOOKMARK [1][-]{section.10.2}{Born Approximation}{chapter.10}% 78
+\BOOKMARK [0][-]{chapter.11}{Path Integral Formulation}{}% 79
+\BOOKMARK [1][-]{section.11.1}{The Path Integral Recepie}{chapter.11}% 80
+\BOOKMARK [1][-]{section.11.2}{An Approximation to U\(t\) for a Free Particle}{chapter.11}% 81
+\BOOKMARK [1][-]{section.11.3}{Path Integral Evaluation of the Free-Particle Propagator}{chapter.11}% 82
+\BOOKMARK [1][-]{section.11.4}{Equivalence to the Schrodinger Equation}{chapter.11}% 83
+\BOOKMARK [1][-]{section.11.5}{Potentials of the form V = a + bx + cx2 + d \040+ ex }{chapter.11}% 84
+\BOOKMARK [0][-]{chapter.12}{Dirac Equation}{}% 85
+\BOOKMARK [0][-]{chapter.13}{The Heisenberg Picture/Theorems that connect to classical mech}{}% 86
+\BOOKMARK [0][-]{chapter.14}{Epilogue: What lies ahead}{}% 87
