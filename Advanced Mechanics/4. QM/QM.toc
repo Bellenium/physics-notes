@@ -58,7 +58,7 @@
 \contentsline {section}{\numberline {3.1}Normalization}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Summary of Postulates}{17}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Generalized Uncertainty Principle}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Generalized Statistical Interpretation}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Generalized Statistical Interpretation}{18}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Toy Models}{19}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Time-Dependent Schrodinger Equation}{19}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Time-Independent Schrodinger Equation}{19}{section.4.2}%

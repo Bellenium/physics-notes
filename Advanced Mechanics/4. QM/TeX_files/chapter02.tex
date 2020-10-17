@@ -37,7 +37,20 @@ This is a natural consequence of Born's rule, we simply want all the probabiliti
 We can also prove that once normalized, the wavefunction always remains normalized, we start by differentiating \ref{norm} with respect to time\\
 $$\frac{d}{dt} \int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = \frac{\partial}{\partial t}\int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx$$
 Dealing with the term inside the integral,
-$$ \abs{\psi(\vec{x}, t)}^{2} = $$
+$$ \frac{\partial}{\partial t}\abs{\psi(\vec{x}, t)}^{2} = \frac{\partial}{\partial t} (\psi^{*} \psi ) = \psi^{*}\frac{\partial \psi}{\partial t} + \psi\frac{\partial \psi^{*}}{\partial t}$$
+Now the Schrodinger equation for a free particle reads as,
+$$\frac{\partial \psi}{\partial t} = \frac{i \hbar}{2m}\frac{\partial^{2} \psi}{\partial x^{2}} - \frac{i}{\hbar}V \psi$$
+Conjugating this we can see that,
+$$\frac{\partial \psi^{*}}{\partial t} = -\frac{i \hbar}{2m}\frac{\partial^{2} \psi^{*}}{\partial x^{2}} + \frac{i}{\hbar}V \psi^{*}$$
+Thus, () becomes,
+$$\frac{\partial}{\partial t}\abs{\psi(\vec{x}, t)}^{2} = \frac{i \hbar}{2m}\left( \psi^{*} \frac{\partial^{2} \psi}{\partial x^{2}} - \psi \frac{\partial^{2} \psi^{*}}{\partial x^{2}} \right) = \frac{\partial }{\partial x}\left[\frac{i \hbar}{2m}\left( \psi^{*} \frac{\partial \psi}{\partial x} - \psi \frac{\partial \psi^{*}}{\partial x} \right)\right]$$
+Now we evaluate the integral,
+$$\frac{d}{dt} \int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = \frac{i \hbar}{2m}\left( \psi^{*} \frac{\partial \psi}{\partial x} - \psi \frac{\partial \psi^{*}}{\partial x} \right)^{\infty}_{- \infty} $$
+But $\psi$ must go to zero as goes to infinity, otherwise the wave function would not be normalizable. Thus it follows that.
+\begin{equation}
+	\frac{d}{dt} \int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = 0
+\end{equation}
+And hence, the integral is constant i.e. independent of time. Therefore if is normalized at a time $t = 0$, it remains normalized for all future. 
 \section{Summary of Postulates}
 \section{Generalized Uncertainty Principle}
 Suppose we have a ket $\ket{\psi}$ and two operators $\hat{A}$ and $\hat{B}$, we define two new vectors
@@ -89,3 +102,4 @@ $\sigma_{x}\sigma_{p} \geq \frac{1}{2i} i\hbar$
 $\sigma_{x}\sigma_{p} \geq \frac{\hbar}{2}$ 
 $\sigma_{x}\sigma_{p} \geq \frac{h}{4 \pi}$
 \section{Generalized Statistical Interpretation}
+If you measure an observable $\hat{O}$ on a particle in the state $\psi()$, you will certainly get an  

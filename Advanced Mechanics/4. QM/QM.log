@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.6)  17 OCT 2020 07:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.6)  17 OCT 2020 11:06
 entering extended mode
 **./QM.tex
 (QM.tex
@@ -840,23 +840,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
  []
 
 [16]
-Overfull \hbox (20.97621pt too wide) in paragraph at lines 53--67
+Overfull \hbox (20.97621pt too wide) in paragraph at lines 66--80
 \OT1/cmr/m/n/12 sub-sti-tute in the right hand of the equa-tion $2\OML/cmm/m/it
 /12 i[] \OMS/cmsy/m/n/12  jh\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 j[][]j\OML/cmm/
 m/it/12  \OMS/cmsy/m/n/12 i  
  []
 
-) [17]
+[17]) [18]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (TeX_files/chapter03.tex [18
+ (TeX_files/chapter03.tex
+Chapter 4.
+) [19
 
 
 
 
 ]
-Chapter 4.
-) [19]
 \openout2 = `./TeX_files/chapter04.aux'.
 
  (TeX_files/chapter04.tex [20
@@ -886,18 +886,18 @@ Chapter 6.
 
 ]
 Chapter 7.
-<Images//feyn-loop.png, id=676, 545.03625pt x 132.495pt>
+<Images//feyn-loop.png, id=677, 545.03625pt x 132.495pt>
 File: Images//feyn-loop.png Graphic file (type png)
 <use Images//feyn-loop.png>
 Package pdftex.def Info: Images//feyn-loop.png  used on input line 7.
 (pdftex.def)             Requested size: 234.0034pt x 117.0023pt.
 [25 <./Images//feyn-loop.png>] [26] [27]
-<Images//strong-split.png, id=703, 618.31pt x 532.99126pt>
+<Images//strong-split.png, id=704, 618.31pt x 532.99126pt>
 File: Images//strong-split.png Graphic file (type png)
 <use Images//strong-split.png>
 Package pdftex.def Info: Images//strong-split.png  used on input line 97.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images//weak-split.png, id=704, 371.3875pt x 405.515pt>
+<Images//weak-split.png, id=705, 371.3875pt x 405.515pt>
 File: Images//weak-split.png Graphic file (type png)
 <use Images//weak-split.png>
 Package pdftex.def Info: Images//weak-split.png  used on input line 102.
@@ -913,12 +913,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
  [30 <./Images//weak-split.png>]
-<Images//zee-table.png, id=733, 683.55376pt x 377.41pt>
+<Images//zee-table.png, id=734, 683.55376pt x 377.41pt>
 File: Images//zee-table.png Graphic file (type png)
 <use Images//zee-table.png>
 Package pdftex.def Info: Images//zee-table.png  used on input line 173.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images//intermediate-split.png, id=734, 491.8375pt x 646.415pt>
+<Images//intermediate-split.png, id=735, 491.8375pt x 646.415pt>
 File: Images//intermediate-split.png Graphic file (type png)
 <use Images//intermediate-split.png>
 Package pdftex.def Info: Images//intermediate-split.png  used on input line 178
@@ -932,7 +932,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [31] [32 <./Images//zee-table.png>] [33 <./Images//intermediate-split.png>]
-<Images//hyp-split.png, id=764, 748.7975pt x 401.5pt>
+<Images//hyp-split.png, id=765, 748.7975pt x 401.5pt>
 File: Images//hyp-split.png Graphic file (type png)
 <use Images//hyp-split.png>
 Package pdftex.def Info: Images//hyp-split.png  used on input line 227.
@@ -979,7 +979,7 @@ Chapter 10.
 ]
 Chapter 11.
 
-Overfull \hbox (2.7748pt too wide) in paragraph at lines 3--3
+Overfull \hbox (2.7748pt too wide) in paragraph at lines 7--7
 []\OT1/cmr/bx/n/17.28 An Ap-prox-i-ma-tion to $\OML/cmm/m/it/17.28 U\OT1/cmr/m/
 n/17.28 (\OML/cmm/m/it/17.28 t\OT1/cmr/m/n/17.28 )$ \OT1/cmr/bx/n/17.28 for a F
 ree Par-
@@ -987,23 +987,23 @@ ree Par-
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
+(hyperref)                removing `math shift' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
+(hyperref)                removing `math shift' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `math shift' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6.
+(hyperref)                removing `superscript' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `math shift' on input line 10.
 
 ) [41]
 \openout2 = `./TeX_files/chapter11.aux'.
@@ -1058,9 +1058,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18227 strings out of 480258
- 338915 string characters out of 2888538
- 730162 words of memory out of 3000000
+ 18229 strings out of 480258
+ 338935 string characters out of 2888538
+ 730163 words of memory out of 3000000
  34042 multiletter control sequences out of 15000+200000
  551233 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1085,9 +1085,9 @@ cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb
 miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/miktex-
 texmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/share/miktex-t
 exmf/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on QM.pdf (54 pages, 567622 bytes).
+Output written on QM.pdf (54 pages, 570418 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
- 257 named destinations out of 1000 (max. 500000)
+ 959 PDF objects out of 1000 (max. 8388607)
+ 259 named destinations out of 1000 (max. 500000)
  749 words of extra memory for PDF output out of 10000 (max. 10000000)
 
