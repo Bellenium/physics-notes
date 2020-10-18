@@ -82,8 +82,16 @@
 \contentsline {chapter}{\numberline {8}Approximations}{35}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Pertubation Theory}{37}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Scattering}{39}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Phase Shift}{39}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Born Approximation}{39}{section.10.2}%
+\contentsline {section}{\numberline {10.1}Introduction}{39}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Partial Wave Analysis}{39}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Phase Shift}{39}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Born Approximation}{39}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Integral Form of the Schrodinger Equation}{39}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}The First Born Approximation}{39}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Examples}{39}{subsection.10.4.3}%
+\contentsline {subsubsection}{Low-energy soft-sphere scattering}{39}{section*.10}%
+\contentsline {subsubsection}{Yukawa Scattering}{39}{section*.11}%
+\contentsline {subsection}{\numberline {10.4.4}The Born series}{39}{subsection.10.4.4}%
 \contentsline {chapter}{\numberline {11}Path Integral Formulation}{41}{chapter.11}%
 \contentsline {section}{\numberline {11.1}The Path Integral Recepie}{41}{section.11.1}%
 \contentsline {section}{\numberline {11.2}An Approximation to $U(t)$ for a Free Particle}{41}{section.11.2}%
