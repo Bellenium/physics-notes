@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  18 OCT 2020 08:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.2)  20 OCT 2020 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,7 +852,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 ]
 Chapter 2.
 [3]
-<Images/wessel-plane.png, id=498, 2007.5pt x 2823.54875pt>
+<Images/wessel-plane.png, id=568, 2007.5pt x 2823.54875pt>
 File: Images/wessel-plane.png Graphic file (type png)
 <use Images/wessel-plane.png>
 Package pdftex.def Info: Images/wessel-plane.png  used on input line 39.
@@ -898,7 +898,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Underfull \vbox (badness 1990) has occurred while \output is active []
 
  [10]
-<Images/delta-distribution.png, id=581, 621.07031pt x 381.67593pt>
+<Images/delta-distribution.png, id=652, 621.07031pt x 381.67593pt>
 File: Images/delta-distribution.png Graphic file (type png)
 <use Images/delta-distribution.png>
 Package pdftex.def Info: Images/delta-distribution.png  used on input line 225.
@@ -1003,21 +1003,44 @@ Chapter 6.
 
 ]
 Chapter 7.
-<Images/feyn-loop.png, id=683, 545.03625pt x 132.495pt>
+) [25]
+\openout2 = `./TeX_files/chapter07.aux'.
+
+ (./TeX_files/chapter07.tex [26
+
+
+
+]
+Chapter 8.
+) [27]
+\openout2 = `./TeX_files/chapter08.aux'.
+
+ (./TeX_files/chapter08.tex [28
+
+
+
+]
+Chapter 9.
+[29] [30] [31] [32] [33]
+<Images/feyn-loop.png, id=829, 545.03625pt x 132.495pt>
 File: Images/feyn-loop.png Graphic file (type png)
 <use Images/feyn-loop.png>
-Package pdftex.def Info: Images/feyn-loop.png  used on input line 7.
+Package pdftex.def Info: Images/feyn-loop.png  used on input line 218.
 (pdftex.def)             Requested size: 234.0034pt x 117.0023pt.
-[25 <./Images/feyn-loop.png>] [26] [27]
-<Images/strong-split.png, id=710, 618.31pt x 532.99126pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34] [35 <./Images/feyn-loop.png>] [36]
+<Images/strong-split.png, id=862, 618.31pt x 532.99126pt>
 File: Images/strong-split.png Graphic file (type png)
 <use Images/strong-split.png>
-Package pdftex.def Info: Images/strong-split.png  used on input line 97.
+Package pdftex.def Info: Images/strong-split.png  used on input line 308.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images/weak-split.png, id=711, 371.3875pt x 405.515pt>
+<Images/weak-split.png, id=863, 371.3875pt x 405.515pt>
 File: Images/weak-split.png Graphic file (type png)
 <use Images/weak-split.png>
-Package pdftex.def Info: Images/weak-split.png  used on input line 102.
+Package pdftex.def Info: Images/weak-split.png  used on input line 313.
 (pdftex.def)             Requested size: 234.00935pt x 195.00386pt.
 
 
@@ -1026,19 +1049,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28] [29 <./Images/strong-split.png>]
+[37] [38 <./Images/strong-split.png>]
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
- [30 <./Images/weak-split.png>]
-<Images/zee-table.png, id=740, 683.55376pt x 377.41pt>
+ [39 <./Images/weak-split.png>]
+<Images/zee-table.png, id=895, 683.55376pt x 377.41pt>
 File: Images/zee-table.png Graphic file (type png)
 <use Images/zee-table.png>
-Package pdftex.def Info: Images/zee-table.png  used on input line 173.
+Package pdftex.def Info: Images/zee-table.png  used on input line 384.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images/intermediate-split.png, id=741, 491.8375pt x 646.415pt>
+<Images/intermediate-split.png, id=896, 491.8375pt x 646.415pt>
 File: Images/intermediate-split.png Graphic file (type png)
 <use Images/intermediate-split.png>
-Package pdftex.def Info: Images/intermediate-split.png  used on input line 178.
+Package pdftex.def Info: Images/intermediate-split.png  used on input line 389.
 
 (pdftex.def)             Requested size: 234.00047pt x 234.00134pt.
 
@@ -1048,44 +1071,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32 <./Images/zee-table.png>] [33 <./Images/intermediate-split.png>]
-<Images/hyp-split.png, id=771, 748.7975pt x 401.5pt>
+[40] [41 <./Images/zee-table.png>] [42 <./Images/intermediate-split.png>]
+<Images/hyp-split.png, id=925, 748.7975pt x 401.5pt>
 File: Images/hyp-split.png Graphic file (type png)
 <use Images/hyp-split.png>
-Package pdftex.def Info: Images/hyp-split.png  used on input line 227.
+Package pdftex.def Info: Images/hyp-split.png  used on input line 438.
 (pdftex.def)             Requested size: 233.99864pt x 117.00177pt.
 )
-[34 <./Images/hyp-split.png>]
-\openout2 = `./TeX_files/chapter07.aux'.
-
- (./TeX_files/chapter07.tex
-Chapter 8.
-) [35
-
-
-
-]
-\openout2 = `./TeX_files/chapter08.aux'.
-
- (./TeX_files/chapter08.tex [36
-
-
-
-]
-Chapter 9.
-) [37]
+[43 <./Images/hyp-split.png>]
 \openout2 = `./TeX_files/chapter09.aux'.
 
- (./TeX_files/chapter09.tex [38
+ (./TeX_files/chapter09.tex [44
 
 
 
 ]
 Chapter 10.
-) [39]
+) [45]
 \openout2 = `./TeX_files/chapter10.aux'.
 
- (./TeX_files/chapter10.tex [40
+ (./TeX_files/chapter10.tex [46
 
 
 
@@ -1118,40 +1123,40 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 10.
 
-) [41]
+) [47]
 \openout2 = `./TeX_files/chapter11.aux'.
 
- (./TeX_files/chapter11.tex [42
+ (./TeX_files/chapter11.tex [48
 
 
 
 ]
 Chapter 12.
-) [43]
+) [49]
 \openout2 = `./TeX_files/chapter12.aux'.
 
- (./TeX_files/chapter12.tex [44
+ (./TeX_files/chapter12.tex [50
 
 
 
 ]
 Chapter 13.
-) [45]
+) [51]
 \openout2 = `./TeX_files/chapter14.aux'.
 
  (./TeX_files/chapter14.tex
 Overfull \hbox (170.7376pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 46 \OT1/cmr/m/sl/12 CHAPTER 13.  THE HEISENBERG PICTURE/THEOREM
+\OT1/cmr/m/n/12 52 \OT1/cmr/m/sl/12 CHAPTER 13.  THE HEISENBERG PICTURE/THEOREM
 S THAT CONNECT TO CLASSICAL MECH
  []
 
-[46
+[52
 
 
 
 ]
 Chapter 14.
-) [47] [48
+) [53] [54
 
 
 ]
@@ -1173,53 +1178,69 @@ Package rerunfilecheck Warning: File `QM.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `QM.out':
-(rerunfilecheck)             Before: E379722E7686127A853A69FD2FDAFF6A;6167
-(rerunfilecheck)             After:  D688BCA6D8D0C3850918EB939F5A9A26;6527.
+(rerunfilecheck)             Before: B9A5219B0A567678B2B992F78E089E9B;7144
+(rerunfilecheck)             After:  A0F6D4D053B6AC475473ECE7187720C4;7082.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18591 strings out of 480476
- 353302 string characters out of 5888293
+ 18666 strings out of 480476
+ 354160 string characters out of 5888293
  696341 words of memory out of 5000000
- 33875 multiletter control sequences out of 15000+600000
- 548483 words of font info for 85 fonts, out of 8000000 for 9000
+ 33882 multiletter control sequences out of 15000+600000
+ 550945 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,11n,75p,1044b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/enc/dvips/cm
--super/cm-super-ts1.enc}<d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-d
-ist/fonts/type1/public/calligra-type1/callig15.pfb><d:/0.Library/0. Software/Te
-X Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/0.
-Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbxti10.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><d:/0.Library/0. Software/TeX Live/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/0.Library/0. 
-Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/0.Library/0. Software/TeX Li
-ve/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/0.Libra
+ 59i,14n,75p,1044b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{equation.9.4.44} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.9.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.9.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.9.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.9.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/enc/dvips/cm-s
+uper/cm-super-ts1.enc}<d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dis
+t/fonts/type1/public/calligra-type1/callig15.pfb><d:/0.Library/0. Software/TeX 
+Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/0.L
+ibrary/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbxti10.pfb><d:/0.Library/0. Software/TeX Live/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/0.Library/0. S
+oftware/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/0.Library/0. Software/TeX Li
+ve/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/0.Libra
 ry/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/0.Library/0. Software/Te
-X Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/0.Li
-brary/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsl12.pfb><d:/0.Library/0. Software/TeX Live/texlive/20
-20/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/0.Library/0. Softwa
-re/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d
+cmr10.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/0.Library/0. Software/T
+eX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/0.L
+ibrary/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><d:/0.Library/0. Software/TeX Live/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><d:/0.Library/0. Softwar
+e/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d
 :/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb><d:/0.Library/0. Software/TeX Liv
-e/texlive/2020/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><d:/0.Library/0. S
-oftware/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
-fb>
-Output written on QM.pdf (54 pages, 495330 bytes).
+fonts/cm/cmsy6.pfb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><d:/0.Library/0. Software/TeX Live/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/0.Librar
+y/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/public/rsfs/rsfs10.p
+fb><d:/0.Library/0. Software/TeX Live/texlive/2020/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1200.pfb>
+Output written on QM.pdf (60 pages, 519930 bytes).
 PDF statistics:
- 977 PDF objects out of 1000 (max. 8388607)
- 875 compressed objects within 9 object streams
- 267 named destinations out of 1000 (max. 500000)
- 749 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 1019 compressed objects within 11 object streams
+ 327 named destinations out of 1000 (max. 500000)
+ 861 words of extra memory for PDF output out of 10000 (max. 10000000)
 
