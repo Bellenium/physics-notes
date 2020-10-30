@@ -4,7 +4,7 @@ If we wish to know about a particular physical measurable such as an object's po
 
 To get down to even more specifics if I consider an observable $\hat{O}$, then in general I have the form:
 \begin{equation}
-\hat{O} \ket{\psi} = o \ket{\psi}
+	\hat{O} \ket{\psi} = o \ket{\psi}
 \end{equation}
 Where, $o$ is an Eigenvalue . The only types of operators that are constrained in such a fashion are "Hermitian Operators", they are identified with the condition:
 \begin{equation}
@@ -17,11 +17,11 @@ If we consider the Schrodinger picture i.e. the State vector evovles with time w
 \end{equation}
 Or,
 \begin{equation}
-i \hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+	i \hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
 \end{equation}
 in terms of the Wavefunction. Where, $\hat{H}$ is the Hamiltonian operator, which can be expressed as:
 \begin{equation}
-\hat{H} = -\frac{\hbar^{2} \nabla^2}{2m} + V(\vec{x})
+	\hat{H} = -\frac{\hbar^{2} \nabla^2}{2m} + V(\vec{x})
 \end{equation}
 for a free particle. According to Born's rule
 \begin{equation}
@@ -31,7 +31,7 @@ Thus, . Physically speaking this lends a kind of indeterminancy to the wavefunct
 \section{Normalization}
 Normalization is a process through which we ensure that,
 \begin{equation}\label{norm}
-\int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = 1
+	\int_{- \infty}^{\infty} \abs{\psi(\vec{x}, t)}^{2} dx = 1
 \end{equation}
 This is a natural consequence of Born's rule, we simply want all the probabilities to add up to 1. Thus, to rule out any other absurd scenarios, we make a ruling that non-Normalizable and non-square integrable Wavefunctions are unphysical.\\
 We can also prove that once normalized, the wavefunction always remains normalized, we start by differentiating \ref{norm} with respect to time\\
@@ -102,4 +102,10 @@ $\sigma_{x}\sigma_{p} \geq \frac{1}{2i} i\hbar$
 $\sigma_{x}\sigma_{p} \geq \frac{\hbar}{2}$ 
 $\sigma_{x}\sigma_{p} \geq \frac{h}{4 \pi}$
 \section{Generalized Statistical Interpretation}
-If you measure an observable $\hat{O}$ on a particle in the state $\psi()$, you will certainly get an  
+If you measure an observable $\hat{O}$ on a particle in the state $\psi()$, you will certainly get one of the eigenvalues of the observable. If the spetra is discrete, the probability of getting the particular eigenvalue $q_{n}$ associated with the orthonormalized eigenfunction $f_{n}(x)$ is
+\begin{equation}
+	P(q_{n}) = \abs{c_{n}}^{2} = \abs{\braket{f_{x}}{\psi}}^{2}
+\end{equation}
+\subsection{Position Measurements}
+
+\subsection{Momentum Measurements}

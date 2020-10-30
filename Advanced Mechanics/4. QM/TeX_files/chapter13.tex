@@ -4,5 +4,94 @@ Rishi's article + JP sir's slides
 \subsection{The de Broglie Hypothesis}
 In , the French physicist de Brogile proposed that this wave like structure applies to electrons too and follows the equation:
 \begin{equation}
-p = \frac{h}{\lambda} = \frac{2 \pi \hbar}{ \lambda}
+	p = \frac{h}{\lambda} = \frac{2 \pi \hbar}{ \lambda}
 \end{equation}
+
+\section{Premise}
+We can consider a black body to consist of electromagnetic radiation in thermal equilibrium with the walls of the cavity. When they are in thermal equilibrium, the average rate of emission of radiation equals their average rate of absorption of radiation. \\
+
+\noindent The Rayleigh Jeans theory was constructed on the notion that when the walls of an object is in thermal equilibrium, in other words, the temperature of the walls is equal to the "temperature" of radiation. We will see what we mean by the "temperature" of an electromagnetic wave. \\
+
+\noindent If we take the walls of a cavity to consist of oscillating charged particles (about its equilibrium) coupled to a standing-wave mode of an electromagnetic field. This can be seen from Maxwell's theory of electromagnetic waves, which states that a moving charged particle radiates an electromagnetic wave. A point to be noted is that the frequency of the oscillating charge is equal to the frequency of its coupled electromagnetic wave. So then, it is safe to say that in thermal equilibrium, the average energy of the oscillating charge is equal to the average energy of the coupled standing-wave mode of that electromagnetic field. \\
+
+\noindent Now we can see that the oscillating particle has a quadratic potential energy, $H_{pot}$  of $\frac{1}{2}aq^2$ and a kinetic energy $H_{kin}$ of $\frac{p^2}{2m}$, so according to the equipartition theorem, in thermal equilibrium the average energy is,
+\begin{equation}
+	\braket{H}=\braket{H_{pot}}+\braket{H_{kin}}=\frac{1}{2}k_BT+\frac{1}{2}k_BT=k_BT
+\end{equation}	
+Hence the energy of the wave is also taken to be $k_BT$, and can be thought to have a "temperature" of T. \\
+
+\noindent This forms the foundation of the Rayleigh Jeans theory, following which we will derive the Rayleigh-Jeans formula.
+
+\newpage
+\section{Deriving the Rayleigh-Jeans Formula}
+We start off with the axiom that the energy distribution of a black-body radiation does not depend on the shape of the cavity (which can be proven experimentally). For ease of calculations, we take te shape of the cavity to be a cube. We also assume that the waves vanish at the walls, or in other words, do not pass through them.\\
+\noindent The number of standing electromagnetic waves in a cube of length L needs to be calculated. \\
+Let us take the wave equation for the standing electromagnetic wave,
+\begin{equation}
+	\frac{\partial^2E_x}{\partial x^2}+\frac{\partial^2E_x}{\partial y^2}+\frac{\partial^2E_x}{\partial z^2}+k^2E_x=0
+\end{equation}
+Where $E_x=E_x(x,y,z)$ and $k=\frac{2\pi}{\lambda}=\frac{2\pi f}{c}$.
+Assuming that $E_x=u(x)v(y)w(z)$ (by variable separable method), we can separate Equation (2) into three ordinary differential equations of the type,
+\begin{equation}
+	\frac{d^2u}{dx^2}+k^2_xu=0
+\end{equation}
+Where $k^2=k^2_x+k^2_y+k^2_z$. By inspection, we can see that Equation (3) is an equation for a simple harmonic oscillator and has the solution,
+\begin{equation}
+	u(x)=B\cos k_xx+C\sin k_xx
+\end{equation}
+Applying necessary boundary conditions so that $E_x$ or $u$ is 0 at $x=0$ and at $x=L$ leads to $B=0$ and $k_xL=n_x\pi$ where $n_x=1,2,3,...$, (since we are considering standing electromagnetic waves and look at only the positive region of the k-space) similar solutions are obtained for $v(y)$ and $w(z)$, giving the solution,
+\begin{equation}
+	E_x(x,y,z)=A\sin (k_xx)sin(k_yy)\sin(k_zz)
+\end{equation}
+Where,
+\begin{equation}
+	k^2=\frac{\pi ^2}{L^2}(n^2_x+n^2_y+n^2_z)
+\end{equation}
+and $n_x$, $n_y$ and $n_z$ are postive integers.\\
+Now, we take Equation (6) to give us the distance from the origin to a point in $k$-space, or often called the "Reciprocal" space (due to the units of $k$ being $(length)^-1$).\\
+Let us take a coordinate system corresponding to the $k$-space (as shown in Figure 1), with the axes being $k_x$, $k_y$ and $k_z$. And we know that $k_x=n_x\pi/l$, $k_y=n_y\pi/L$, and $k_z=n_z\pi/L$, so the points in $k$-space are separated by $\pi/L$ along each axis, and there is one standing wave in $k$-space per $(\pi/L)^3$ of volume. The number of standing waves, $N(k)$ having wavenumbers between $k$ and $k+dk$ is then simply the volume between $k$ and $k+dk$ divided by $(\pi/L)^3$. The volume between $k$ and $k+dk$ is simply the volume of a spherical shell of thickness $dk$ multiplied by $1/8$ (since we need only the positive quadrant of the k-space, hence 1/4 of the volume of sphere), so that
+\begin{equation}
+	N(k)dk=\frac{\frac{1}{2}\pi k^2dk}{(\pi/L)^3}=\frac{Vk^2dk}{2\pi^2}
+\end{equation}
+Where $V=L^3$ is the volume of the cavity.\\
+For any electromagnetic wave, there are two perpendicular polarisations for each mode, so Equation (6) should be increased by a factor of 2, becoming,
+\begin{equation}
+	\frac{N(k)dk}{V}=\frac{k^2dk}{\pi^2}
+\end{equation}
+From using the expression $k=2\pi f/c$ to obtain $k$ and $dk$ and substituting in Equation (8) gives us $N(f)$,
+\begin{equation}
+	N(f)df=\frac{8\pi f^2}{c^3}df
+\end{equation}
+And from this, the number of modes per unit volume between $\lambda$ and $\lambda + d\lambda$ can be derived from Equation (9) by using the expression $f=c/\lambda$ to get $\lambda$ and $d\lambda$ to get,
+\begin{equation}
+	N(\lambda)d\lambda=\frac{8\pi}{\lambda^4}d\lambda
+\end{equation}
+Now, each mode of oscilation has energy of $k_BT$, so the energy in the range $\lambda$ to $\lambda+d\lambda$ is $k_BTN(\lambda)d\lambda$. Hence the energy density in this region is,
+\begin{equation}
+	u(\lambda)d\lambda = k_BTN(\lambda)=\frac{8\pi k_BT}{\lambda^4}d\lambda
+\end{equation}
+This is the Rayleigh Jeans expression for spectral density in the range $\lambda$ to $d\lambda$
+Considering the energy to be a continuous variable, then the average energy per oscillator is $k_BT$ and the Rayleigh Jeans formula for $u(\lambda)$ holds true. The Rayleigh Jeans formula also behaves perfectly well for long wavelengths in the electromagnetic spectum. It also agrees with the Wien's scaling formula,
+\begin{equation}
+	u(\lambda)=\frac{8\pi k_BT}{\lambda^4}=\frac{f(\lambda T)}{\lambda^5}
+\end{equation}
+However, we will see in the next section why this is not a correct scaling function.\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"Oscillation modes"}
+	\caption[Visualising the k-space]{Visualising the k-space}
+	\label{fig:oscillation-modes}
+\end{figure}
+\newpage
+\section{Failure of the Rayleigh Jeans theory in explaining the Stefan-Boltzmann Law}
+\subsection{Incorrect Scaling function}
+From the previous equation for the scaling function, we can see that $f(\lambda T)=8k_BT$. So from this, we can notice that as $\lambda$ decreases, the u($\lambda$) also increases. This means that higher the temperature, more lower wavelength waves are emitted, for example, a campfire emits a large amount of short wavelength microwaves (which is very deadly, but thankfully that isnt how things work in nature) according to this law. Hence, the law fails in this regard.
+
+\subsection{The Ultraviolet Catastrophe}
+Inspecting the Rayleigh-Jeans formula, and attempting to find the total energy density (by integrating with appropriate limits) of the black body gives us an interesting result,
+\begin{equation}
+	u=\int_{\infty}^{0}=u(\lambda)d\lambda=\int_{\infty}^{0}\frac{8\pi k_B T}{\lambda^4}d\lambda=\infty
+\end{equation}
+Here we see that the energy density is infinite, which is easy to figure out that this is nonsensical. It implies that if a cavity filled with radiation radiates infinite amount of energy. This was named by Paul Ehrenfest as the "Ultraviolet Catastrophe" However, Stefan found out that the energy radiated is proportional to $T^4$, hence, trying to explain the Stefan-Boltzmann Law using the Rayleigh-Jeans formula for energy density will end in vain.
+\subsection{Consequences}
+As the Rayeigh-Jeans formula failed to address shorter wavelengths, Planck decided to use a different approach to explain the black body radiation curve. He decided not to assume that the average energy of an oscillator in the wall to be $k_BT$. He knew how $u(\lambda)$ varies for short wavelengths, using the Wien's formula and wanted u($\lambda$) to be proportional to T for longer wavelengths. This lead to the formulation of the Planck's formula, which perfectly described the radiation curve.
