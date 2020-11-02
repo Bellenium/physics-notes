@@ -1,6 +1,174 @@
 \chapter{Scattering}
-\section{Introduction}
+\section{Classical Scattering}
+\subsection{Motivation}
+We can also define the size/radius of the proton is through its rate of interacting with 	itself or other particles.
+This is done by us determining the cross-sectional area. The larger this area is, the more likely it is that you will interact with it. The smaller the area, the less likely to interact.
+This motivates a connection between proton size and scattering probability. In particle physics, a collision or interaction rate is expressed in effective cross-sectional area, typically just called cross section.
+As an	“area,” we can measure scattering cross sections as the square of some relevant 	length scale.
+
+\subsection{The problem}
+Consider a particle incident on some scattering center. It comes in with an energy \textrm{\textit{\textbf{E}}} and an impact parameter \textrm{\textit{\textbf{b}}}, and it emerges at some scattering angle \textrm{\textit{$\theta$}}.
+The essential problem of classical scattering theory is this: \textit{Given the impact parameter, calculate the scattering angle.} 
+Ordinarily, of course, the smaller the impact parameter, the greater the scattering angle. 
+\begin{center}
+	\includegraphics[scale=1.2]{ClassicalScattering}
+\end{center}
+\newpage
+
+\subsection{Solving for differential cross-section}
+Particles incident within an infinitesimal patch of cross-sectional area d$\sigma$ will scatter into a corresponding infinitesimal solid angle dQ. 
+The larger d$\sigma$ is, the bigger dQ will be; the proportionality factor, D($\theta$) = d$\sigma$/dQ, is called the differential (scattering) cross-section, and is given by,
+
+\begin{equation}
+	d\sigma=D(\theta)d\Omega
+\end{equation}
+In terms of the impact parameter and the azimuthal angle $\phi, d\sigma = b.db.d\phi$ and $d\Omega=\sin(\theta)d\theta d\phi$, and so,
+
+\begin{equation}
+	D(\theta)=\frac{b}{\sin\theta}\abs{\frac{db}{d\theta}}
+\end{equation}
+And then the total cross-section is the integral of D($\theta$) over all solid angles,
+
+\begin{equation}
+	\sigma=\int D(\theta)d\Omega
+\end{equation}
+
+The differential cross-section is the total area of incident beam that is scattered by the target. Beams incident within this area will hit the target, and those farther out will miss it completely.\\
+If we have a beam of incident particles, with uniform intensity/luminosity ($\mathcal{L}$), the number of particles entering area d$\sigma$ (and hence scattering into solid angle d$\Omega$), per unit time, is dN = $\mathcal{L}$d$\sigma$= $\mathcal{L}$D($\theta$)d$\Omega$, then,
+
+\begin{equation}
+	D(\theta)=\frac{1}{\mathcal{L}}\frac{dN}{d\Omega}
+\end{equation}
+
+This is the definition of the differential cross-section.
+
+\begin{center}
+	\includegraphics[scale=0.8]{DiffScattering}
+\end{center}
+\newpage
+
+
+\section{Quantum Scattering}
+\subsection{Defining the problem}
+In the quantum theory of scattering, we imagine an incident plane wave,$\psi(z)=Ae^{ikz}$ , traveling in the z
+direction, which encounters a scattering potential, producing an outgoing spherical wave That is, we look for solutions to the Schrödinger equation of the generic form,
+
+\begin{equation}
+	\psi(r,\theta)\approx A\left\{e^{ikz}+f(\theta)\frac{e^{ikr}}{r}\right\} \textrm{,	for large $r$}
+\end{equation}
+
+The relation between wave number $k$ and energy of incident particles are,
+\begin{equation}
+	k\equiv \frac{\sqrt{2mE}}{\hbar}
+\end{equation}
+\subsection{Determining scattering amplitude}
+Probability of the incident particle travelling with speed $v$ passing through infinitesimal area $d\sigma$ in time $dt$ is,
+\begin{equation}
+	dP=\vert \psi_{incident}\vert^2dV=\vert A \vert^2(v dt)d\sigma
+\end{equation}
+This is equal to the probability that the particle later emerges into the corresponding solid angle $d\Omega$,
+\begin{equation}
+	dP=\vert \psi_{scattered}\vert^2dV=\frac{\vert A \vert^2\vert f \vert^2}{r^2}(v dt)r^2d\sigma
+\end{equation}
+And $d\sigma$=$\vert f\vert^2d\Omega$, so,
+\begin{equation}
+	D(\theta)=\frac{d\sigma}{d\Omega}=\vert f(\theta)\vert^2
+\end{equation}
+The differential cross-section (which is the quantity of interest to the experimentalist) is equal to the	absolute square of the scattering amplitude. Now we look at different methods to determine this scattering amplitude.
+
+\newpage
+
 \section{Partial Wave Analysis}
+\subsection{Formalism}
+We know that the Schrodinger equation for a spherically symmetrical potential $V(r)$ admits the separable solutions,
+\begin{equation}
+	\psi(r,\theta,\phi)=R(r)^m_l(\theta,\phi)
+\end{equation}
+Where $Y^m_l$ is a spherical harmonic and $u(R)=rR(r)$ satisfies the radial equation,
+\begin{equation}
+	-\frac{\hbar^2}{2m}\frac{dl^2 u}{d r^2} + \left[V(r) + \frac{\hbar^2}{2m}\frac{l(l+1)}{r^2}\right]u = Eu
+\end{equation}
+At very large $r$, the potential goes to zero, and the centrifugal term is negligible, so,
+\begin{equation}
+	\frac{d^2u}{dr^2}\approx-k^2u
+\end{equation}
+Whose general solution is takes the form,
+\begin{equation}
+	u(r)=Ce^{ikr}+De^{-ikr}
+\end{equation}
+The first term represents an outgoing spherical wave, and the second an incoming one. For the scattered wave, we want $D=0$. At very large r, then.
+\begin{equation}
+	R(r)\approx\frac{e^{ikr}}{r}
+\end{equation}
+The radial equation then becomes,
+\begin{equation}
+	\frac{d^2}{dr^2}-\frac{l(l+1)}{r^2}u=-k^2u
+\end{equation}
+The general solution for the radial equation is a linear combinations of spherical Bessel functions,
+\begin{equation}
+	u(r)=Arj_l(kr)+Brn_l(kr)
+\end{equation}		
+We need solutions that are linear combinations analogous to $e^ikr$ and $e^-ikr$, these are called the spherical Hankel functions,
+\begin{equation}
+	h^{(1)}_l\equiv j_l(x)+in_l(x)
+\end{equation}
+\newpage
+Below we see some examples of Hankel functions,
+
+\begin{center}
+	\includegraphics[scale=0.8]{Hankels}
+\end{center}
+The Hankel function of the first kind becomes $e^-ikr/r$ for large r, so we use these to get,
+\begin{equation}
+	R(r)=Cj^{(1)}_l(kr)
+\end{equation}
+\subsection{Exact wavefunction and the partial wave amplitude}
+The exact wave function in the exterior region where $V(r)=0$ is,
+\begin{equation}
+	\psi(r,\theta,\phi)=A\left\{e^{ikz}+f(\theta,\phi)\frac{e^{ikr}}{r}\right\}
+\end{equation}
+Where,
+\begin{equation}
+	f(\theta,\phi)+\frac{1}{k}\sum_{l,m}^{}(-i)^{l+1}C_{l,m}Y^m_l(\theta,\phi)
+\end{equation}
+The $C_{l,m}$ are called the partial wave amplitudes. Now the cross section is,
+\begin{equation}
+	D(\theta,\phi)= \vert f(\theta,\phi)\vert^2= \frac{1}{k^2} \sum_{l,m}\sum_{l',m'}(i)^{l-l'}C^*_{l,m}C_{l'm'}(Y^m_l)^*Y^{m'}_{l'}
+\end{equation}
+And the total cross-section is,
+\begin{equation}
+	\sigma= \frac{1}{k^2} \sum_{l,m}\sum_{l',m'}(i)^{l-l'}C^*_{l,m}C_{l'm'}\int(Y^m_l)^*Y^{m'}_{l'}d\Omega=\frac{1}{k^2}\sum_{l,m}^{}\vert C_{l,m}\vert ^2
+\end{equation}
+We know from the Legendre functions that,
+\begin{equation}
+	Y^0_l(\theta,\phi)=\sqrt{\frac{2l+1}{4\pi}}P_l(cos\theta)
+\end{equation}
+where $P_l$ is the $l$th Legendre Polynomial. Now the exact wave function in the exterior region is,
+\begin{equation}
+	\psi(r,\theta)=A\left\{e^{ikz}+\sum_{l=0}^{\infty}\sqrt{\frac{2l+1}{4\pi}}C_lh_l^{(1)}(kr)P_l(cos\theta)\right\}
+\end{equation}
+The scattering amplitude is now given by,
+\begin{equation}
+	f(\theta)=\frac{1}{k}\sum_{l=0}^{\infty}(-i)^{l+1}\sqrt{\frac{2l+1}{4\pi}}C_lP_l(cos\theta)
+\end{equation}
+and the total cross-section is,
+
+\begin{equation}
+	\sigma=\frac{1}{k^2}\sum_{l=0}^{\infty}|C_l|^2
+\end{equation}
+To fix the hybrid notation of the cartesian incoming wave and the spherical outgoing wave, we write it in a more consistent form.\\ 
+We know that the general solution to the Schrodinger equation with $V=0$ can be written in the form,
+\begin{equation}
+	\sum_{l,m}^{}[A_{l,m}j_l(kr)+B_{l,m}n_l(kr)]Y^m_l(\theta,\phi)
+\end{equation}
+Expanding the plane wave in terms of spherical waves using Rayleigh's formula,
+\begin{equation}
+	e^{ikz}=\sum_{l=0}^{\infty}i^l(2l+l)j_l(kr)P_l(cos\theta)
+\end{equation}
+Substituting this in Equation (24), the consistent exterior region wave function can be written as,
+\begin{equation}
+	\psi(r,\theta)=A\left[l(2l+l)j_l(kr)+\sum_{l=0}^{\infty}\sqrt{\frac{2l+1}{4\pi}}C_lh_l^{(1)}(kr)\right]P_l(cos\theta)
+\end{equation}
 
 \section{Phase Shift}
 Let's begin by considering a one-dimensional scattering problem with a localized potential on the half-line $x < 0$ and a brick wall at $x = 0$. So a wave incident from the left,
