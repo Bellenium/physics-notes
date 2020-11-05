@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  2 NOV 2020 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  4 NOV 2020 12:09
 entering extended mode
 **./QM.tex
 (QM.tex
@@ -791,7 +791,7 @@ Chapter 2.
 
 
 ]
-<Images//wessel-plane.png, id=1080, 2007.5pt x 2823.54875pt>
+<Images//wessel-plane.png, id=1100, 2007.5pt x 2823.54875pt>
 File: Images//wessel-plane.png Graphic file (type png)
 <use Images//wessel-plane.png>
 Package pdftex.def Info: Images//wessel-plane.png  used on input line 40.
@@ -837,7 +837,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Underfull \vbox (badness 1990) has occurred while \output is active []
 
  [14]
-<Images//delta-distribution.png, id=1161, 621.07031pt x 381.67593pt>
+<Images//delta-distribution.png, id=1181, 621.07031pt x 381.67593pt>
 File: Images//delta-distribution.png Graphic file (type png)
 <use Images//delta-distribution.png>
 Package pdftex.def Info: Images//delta-distribution.png  used on input line 226
@@ -912,51 +912,54 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[25]
-Overfull \hbox (73.61923pt too wide) detected at line 29
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Overfull \hbox (73.61923pt too wide) detected at line 35
 [][] [][] [][]\OML/cmm/m/it/12 dx \OT1/cmr/m/n/12 = []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
  []
 
-[26]
-Overfull \hbox (20.97621pt too wide) in paragraph at lines 66--80
+[27]
+Overfull \hbox (20.97621pt too wide) in paragraph at lines 72--86
 \OT1/cmr/m/n/12 sub-sti-tute in the right hand of the equa-tion $2\OML/cmm/m/it
 /12 i[] \OMS/cmsy/m/n/12  jh\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 j[][]j\OML/cmm/
 m/it/12  \OMS/cmsy/m/n/12 i  
  []
 
-[27]) [28]
+[28]) [29]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (TeX_files/chapter03.tex
-Chapter 4.
-) [29
+ (TeX_files/chapter03.tex [30
 
 
 
 
 ]
+Chapter 4.
+) [31]
 \openout2 = `./TeX_files/chapter04.aux'.
 
- (TeX_files/chapter04.tex [30
+ (TeX_files/chapter04.tex [32
 
 
 
 
 ]
 Chapter 5.
-) [31]
+) [33]
 \openout2 = `./TeX_files/chapter05.aux'.
 
- (TeX_files/chapter05.tex [32
+ (TeX_files/chapter05.tex [34
 
 
 
@@ -1002,32 +1005,32 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [35]
 Overfull \vbox (36.71681pt too high) has occurred while \output is active []
 
 
-[34]) [35]
+[36]) [37]
 \openout2 = `./TeX_files/chapter07.aux'.
 
- (TeX_files/chapter07.tex [36
+ (TeX_files/chapter07.tex [38
 
 
 
 
 ]
 Chapter 7.
-) [37]
+) [39]
 \openout2 = `./TeX_files/chapter08.aux'.
 
- (TeX_files/chapter08.tex [38
+ (TeX_files/chapter08.tex [40
 
 
 
 
 ]
 Chapter 8.
-[39] [40] [41] [42] [43]
-<Images//feyn-loop.png, id=1384, 545.03625pt x 132.495pt>
+[41] [42] [43] [44] [45]
+<Images//feyn-loop.png, id=1412, 545.03625pt x 132.495pt>
 File: Images//feyn-loop.png Graphic file (type png)
 <use Images//feyn-loop.png>
 Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
@@ -1036,13 +1039,13 @@ Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44] [45 <./Images//feyn-loop.png>] [46]
-<Images//strong-split.png, id=1414, 618.31pt x 532.99126pt>
+[46] [47 <./Images//feyn-loop.png>] [48]
+<Images//strong-split.png, id=1443, 618.31pt x 532.99126pt>
 File: Images//strong-split.png Graphic file (type png)
 <use Images//strong-split.png>
 Package pdftex.def Info: Images//strong-split.png  used on input line 308.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images//weak-split.png, id=1415, 371.3875pt x 405.515pt>
+<Images//weak-split.png, id=1444, 371.3875pt x 405.515pt>
 File: Images//weak-split.png Graphic file (type png)
 <use Images//weak-split.png>
 Package pdftex.def Info: Images//weak-split.png  used on input line 313.
@@ -1054,16 +1057,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47] [48 <./Images//strong-split.png>]
+[49] [50 <./Images//strong-split.png>]
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
- [49 <./Images//weak-split.png>]
-<Images//zee-table.png, id=1445, 683.55376pt x 377.41pt>
+ [51 <./Images//weak-split.png>]
+<Images//zee-table.png, id=1473, 683.55376pt x 377.41pt>
 File: Images//zee-table.png Graphic file (type png)
 <use Images//zee-table.png>
 Package pdftex.def Info: Images//zee-table.png  used on input line 384.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images//intermediate-split.png, id=1446, 491.8375pt x 646.415pt>
+<Images//intermediate-split.png, id=1474, 491.8375pt x 646.415pt>
 File: Images//intermediate-split.png Graphic file (type png)
 <use Images//intermediate-split.png>
 Package pdftex.def Info: Images//intermediate-split.png  used on input line 389
@@ -1076,24 +1079,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51 <./Images//zee-table.png>] [52 <./Images//intermediate-split.png>]
-<Images//hyp-split.png, id=1475, 748.7975pt x 401.5pt>
+[52] [53 <./Images//zee-table.png>] [54 <./Images//intermediate-split.png>]
+<Images//hyp-split.png, id=1504, 748.7975pt x 401.5pt>
 File: Images//hyp-split.png Graphic file (type png)
 <use Images//hyp-split.png>
 Package pdftex.def Info: Images//hyp-split.png  used on input line 438.
 (pdftex.def)             Requested size: 233.99864pt x 117.00177pt.
 )
-[53 <./Images//hyp-split.png>]
+[55 <./Images//hyp-split.png>]
 \openout2 = `./TeX_files/chapter09.aux'.
 
- (TeX_files/chapter09.tex [54
+ (TeX_files/chapter09.tex [56
 
 
 
 
 ]
 Chapter 9.
-<Images//ClassicalScattering.png, id=1489, 171.64125pt x 132.495pt>
+<Images//ClassicalScattering.png, id=1517, 171.64125pt x 132.495pt>
 File: Images//ClassicalScattering.png Graphic file (type png)
 <use Images//ClassicalScattering.png>
 Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
@@ -1102,22 +1105,22 @@ Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-[56 <./Images//ClassicalScattering.png>]
-<Images//DiffScattering.png, id=1499, 383.031pt x 169.8345pt>
+ [57]
+[58 <./Images//ClassicalScattering.png>]
+<Images//DiffScattering.png, id=1527, 383.031pt x 169.8345pt>
 File: Images//DiffScattering.png Graphic file (type png)
 <use Images//DiffScattering.png>
 Package pdftex.def Info: Images//DiffScattering.png  used on input line 46.
 (pdftex.def)             Requested size: 306.42522pt x 135.86777pt.
- [57 <./Images//DiffScattering.png>]
+ [59 <./Images//DiffScattering.png>]
 Overfull \hbox (5.34587pt too wide) in paragraph at lines 53--55
 \OT1/cmr/m/n/12 In the quan-tum the-ory of scat-ter-ing, we imag-ine an in-ci-d
 ent plane wave,$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m
 /n/12 ) =
  []
 
-[58] [59]
-<Images//Hankels.png, id=1530, 507.0945pt x 205.9695pt>
+[60] [61]
+<Images//Hankels.png, id=1558, 507.0945pt x 205.9695pt>
 File: Images//Hankels.png Graphic file (type png)
 <use Images//Hankels.png>
 Package pdftex.def Info: Images//Hankels.png  used on input line 119.
@@ -1127,33 +1130,33 @@ Overfull \hbox (15.67613pt too wide) in paragraph at lines 119--120
  [] 
  []
 
-[60 <./Images//Hankels.png>] [61]
-<Images//1d_scatt.png, id=1552, 291.33844pt x 177.66376pt>
+[62 <./Images//Hankels.png>] [63]
+<Images//1d_scatt.png, id=1580, 291.33844pt x 177.66376pt>
 File: Images//1d_scatt.png Graphic file (type png)
 <use Images//1d_scatt.png>
 Package pdftex.def Info: Images//1d_scatt.png  used on input line 184.
 (pdftex.def)             Requested size: 174.8044pt x 106.59906pt.
- [62 <./Images//1d_scatt.png>] [63] [64]
-[65] [66] [67]
-<Images//impulse_scatt.png, id=1619, 348.55219pt x 121.95563pt>
+ [64 <./Images//1d_scatt.png>] [65] [66]
+[67] [68] [69]
+<Images//impulse_scatt.png, id=1647, 348.55219pt x 121.95563pt>
 File: Images//impulse_scatt.png Graphic file (type png)
 <use Images//impulse_scatt.png>
 Package pdftex.def Info: Images//impulse_scatt.png  used on input line 384.
 (pdftex.def)             Requested size: 174.27565pt x 60.97765pt.
- [68 <./Images//impulse_scatt.png>]
-<Images//born_series.png, id=1635, 707.64375pt x 140.02313pt>
+ [70 <./Images//impulse_scatt.png>]
+<Images//born_series.png, id=1663, 707.64375pt x 140.02313pt>
 File: Images//born_series.png Graphic file (type png)
 <use Images//born_series.png>
 Package pdftex.def Info: Images//born_series.png  used on input line 413.
 (pdftex.def)             Requested size: 353.82101pt x 70.01138pt.
- [69 <./Images//born_series.png>]
-<Images//2000px-Bhabha_S_channel.svg.png, id=1648, 2007.5pt x 2007.5pt>
+ [71 <./Images//born_series.png>]
+<Images//2000px-Bhabha_S_channel.svg.png, id=1677, 2007.5pt x 2007.5pt>
 File: Images//2000px-Bhabha_S_channel.svg.png Graphic file (type png)
 <use Images//2000px-Bhabha_S_channel.svg.png>
 Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
  line 428.
 (pdftex.def)             Requested size: 200.76175pt x 200.76175pt.
-) [70 <./Images//2000px-Bhabha_S_channel.svg.png>]
+) [72 <./Images//2000px-Bhabha_S_channel.svg.png>]
 \openout2 = `./TeX_files/chapter10.aux'.
 
  (TeX_files/chapter10.tex
@@ -1188,13 +1191,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71
+ [73
 
 
 
 
 ]
-[72]
+[74]
 \openout2 = `./TeX_files/chapter11.aux'.
 
  (TeX_files/chapter11.tex
@@ -1207,7 +1210,7 @@ Overfull \hbox (1.46979pt too wide) in paragraph at lines 4--4
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73
+ [75
 
 
 
@@ -1216,12 +1219,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (25.68343pt too high) has occurred while \output is active []
 
 
-[74]
+[76]
 \openout2 = `./TeX_files/chapter14.aux'.
 
  (TeX_files/chapter14.tex
 Chapter 12.
-) [75
+) [77
 
 
 
@@ -1229,14 +1232,14 @@ Chapter 12.
 ]
 \openout2 = `./TeX_files/Appendix_A_Analytical_Mechanics.aux'.
 
- (TeX_files/Appendix_A_Analytical_Mechanics.tex [76
+ (TeX_files/Appendix_A_Analytical_Mechanics.tex [78
 
 
 
 
 ]
 Appendix A.
-) [77] [78
+) [79] [80
 
 
 
@@ -1251,49 +1254,46 @@ Package rerunfilecheck Warning: File `QM.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `QM.out':
-(rerunfilecheck)             Before: 4F84FB8B126766CCA42ECF789A94B89B;14385
-(rerunfilecheck)             After:  0EA57F1C108719C7D2BDF33F5B4EE552;14303.
+(rerunfilecheck)             Before: 0CA231F318237221293AAB7182A4664A;14617
+(rerunfilecheck)             After:  7DF04FB1AC2DCF0EC6E4C46C3558CCE2;14617.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18787 strings out of 480236
- 349648 string characters out of 2886654
- 731724 words of memory out of 3000000
- 34295 multiletter control sequences out of 15000+200000
+ 18797 strings out of 480236
+ 349754 string characters out of 2886654
+ 731728 words of memory out of 3000000
+ 34299 multiletter control sequences out of 15000+200000
  555698 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,14n,88p,1047b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.2.24.11} has been referenced but does 
-not exist, replaced by a fixed one
-
- <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1056\
-callig15.pk> <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\tcrm1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts
-/cm/cmbsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmb
-xti10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D
-:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.L
-ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Librar
-y/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. 
-Software/MikTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Softw
-are/MikTek/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/M
-ikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/
-public/amsfonts/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm
-/cmti12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbol
-s/msbm10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/rsfs/rsfs10.pf
-b>
-Output written on QM.pdf (86 pages, 969263 bytes).
+ <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi105
+6\callig15.pk> <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\tcrm1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
+ts/cm/cmbsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/c
+mbxti10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cme
+x10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0
+.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Libr
+ary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0
+. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Sof
+tware/MikTek/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software
+/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTe
+k/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/font
+s/type1/public/amsfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type
+1/public/amsfonts/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public
+/amsfonts/cm/cmsy6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/rsfs/rsfs10.
+pfb>
+Output written on QM.pdf (88 pages, 973115 bytes).
 PDF statistics:
- 1884 PDF objects out of 2073 (max. 8388607)
- 559 named destinations out of 1000 (max. 500000)
- 1656 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1913 PDF objects out of 2073 (max. 8388607)
+ 565 named destinations out of 1000 (max. 500000)
+ 1688 words of extra memory for PDF output out of 10000 (max. 10000000)
 

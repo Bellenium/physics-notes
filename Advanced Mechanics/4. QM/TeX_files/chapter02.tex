@@ -1,7 +1,8 @@
 \chapter{Formalism}
+\section{State Vector}
 In Quantum Mechanics, we start with an object called the state vector $\ket{\psi}$. All the information about the system is contained in it. The position basis representation of the state vector is called the wavefunction $\psi (\vec{x}, t)$. \\
 If we wish to know about a particular physical measurable such as an object's position of momentum, we can extract this information from the State vector by means of acting on with an Operator that corresponds to the measurable quantity.\\
-
+\section{Observables}
 To get down to even more specifics if I consider an observable $\hat{O}$, then in general I have the form:
 \begin{equation}
 	\hat{O} \ket{\psi} = o \ket{\psi}
@@ -10,6 +11,8 @@ Where, $o$ is an Eigenvalue . The only types of operators that are constrained i
 \begin{equation}
 	content...
 \end{equation}
+\section{Time Evolution}
+\subsection{Schrodinger Picture}
 Where\\
 If we consider the Schrodinger picture i.e. the State vector evovles with time whereas the Observables are in a loose sense eternal. The time evolution of the state vector is given by the Schrodinger equation:
 \begin{equation}
@@ -23,7 +26,10 @@ in terms of the Wavefunction. Where, $\hat{H}$ is the Hamiltonian operator, whic
 \begin{equation}
 	\hat{H} = -\frac{\hbar^{2} \nabla^2}{2m} + V(\vec{x})
 \end{equation}
-for a free particle. According to Born's rule
+for a free particle. 
+\section{Measurement}
+Measurement is defined as a form of time-evolution that is non-unitary and non-deterministic. 
+According to Born's rule
 \begin{equation}
 	\int_{a}^{b} \abs{\psi(\vec{x}, t)}^{2} dx = \text{Probability of finding the particle at a time t between positions a and b}
 \end{equation}
