@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  4 NOV 2020 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  8 NOV 2020 07:52
 entering extended mode
 **./QM.tex
 (QM.tex
@@ -1248,14 +1248,9 @@ Appendix A.
 (TeX_files/chapter05.aux) (TeX_files/chapter07.aux) (TeX_files/chapter08.aux)
 (TeX_files/chapter09.aux) (TeX_files/chapter10.aux) (TeX_files/chapter11.aux)
 (TeX_files/chapter14.aux) (TeX_files/Appendix_A_Analytical_Mechanics.aux))
+Package rerunfilecheck Info: File `QM.out' has not changed.
+(rerunfilecheck)             Checksum: 7DF04FB1AC2DCF0EC6E4C46C3558CCE2;14617.
 
-Package rerunfilecheck Warning: File `QM.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `QM.out':
-(rerunfilecheck)             Before: 0CA231F318237221293AAB7182A4664A;14617
-(rerunfilecheck)             After:  7DF04FB1AC2DCF0EC6E4C46C3558CCE2;14617.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1263,7 +1258,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  18797 strings out of 480236
  349754 string characters out of 2886654
- 731728 words of memory out of 3000000
+ 731727 words of memory out of 3000000
  34299 multiletter control sequences out of 15000+200000
  555698 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
