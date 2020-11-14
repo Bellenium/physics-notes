@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  12 NOV 2020 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  14 NOV 2020 13:52
 entering extended mode
 **./AM.tex
 (AM.tex
@@ -622,8 +622,15 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@delta=\dimen278
 \TX@cols=\count297
 \TX@ftn=\toks36
-)
-No file AM.aux.
+) (AM.aux
+(TeX_files/chapter13.aux) (TeX_files/chapter01.aux) (TeX_files/chapter02.aux
+
+LaTeX Warning: Label `norm' multiply defined.
+
+) (TeX_files/chapter03.aux) (TeX_files/chapter04.aux) (TeX_files/chapter05.aux)
+(TeX_files/chapter07.aux) (TeX_files/chapter08.aux) (TeX_files/chapter09.aux)
+(TeX_files/chapter10.aux) (TeX_files/chapter11.aux) (TeX_files/chapter14.aux)
+(TeX_files/Appendix_A_Analytical_Mechanics.aux) (TeX_files/Appendix_B_CFT.aux))
 \openout1 = `AM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -677,12 +684,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
+ (AM.out) (AM.out)
 \@outlinefile=\write6
 \openout6 = `AM.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
- ("D:\0.Library\0. Software\MikTek\tex/latex/amsfonts\umsa.fd"
+
+("D:\0.Library\0. Software\MikTek\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
@@ -702,19 +711,19 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {C:/Users/Pugazh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
-]
+] (AM.toc [3] [4]
+[5] [6] [7] [8])
 \tf@toc=\write7
 \openout7 = `AM.toc'.
 
- [3] [4
+ [9] [10
 
 ] [1
 
 ] [2]
 \openout2 = `./TeX_files/chapter13.aux'.
 
-
-(TeX_files/chapter13.tex
+ (TeX_files/chapter13.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -786,7 +795,7 @@ Chapter 2.
 
 
 ]
-<Images//wessel-plane.png, id=117, 2007.5pt x 2823.54875pt>
+<Images//wessel-plane.png, id=1239, 2007.5pt x 2823.54875pt>
 File: Images//wessel-plane.png Graphic file (type png)
 <use Images//wessel-plane.png>
 Package pdftex.def Info: Images//wessel-plane.png  used on input line 37.
@@ -804,9 +813,6 @@ m/it/12 dx \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 x[]x \OT1/cmr/m/n/12 + \OML/cmm
  []
 
 [17]
-
-LaTeX Warning: Reference `posex' on page 18 undefined on input line 171.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 199.
@@ -832,27 +838,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 199.
 
 [18]
-<Images//delta-distribution.png, id=226, 621.07031pt x 381.67593pt>
+<Images//delta-distribution.png, id=1320, 621.07031pt x 381.67593pt>
 File: Images//delta-distribution.png Graphic file (type png)
 <use Images//delta-distribution.png>
 Package pdftex.def Info: Images//delta-distribution.png  used on input line 226
 .
 (pdftex.def)             Requested size: 310.5344pt x 190.8375pt.
-
-
-LaTeX Warning: Reference `del2' on page 19 undefined on input line 229.
-
-[19]
-
-LaTeX Warning: Reference `deltadef' on page 20 undefined on input line 258.
-
+ [19]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 26.39996pt on input line 267.
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 17.59998pt on input line 267.
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 13.19998pt on input line 267.
-[20 <./Images//delta-distribution.png>]
+ [20 <./Images//delta-distribution.png>]
 Underfull \vbox (badness 4096) has occurred while \output is active []
 
  [21]
@@ -920,32 +919,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  (TeX_files/chapter02.tex
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1466) has occurred while \output is active []
 
  [33
 
 
 ]
-Overfull \hbox (73.61923pt too wide) detected at line 36
+Overfull \hbox (73.61923pt too wide) detected at line 42
 [][] [][] [][]\OML/cmm/m/it/12 dx \OT1/cmr/m/n/12 = []
  []
 
 [34]
-
-LaTeX Warning: Reference `norm' on page 35 undefined on input line 44.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
 [35]
-Overfull \hbox (20.97621pt too wide) in paragraph at lines 74--88
+Overfull \hbox (20.97621pt too wide) in paragraph at lines 80--94
 \OT1/cmr/m/n/12 sub-sti-tute in the right hand of the equa-tion $2\OML/cmm/m/it
 /12 i[] \OMS/cmsy/m/n/12  jh\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 j[][]j\OML/cmm/
 m/it/12  \OMS/cmsy/m/n/12 i  
@@ -1049,7 +1039,7 @@ Chapter 7.
 ]
 Chapter 8.
 [53] [54] [55] [56] [57]
-<Images//feyn-loop.png, id=620, 545.03625pt x 132.495pt>
+<Images//feyn-loop.png, id=1601, 545.03625pt x 132.495pt>
 File: Images//feyn-loop.png Graphic file (type png)
 <use Images//feyn-loop.png>
 Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
@@ -1058,17 +1048,13 @@ Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58] [59 <./Images//feyn-loop.png>]
-
-LaTeX Warning: Reference `zeeman_def' on page 60 undefined on input line 256.
-
-[60]
-<Images//strong-split.png, id=652, 618.31pt x 532.99126pt>
+[58] [59 <./Images//feyn-loop.png>] [60]
+<Images//strong-split.png, id=1631, 618.31pt x 532.99126pt>
 File: Images//strong-split.png Graphic file (type png)
 <use Images//strong-split.png>
 Package pdftex.def Info: Images//strong-split.png  used on input line 308.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images//weak-split.png, id=653, 371.3875pt x 405.515pt>
+<Images//weak-split.png, id=1632, 371.3875pt x 405.515pt>
 File: Images//weak-split.png Graphic file (type png)
 <use Images//weak-split.png>
 Package pdftex.def Info: Images//weak-split.png  used on input line 313.
@@ -1084,12 +1070,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
  [63 <./Images//weak-split.png>]
-<Images//zee-table.png, id=686, 683.55376pt x 377.41pt>
+<Images//zee-table.png, id=1662, 683.55376pt x 377.41pt>
 File: Images//zee-table.png Graphic file (type png)
 <use Images//zee-table.png>
 Package pdftex.def Info: Images//zee-table.png  used on input line 384.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images//intermediate-split.png, id=687, 491.8375pt x 646.415pt>
+<Images//intermediate-split.png, id=1663, 491.8375pt x 646.415pt>
 File: Images//intermediate-split.png Graphic file (type png)
 <use Images//intermediate-split.png>
 Package pdftex.def Info: Images//intermediate-split.png  used on input line 389
@@ -1103,7 +1089,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [64] [65 <./Images//zee-table.png>] [66 <./Images//intermediate-split.png>]
-<Images//hyp-split.png, id=717, 748.7975pt x 401.5pt>
+<Images//hyp-split.png, id=1692, 748.7975pt x 401.5pt>
 File: Images//hyp-split.png Graphic file (type png)
 <use Images//hyp-split.png>
 Package pdftex.def Info: Images//hyp-split.png  used on input line 438.
@@ -1119,7 +1105,7 @@ Package pdftex.def Info: Images//hyp-split.png  used on input line 438.
 
 ]
 Chapter 9.
-<Images//ClassicalScattering.png, id=730, 171.64125pt x 132.495pt>
+<Images//ClassicalScattering.png, id=1705, 171.64125pt x 132.495pt>
 File: Images//ClassicalScattering.png Graphic file (type png)
 <use Images//ClassicalScattering.png>
 Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
@@ -1130,7 +1116,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69]
 [70 <./Images//ClassicalScattering.png>]
-<Images//DiffScattering.png, id=745, 383.031pt x 169.8345pt>
+<Images//DiffScattering.png, id=1716, 383.031pt x 169.8345pt>
 File: Images//DiffScattering.png Graphic file (type png)
 <use Images//DiffScattering.png>
 Package pdftex.def Info: Images//DiffScattering.png  used on input line 46.
@@ -1143,7 +1129,7 @@ ent plane wave,$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m
  []
 
 [72] [73]
-<Images//Hankels.png, id=781, 507.0945pt x 205.9695pt>
+<Images//Hankels.png, id=1746, 507.0945pt x 205.9695pt>
 File: Images//Hankels.png Graphic file (type png)
 <use Images//Hankels.png>
 Package pdftex.def Info: Images//Hankels.png  used on input line 119.
@@ -1154,16 +1140,12 @@ Overfull \hbox (15.67613pt too wide) in paragraph at lines 119--120
  []
 
 [74 <./Images//Hankels.png>] [75]
-<Images//1d_scatt.png, id=805, 291.33844pt x 177.66376pt>
+<Images//1d_scatt.png, id=1769, 291.33844pt x 177.66376pt>
 File: Images//1d_scatt.png Graphic file (type png)
 <use Images//1d_scatt.png>
 Package pdftex.def Info: Images//1d_scatt.png  used on input line 184.
 (pdftex.def)             Requested size: 174.8044pt x 106.59906pt.
- [76 <./Images//1d_scatt.png>]
-
-LaTeX Warning: Reference `tobeass' on page 77 undefined on input line 217.
-
-[77]
+ [76 <./Images//1d_scatt.png>] [77]
 ! Extra }, or forgotten $.
 l.254 	\psi(\vec{r}) = \int G(\vec{r}}
                                        - \vec{r_{0}}) Q(\vec{r_{0}}) d^{3}\v...
@@ -1174,28 +1156,18 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [78] [79] [80] [81] [82]
-<Images//impulse_scatt.png, id=885, 348.55219pt x 121.95563pt>
+<Images//impulse_scatt.png, id=1845, 348.55219pt x 121.95563pt>
 File: Images//impulse_scatt.png Graphic file (type png)
 <use Images//impulse_scatt.png>
 Package pdftex.def Info: Images//impulse_scatt.png  used on input line 412.
 (pdftex.def)             Requested size: 174.27565pt x 60.97765pt.
  [83 <./Images//impulse_scatt.png>]
-
-LaTeX Warning: Reference `schrod_int_2' on page 84 undefined on input line 431.
-
-
-<Images//born_series.png, id=899, 707.64375pt x 140.02313pt>
+<Images//born_series.png, id=1859, 707.64375pt x 140.02313pt>
 File: Images//born_series.png Graphic file (type png)
 <use Images//born_series.png>
 Package pdftex.def Info: Images//born_series.png  used on input line 441.
 (pdftex.def)             Requested size: 353.82101pt x 70.01138pt.
-
-LaTeX Warning: Reference `dysonseries' on page 84 undefined on input line 444.
-
-
-LaTeX Warning: Reference `born_diag' on page 84 undefined on input line 453.
-
-<Images//2000px-Bhabha_S_channel.svg.png, id=901, 2007.5pt x 2007.5pt>
+<Images//2000px-Bhabha_S_channel.svg.png, id=1863, 2007.5pt x 2007.5pt>
 File: Images//2000px-Bhabha_S_channel.svg.png Graphic file (type png)
 <use Images//2000px-Bhabha_S_channel.svg.png>
 Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
@@ -1205,7 +1177,8 @@ Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
 ng>]
 \openout2 = `./TeX_files/chapter10.aux'.
 
- (TeX_files/chapter10.tex [86
+
+(TeX_files/chapter10.tex [86
 
 
 
@@ -1312,26 +1285,18 @@ Overfull \hbox (10.36775pt too wide) in paragraph at lines 6--6
 (TeX_files/chapter09.aux) (TeX_files/chapter10.aux) (TeX_files/chapter11.aux)
 (TeX_files/chapter14.aux) (TeX_files/Appendix_A_Analytical_Mechanics.aux)
 (TeX_files/Appendix_B_CFT.aux))
-
-Package rerunfilecheck Warning: File `AM.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AM.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0442EFA82C60D0527EA01BD20B05ABDE;16235.
-
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Info: File `AM.out' has not changed.
+(rerunfilecheck)             Checksum: 0442EFA82C60D0527EA01BD20B05ABDE;16235.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18618 strings out of 480236
- 345150 string characters out of 2886654
- 725202 words of memory out of 3000000
- 34092 multiletter control sequences out of 15000+200000
+ 18899 strings out of 480236
+ 351077 string characters out of 2886654
+ 732279 words of memory out of 3000000
+ 34330 multiletter control sequences out of 15000+200000
  555867 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,14n,88p,1047b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1359,9 +1324,9 @@ cm/cmti12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/c
 mti8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on AM.pdf (101 pages, 912757 bytes).
+Output written on AM.pdf (107 pages, 1026244 bytes).
 PDF statistics:
- 1218 PDF objects out of 1440 (max. 8388607)
- 621 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2148 PDF objects out of 2487 (max. 8388607)
+ 628 named destinations out of 1000 (max. 500000)
+ 1872 words of extra memory for PDF output out of 10000 (max. 10000000)
 

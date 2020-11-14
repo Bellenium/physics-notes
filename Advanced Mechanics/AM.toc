@@ -119,6 +119,7 @@
 \contentsline {section}{\numberline {3.2}Observables}{33}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Time Evolution}{34}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Schrodinger Picture}{34}{subsection.3.3.1}%
+\contentsline {subsubsection}{Different Types of Schrodinger Dynamics}{34}{section*.26}%
 \contentsline {subsection}{\numberline {3.3.2}Heisenberg Picture}{34}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Measurement}{34}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Normalization}{35}{section.3.5}%
@@ -210,9 +211,9 @@
 \contentsline {subsection}{\numberline {9.5.1}Integral Form of the Schrodinger Equation}{78}{subsection.9.5.1}%
 \contentsline {subsection}{\numberline {9.5.2}The First Born Approximation}{80}{subsection.9.5.2}%
 \contentsline {subsection}{\numberline {9.5.3}Examples}{82}{subsection.9.5.3}%
-\contentsline {subsubsection}{Low-energy soft-sphere scattering}{82}{section*.26}%
-\contentsline {subsubsection}{Yukawa Scattering}{82}{section*.27}%
-\contentsline {subsubsection}{Rutherford Scattering}{83}{section*.28}%
+\contentsline {subsubsection}{Low-energy soft-sphere scattering}{82}{section*.27}%
+\contentsline {subsubsection}{Yukawa Scattering}{82}{section*.28}%
+\contentsline {subsubsection}{Rutherford Scattering}{83}{section*.29}%
 \contentsline {subsection}{\numberline {9.5.4}The Born series}{83}{subsection.9.5.4}%
 \contentsline {chapter}{\numberline {10}Path Integral Formulation}{87}{chapter.10}%
 \contentsline {section}{\numberline {10.1}The Path Integral Recepie}{87}{section.10.1}%
