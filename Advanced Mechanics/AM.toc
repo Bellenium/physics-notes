@@ -12,107 +12,106 @@
 \contentsline {section}{\numberline {1.7}Davidsson-Germer Experiment}{8}{section.1.7}%
 \contentsline {part}{II\hspace {1em}Tools}{9}{part.2}%
 \contentsline {chapter}{\numberline {2}Mathematical Preliminaries}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Vector Calculus}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Complex Numbers}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Addition}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Multiplication}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Properties}{11}{subsection.2.2.3}%
-\contentsline {subsubsection}{Commutativity}{12}{section*.2}%
+\contentsline {section}{\numberline {2.1}Complex Numbers}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Addition}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Multiplication}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Properties}{11}{subsection.2.1.3}%
+\contentsline {subsubsection}{Commutativity}{11}{section*.2}%
 \contentsline {subsubsection}{Associativity}{12}{section*.3}%
 \contentsline {subsubsection}{Identities}{12}{section*.4}%
 \contentsline {subsubsection}{Additive Inverse}{12}{section*.5}%
 \contentsline {subsubsection}{Multiplicative Inverse}{12}{section*.6}%
 \contentsline {subsubsection}{Distributive Property}{12}{section*.7}%
-\contentsline {subsection}{\numberline {2.2.4}Notation}{12}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Wessel Plane}{12}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Vector Analysis}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Solving PDEs}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Linear Vector Spaces}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Commutativity}{13}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Associativity}{13}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Additive Identity}{13}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Additive Inverse}{14}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Multiplicative identity}{14}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Distributive properties}{14}{subsection.2.5.6}%
-\contentsline {section}{\numberline {2.6}Inner Product Spaces}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Dual Spaces}{14}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Dirac Notation}{14}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Subspaces}{14}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Hilbert Spaces}{15}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Linear Operators}{15}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Eigenvalue Problem}{15}{section.2.12}%
-\contentsline {section}{\numberline {2.13}Eigenfunctions of a Hermitian Operator}{15}{section.2.13}%
-\contentsline {section}{\numberline {2.14}Transformations}{15}{section.2.14}%
-\contentsline {subsection}{\numberline {2.14.1}Active Tranformation}{15}{subsection.2.14.1}%
-\contentsline {subsection}{\numberline {2.14.2}Passive Tranformation}{16}{subsection.2.14.2}%
-\contentsline {subsection}{\numberline {2.14.3}Equivalence of Transformation types}{16}{subsection.2.14.3}%
-\contentsline {section}{\numberline {2.15}Functions of Operators}{16}{section.2.15}%
-\contentsline {section}{\numberline {2.16}Generalization to Infinite Dimensions}{16}{section.2.16}%
-\contentsline {section}{\numberline {2.17}Probability}{16}{section.2.17}%
-\contentsline {subsection}{\numberline {2.17.1}Discrete Variables}{16}{subsection.2.17.1}%
-\contentsline {subsection}{\numberline {2.17.2}Continuous Variables}{17}{subsection.2.17.2}%
-\contentsline {section}{\numberline {2.18}Expectation Values}{18}{section.2.18}%
-\contentsline {section}{\numberline {2.19}Fourier Analysis}{19}{section.2.19}%
-\contentsline {subsection}{\numberline {2.19.1}Dirichelet's Theorem}{19}{subsection.2.19.1}%
-\contentsline {subsection}{\numberline {2.19.2}Fourier Transform}{19}{subsection.2.19.2}%
-\contentsline {section}{\numberline {2.20}Delta Function}{19}{section.2.20}%
-\contentsline {subsection}{\numberline {2.20.1}The Divergence of $\frac {\hat {r}}{r^{2}}$}{19}{subsection.2.20.1}%
-\contentsline {subsection}{\numberline {2.20.2}The One-Dimensional Dirac Delta Functional}{19}{subsection.2.20.2}%
+\contentsline {subsection}{\numberline {2.1.4}Notation}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Wessel Plane}{12}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Vector Analysis}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Solving PDEs}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Linear Vector Spaces}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Commutativity}{13}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Associativity}{13}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Additive Identity}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Additive Inverse}{13}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Multiplicative identity}{14}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Distributive properties}{14}{subsection.2.4.6}%
+\contentsline {section}{\numberline {2.5}Inner Product Spaces}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Dual Spaces}{14}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Dirac Notation}{14}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Subspaces}{14}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Hilbert Spaces}{15}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Linear Operators}{15}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Eigenvalue Problem}{15}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Eigenfunctions of a Hermitian Operator}{15}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Transformations}{15}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}Active Tranformation}{15}{subsection.2.13.1}%
+\contentsline {subsection}{\numberline {2.13.2}Passive Tranformation}{15}{subsection.2.13.2}%
+\contentsline {subsection}{\numberline {2.13.3}Equivalence of Transformation types}{16}{subsection.2.13.3}%
+\contentsline {section}{\numberline {2.14}Functions of Operators}{16}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Generalization to Infinite Dimensions}{16}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Probability}{16}{section.2.16}%
+\contentsline {subsection}{\numberline {2.16.1}Discrete Variables}{16}{subsection.2.16.1}%
+\contentsline {subsection}{\numberline {2.16.2}Continuous Variables}{17}{subsection.2.16.2}%
+\contentsline {section}{\numberline {2.17}Expectation Values}{18}{section.2.17}%
+\contentsline {section}{\numberline {2.18}Fourier Analysis}{19}{section.2.18}%
+\contentsline {subsection}{\numberline {2.18.1}Dirichelet's Theorem}{19}{subsection.2.18.1}%
+\contentsline {subsection}{\numberline {2.18.2}Fourier Transform}{19}{subsection.2.18.2}%
+\contentsline {section}{\numberline {2.19}Delta Function}{19}{section.2.19}%
+\contentsline {subsection}{\numberline {2.19.1}The Divergence of $\frac {\hat {r}}{r^{2}}$}{19}{subsection.2.19.1}%
+\contentsline {subsection}{\numberline {2.19.2}The One-Dimensional Dirac Delta Functional}{19}{subsection.2.19.2}%
 \contentsline {subsubsection}{A few interesting properties}{20}{section*.8}%
-\contentsline {subsection}{\numberline {2.20.3}The Three-Dimensional Dirac Delta Function}{20}{subsection.2.20.3}%
-\contentsline {subsection}{\numberline {2.20.4}Integral representation}{21}{subsection.2.20.4}%
-\contentsline {section}{\numberline {2.21}Complex Analysis}{22}{section.2.21}%
-\contentsline {subsection}{\numberline {2.21.1}Analytic Function}{22}{subsection.2.21.1}%
-\contentsline {subsection}{\numberline {2.21.2}A few important relations}{22}{subsection.2.21.2}%
+\contentsline {subsection}{\numberline {2.19.3}The Three-Dimensional Dirac Delta Function}{20}{subsection.2.19.3}%
+\contentsline {subsection}{\numberline {2.19.4}Integral representation}{21}{subsection.2.19.4}%
+\contentsline {section}{\numberline {2.20}Complex Analysis}{22}{section.2.20}%
+\contentsline {subsection}{\numberline {2.20.1}Analytic Function}{22}{subsection.2.20.1}%
+\contentsline {subsection}{\numberline {2.20.2}A few important relations}{22}{subsection.2.20.2}%
 \contentsline {subsubsection}{Cauchy-Riemann Equations}{22}{section*.9}%
 \contentsline {subsubsection}{Laplace Equation}{22}{section*.10}%
-\contentsline {section}{\numberline {2.22}Gaussian Integrals}{22}{section.2.22}%
-\contentsline {subsection}{\numberline {2.22.1}Special Cases}{22}{subsection.2.22.1}%
-\contentsline {subsection}{\numberline {2.22.2}Gamma function}{23}{subsection.2.22.2}%
-\contentsline {section}{\numberline {2.23}The $i \epsilon $ Prescription}{23}{section.2.23}%
-\contentsline {section}{\numberline {2.24}Permutation Functions}{24}{section.2.24}%
-\contentsline {subsection}{\numberline {2.24.1}Kronecker delta}{24}{subsection.2.24.1}%
-\contentsline {subsection}{\numberline {2.24.2}Levi-Civita Pseudotensor}{24}{subsection.2.24.2}%
+\contentsline {section}{\numberline {2.21}Gaussian Integrals}{22}{section.2.21}%
+\contentsline {subsection}{\numberline {2.21.1}Special Cases}{22}{subsection.2.21.1}%
+\contentsline {subsection}{\numberline {2.21.2}Gamma function}{23}{subsection.2.21.2}%
+\contentsline {section}{\numberline {2.22}The $i \epsilon $ Prescription}{23}{section.2.22}%
+\contentsline {section}{\numberline {2.23}Permutation Functions}{24}{section.2.23}%
+\contentsline {subsection}{\numberline {2.23.1}Kronecker delta}{24}{subsection.2.23.1}%
+\contentsline {subsection}{\numberline {2.23.2}Levi-Civita Pseudotensor}{24}{subsection.2.23.2}%
 \contentsline {subsubsection}{Identities}{24}{section*.11}%
-\contentsline {section}{\numberline {2.25}Tensors}{24}{section.2.25}%
-\contentsline {subsection}{\numberline {2.25.1}Vector Transformation Rules}{24}{subsection.2.25.1}%
-\contentsline {subsection}{\numberline {2.25.2}Index Notation}{25}{subsection.2.25.2}%
-\contentsline {subsubsection}{Einstein Notation i.e. Summing convention}{25}{section*.12}%
+\contentsline {section}{\numberline {2.24}Tensors}{24}{section.2.24}%
+\contentsline {subsection}{\numberline {2.24.1}Vector Transformation Rules}{24}{subsection.2.24.1}%
+\contentsline {subsection}{\numberline {2.24.2}Index Notation}{26}{subsection.2.24.2}%
+\contentsline {subsubsection}{Einstein Notation i.e. Summing convention}{26}{section*.12}%
 \contentsline {subsubsection}{Index Convention}{26}{section*.13}%
-\contentsline {subsection}{\numberline {2.25.3}Covectors}{26}{subsection.2.25.3}%
+\contentsline {subsection}{\numberline {2.24.3}Covectors}{26}{subsection.2.24.3}%
 \contentsline {subsubsection}{Contravariant Components}{27}{section*.14}%
 \contentsline {subsubsection}{Covariant Components}{27}{section*.15}%
 \contentsline {subsubsection}{Relationship Between the Two Types of Components}{27}{section*.16}%
-\contentsline {subsubsection}{Using Cramer's Method to find Components}{27}{section*.17}%
-\contentsline {subsection}{\numberline {2.25.4}Linear Maps}{27}{subsection.2.25.4}%
-\contentsline {subsection}{\numberline {2.25.5}Metric Tensor}{28}{subsection.2.25.5}%
-\contentsline {subsection}{\numberline {2.25.6}Bilinear Forms}{29}{subsection.2.25.6}%
-\contentsline {subsection}{\numberline {2.25.7}Tensor Products}{29}{subsection.2.25.7}%
-\contentsline {subsection}{\numberline {2.25.8}Definition of a Tensor}{29}{subsection.2.25.8}%
-\contentsline {subsection}{\numberline {2.25.9}Raising and Lowering Indices}{29}{subsection.2.25.9}%
-\contentsline {section}{\numberline {2.26}Covariant Quantities}{29}{section.2.26}%
-\contentsline {subsection}{\numberline {2.26.1}Contravariant Quantities}{29}{subsection.2.26.1}%
-\contentsline {subsection}{\numberline {2.26.2}Clearer Definitions}{29}{subsection.2.26.2}%
-\contentsline {subsection}{\numberline {2.26.3}Covariant Differentiation}{29}{subsection.2.26.3}%
-\contentsline {section}{\numberline {2.27}Variational Calculus}{29}{section.2.27}%
-\contentsline {subsection}{\numberline {2.27.1}The Euler-Lagrangian Equation}{30}{subsection.2.27.1}%
-\contentsline {subsection}{\numberline {2.27.2}The "Second Form" of the Euler Equation}{30}{subsection.2.27.2}%
-\contentsline {subsection}{\numberline {2.27.3}The "$\delta $" Notation}{30}{subsection.2.27.3}%
-\contentsline {subsection}{\numberline {2.27.4}Special Cases}{30}{subsection.2.27.4}%
+\contentsline {subsubsection}{Using Cramer's Method to find Components}{28}{section*.17}%
+\contentsline {subsection}{\numberline {2.24.4}Linear Maps}{28}{subsection.2.24.4}%
+\contentsline {subsection}{\numberline {2.24.5}Metric Tensor}{28}{subsection.2.24.5}%
+\contentsline {subsection}{\numberline {2.24.6}Bilinear Forms}{29}{subsection.2.24.6}%
+\contentsline {subsection}{\numberline {2.24.7}Tensor Products}{29}{subsection.2.24.7}%
+\contentsline {subsection}{\numberline {2.24.8}Definition of a Tensor}{29}{subsection.2.24.8}%
+\contentsline {subsection}{\numberline {2.24.9}Raising and Lowering Indices}{29}{subsection.2.24.9}%
+\contentsline {section}{\numberline {2.25}Covariant Quantities}{29}{section.2.25}%
+\contentsline {subsection}{\numberline {2.25.1}Contravariant Quantities}{29}{subsection.2.25.1}%
+\contentsline {subsection}{\numberline {2.25.2}Clearer Definitions}{29}{subsection.2.25.2}%
+\contentsline {subsection}{\numberline {2.25.3}Covariant Differentiation}{29}{subsection.2.25.3}%
+\contentsline {section}{\numberline {2.26}Variational Calculus}{29}{section.2.26}%
+\contentsline {subsection}{\numberline {2.26.1}The Euler-Lagrangian Equation}{30}{subsection.2.26.1}%
+\contentsline {subsection}{\numberline {2.26.2}The "Second Form" of the Euler Equation}{30}{subsection.2.26.2}%
+\contentsline {subsection}{\numberline {2.26.3}The "$\delta $" Notation}{30}{subsection.2.26.3}%
+\contentsline {subsection}{\numberline {2.26.4}Special Cases}{30}{subsection.2.26.4}%
 \contentsline {subsubsection}{$F$ Does Not Contain $y$ Explicitly}{30}{section*.18}%
 \contentsline {subsubsection}{$F$ Does Not Contain $x$ Explicitly}{30}{section*.19}%
-\contentsline {subsection}{\numberline {2.27.5}Some extensions}{30}{subsection.2.27.5}%
+\contentsline {subsection}{\numberline {2.26.5}Some extensions}{30}{subsection.2.26.5}%
 \contentsline {subsubsection}{Several Dependent Variables}{30}{section*.20}%
 \contentsline {subsubsection}{Several Independent Variables}{30}{section*.21}%
 \contentsline {subsubsection}{Higher-Order Derivatives}{30}{section*.22}%
 \contentsline {subsubsection}{Variable End-Points}{30}{section*.23}%
-\contentsline {subsection}{\numberline {2.27.6}Constrained Variation}{30}{subsection.2.27.6}%
-\contentsline {subsection}{\numberline {2.27.7}Physical Variational Principles}{30}{subsection.2.27.7}%
+\contentsline {subsection}{\numberline {2.26.6}Constrained Variation}{30}{subsection.2.26.6}%
+\contentsline {subsection}{\numberline {2.26.7}Physical Variational Principles}{30}{subsection.2.26.7}%
 \contentsline {subsubsection}{Fermat's Principle in Optics}{30}{section*.24}%
 \contentsline {subsubsection}{Hamilton's Principle in Mechanics}{30}{section*.25}%
-\contentsline {subsection}{\numberline {2.27.8}General Eigenvalue Problem}{30}{subsection.2.27.8}%
-\contentsline {subsection}{\numberline {2.27.9}Estimation of Eigenvalues and Eigenfunctions}{30}{subsection.2.27.9}%
-\contentsline {subsection}{\numberline {2.27.10}Adjustment of Parameters}{30}{subsection.2.27.10}%
+\contentsline {subsection}{\numberline {2.26.8}General Eigenvalue Problem}{30}{subsection.2.26.8}%
+\contentsline {subsection}{\numberline {2.26.9}Estimation of Eigenvalues and Eigenfunctions}{30}{subsection.2.26.9}%
+\contentsline {subsection}{\numberline {2.26.10}Adjustment of Parameters}{30}{subsection.2.26.10}%
 \contentsline {part}{III\hspace {1em}Rules}{31}{part.3}%
 \contentsline {chapter}{\numberline {3}Formalism}{33}{chapter.3}%
 \contentsline {section}{\numberline {3.1}State Vector}{33}{section.3.1}%
@@ -122,55 +121,54 @@
 \contentsline {subsubsection}{Different Types of Schrodinger Dynamics}{34}{section*.26}%
 \contentsline {subsection}{\numberline {3.3.2}Heisenberg Picture}{34}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Measurement}{34}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Normalization}{35}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Summary of Postulates}{36}{section.3.6}%
+\contentsline {section}{\numberline {3.5}Summary of Postulates}{35}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Normalization}{35}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Generalized Uncertainty Principle}{36}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Generalized Statistical Interpretation}{37}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Position Measurements}{37}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Momentum Measurements}{37}{subsection.3.8.2}%
-\contentsline {section}{\numberline {3.9}Stationary State}{37}{section.3.9}%
+\contentsline {section}{\numberline {3.8}Summary of Consequences}{37}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Generalized Statistical Interpretation}{37}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Position Measurements}{37}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Momentum Measurements}{37}{subsection.3.9.2}%
+\contentsline {section}{\numberline {3.10}Stationary State}{37}{section.3.10}%
 \contentsline {part}{IV\hspace {1em}Toy Models}{39}{part.4}%
 \contentsline {chapter}{\numberline {4}Toy Models}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Time-Dependent Schrodinger Equation}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Time-Independent Schrodinger Equation}{41}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Stationary States}{41}{section.4.3}%
-\contentsline {section}{\numberline {4.4}The Infinite Square Well}{41}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Harmonic Oscillator}{41}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Free Particle}{41}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Delta-Function Potential}{41}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Finite Square Well}{41}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Wave-Packets}{41}{section.4.9}%
+\contentsline {section}{\numberline {4.1}The Infinite Square Well}{41}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Properties of $\psi _{n}(x)$}{41}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Harmonic Oscillator}{41}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Free Particle}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Delta-Function Potential}{41}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Finite Square Well}{41}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Wave-Packets}{41}{section.4.6}%
 \contentsline {part}{V\hspace {1em}Applications}{43}{part.5}%
-\contentsline {chapter}{\numberline {5}Systems with N degrees of freedom}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Schrodinger Equation in Spherical Coordinates}{45}{section.5.1}%
-\contentsline {section}{\numberline {5.2}The Hydrogen Atom}{45}{section.5.2}%
-\contentsline {section}{\numberline {5.3}N Particles in One Dimension}{45}{section.5.3}%
-\contentsline {section}{\numberline {5.4}More Particles in More Dimensions}{45}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Identical Particles}{45}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Two-Particle Systems}{45}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Atoms}{45}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Solids}{45}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Quantum Statistical Mechanics}{45}{section.5.9}%
-\contentsline {chapter}{\numberline {6}Symmetries and their Consequences}{47}{chapter.6}%
-\contentsline {section}{\numberline {6.1}What is a Symmetry?}{48}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Translational Invariance in Quantum Mechanics}{48}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Time Translational Invariance}{48}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Parity Invariance}{48}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Time-Reversal Symmetry}{48}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Translationals in Two Dimensions}{48}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Rotations in Two Dimensions}{48}{section.6.7}%
-\contentsline {section}{\numberline {6.8}The Eigenvalue Problem of $L_{Z}$}{48}{section.6.8}%
-\contentsline {section}{\numberline {6.9}Angular Momentum in 3-Dimensions}{48}{section.6.9}%
-\contentsline {section}{\numberline {6.10}The Eigenvalue Problem of $L^{2}$ and $L_{Z}$}{48}{section.6.10}%
-\contentsline {section}{\numberline {6.11}Solution to Rotationally Invariant Problems}{48}{section.6.11}%
-\contentsline {section}{\numberline {6.12}What is Spin?}{49}{section.6.12}%
-\contentsline {section}{\numberline {6.13}Kinematics of Spin}{49}{section.6.13}%
-\contentsline {section}{\numberline {6.14}Spin Dynamics}{49}{section.6.14}%
-\contentsline {section}{\numberline {6.15}Return of Orbital Degrees of Freedom}{49}{section.6.15}%
-\contentsline {section}{\numberline {6.16}Addition of Angular Momentum }{49}{section.6.16}%
-\contentsline {subsection}{\numberline {6.16.1}The General Problem}{49}{subsection.6.16.1}%
-\contentsline {subsection}{\numberline {6.16.2}Irreducible Tensor Operators}{49}{subsection.6.16.2}%
-\contentsline {subsection}{\numberline {6.16.3}Explaining some "Accidental" Degeneracies}{49}{subsection.6.16.3}%
+\contentsline {chapter}{\numberline {5}Symmetries and their Consequences}{45}{chapter.5}%
+\contentsline {section}{\numberline {5.1}What is a Symmetry?}{46}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Translational Invariance in Quantum Mechanics}{46}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Time Translational Invariance}{46}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Parity Invariance}{46}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Time-Reversal Symmetry}{46}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Translationals in Two Dimensions}{46}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Rotations in Two Dimensions}{46}{section.5.7}%
+\contentsline {section}{\numberline {5.8}The Eigenvalue Problem of $L_{Z}$}{46}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Angular Momentum in 3-Dimensions}{46}{section.5.9}%
+\contentsline {section}{\numberline {5.10}The Eigenvalue Problem of $L^{2}$ and $L_{Z}$}{46}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Solution to Rotationally Invariant Problems}{46}{section.5.11}%
+\contentsline {section}{\numberline {5.12}What is Spin?}{47}{section.5.12}%
+\contentsline {section}{\numberline {5.13}Kinematics of Spin}{47}{section.5.13}%
+\contentsline {section}{\numberline {5.14}Spin Dynamics}{47}{section.5.14}%
+\contentsline {section}{\numberline {5.15}Return of Orbital Degrees of Freedom}{47}{section.5.15}%
+\contentsline {section}{\numberline {5.16}Addition of Angular Momentum }{47}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}The General Problem}{47}{subsection.5.16.1}%
+\contentsline {subsection}{\numberline {5.16.2}Irreducible Tensor Operators}{47}{subsection.5.16.2}%
+\contentsline {subsection}{\numberline {5.16.3}Explaining some "Accidental" Degeneracies}{47}{subsection.5.16.3}%
+\contentsline {chapter}{\numberline {6}Systems with N degrees of freedom}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Schrodinger Equation in 3 Dimensions}{49}{section.6.1}%
+\contentsline {section}{\numberline {6.2}The Hydrogen Atom}{49}{section.6.2}%
+\contentsline {section}{\numberline {6.3}N Particles in One Dimension}{49}{section.6.3}%
+\contentsline {section}{\numberline {6.4}More Particles in More Dimensions}{49}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Identical Particles}{49}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Two-Particle Systems}{49}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Atoms}{49}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Solids}{49}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Quantum Statistical Mechanics}{49}{section.6.9}%
 \contentsline {chapter}{\numberline {7}Approximations}{51}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Variational Theory}{51}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Ground State of Helium}{51}{section.7.2}%
@@ -240,12 +238,3 @@
 \contentsline {subsection}{\numberline {11.7.2}The Feynman-Stuckelberg Interpretation}{90}{subsection.11.7.2}%
 \contentsline {subsection}{\numberline {11.7.3}Antiparticle Spinors}{90}{subsection.11.7.3}%
 \contentsline {chapter}{\numberline {12}Epilogue: What lies ahead}{91}{chapter.12}%
-\contentsline {chapter}{\numberline {A}Analytical Mechanics}{93}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Lagrangian Mechanics}{93}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Hamiltonian Mechanics}{93}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Classical Field Theory}{95}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Potentials and the Helmholtz Theorem}{95}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Electromagnetic Radiation}{95}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Electromagnetic Waves}{95}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Special Relativity}{95}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Electromagnetism in the Language of Tensors and Lagrangians}{95}{section.B.5}%
