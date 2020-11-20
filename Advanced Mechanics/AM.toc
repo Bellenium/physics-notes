@@ -129,6 +129,7 @@
 \contentsline {subsection}{\numberline {3.9.1}Position Measurements}{37}{subsection.3.9.1}%
 \contentsline {subsection}{\numberline {3.9.2}Momentum Measurements}{37}{subsection.3.9.2}%
 \contentsline {section}{\numberline {3.10}Stationary State}{37}{section.3.10}%
+\contentsline {section}{\numberline {3.11}The Density Matrix}{37}{section.3.11}%
 \contentsline {part}{IV\hspace {1em}Toy Models}{39}{part.4}%
 \contentsline {chapter}{\numberline {4}Toy Models}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}The Infinite Square Well}{41}{section.4.1}%
