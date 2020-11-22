@@ -47,153 +47,152 @@
 \BOOKMARK [2][-]{subsection.2.16.2}{Continuous Variables}{section.2.16}% 47
 \BOOKMARK [1][-]{section.2.17}{Expectation Values}{chapter.2}% 48
 \BOOKMARK [1][-]{section.2.18}{Fourier Analysis}{chapter.2}% 49
-\BOOKMARK [2][-]{subsection.2.18.1}{Dirichelet's Theorem}{section.2.18}% 50
-\BOOKMARK [2][-]{subsection.2.18.2}{Fourier Transform}{section.2.18}% 51
-\BOOKMARK [1][-]{section.2.19}{Delta Function}{chapter.2}% 52
-\BOOKMARK [2][-]{subsection.2.19.1}{The Divergence of r2}{section.2.19}% 53
-\BOOKMARK [2][-]{subsection.2.19.2}{The One-Dimensional Dirac Delta Functional}{section.2.19}% 54
-\BOOKMARK [2][-]{subsection.2.19.3}{The Three-Dimensional Dirac Delta Function}{section.2.19}% 55
-\BOOKMARK [2][-]{subsection.2.19.4}{Integral representation}{section.2.19}% 56
-\BOOKMARK [1][-]{section.2.20}{Complex Analysis}{chapter.2}% 57
-\BOOKMARK [2][-]{subsection.2.20.1}{Analytic Function}{section.2.20}% 58
-\BOOKMARK [2][-]{subsection.2.20.2}{A few important relations}{section.2.20}% 59
-\BOOKMARK [1][-]{section.2.21}{Gaussian Integrals}{chapter.2}% 60
-\BOOKMARK [2][-]{subsection.2.21.1}{Special Cases}{section.2.21}% 61
-\BOOKMARK [2][-]{subsection.2.21.2}{Gamma function}{section.2.21}% 62
-\BOOKMARK [1][-]{section.2.22}{The i \040Prescription}{chapter.2}% 63
-\BOOKMARK [1][-]{section.2.23}{Permutation Functions}{chapter.2}% 64
-\BOOKMARK [2][-]{subsection.2.23.1}{Kronecker delta}{section.2.23}% 65
-\BOOKMARK [2][-]{subsection.2.23.2}{Levi-Civita Pseudotensor}{section.2.23}% 66
-\BOOKMARK [1][-]{section.2.24}{Tensors}{chapter.2}% 67
-\BOOKMARK [2][-]{subsection.2.24.1}{Vector Transformation Rules}{section.2.24}% 68
-\BOOKMARK [2][-]{subsection.2.24.2}{Index Notation}{section.2.24}% 69
-\BOOKMARK [2][-]{subsection.2.24.3}{Covectors}{section.2.24}% 70
-\BOOKMARK [2][-]{subsection.2.24.4}{Linear Maps}{section.2.24}% 71
-\BOOKMARK [2][-]{subsection.2.24.5}{Metric Tensor}{section.2.24}% 72
-\BOOKMARK [2][-]{subsection.2.24.6}{Bilinear Forms}{section.2.24}% 73
-\BOOKMARK [2][-]{subsection.2.24.7}{Tensor Products}{section.2.24}% 74
-\BOOKMARK [2][-]{subsection.2.24.8}{Definition of a Tensor}{section.2.24}% 75
-\BOOKMARK [2][-]{subsection.2.24.9}{Raising and Lowering Indices}{section.2.24}% 76
-\BOOKMARK [1][-]{section.2.25}{Covariant Quantities}{chapter.2}% 77
-\BOOKMARK [2][-]{subsection.2.25.1}{Contravariant Quantities}{section.2.25}% 78
-\BOOKMARK [2][-]{subsection.2.25.2}{Clearer Definitions}{section.2.25}% 79
-\BOOKMARK [2][-]{subsection.2.25.3}{Covariant Differentiation}{section.2.25}% 80
-\BOOKMARK [-1][-]{part.3}{III Rules}{}% 81
-\BOOKMARK [0][-]{chapter.3}{Formalism}{part.3}% 82
-\BOOKMARK [1][-]{section.3.1}{State Vector}{chapter.3}% 83
-\BOOKMARK [1][-]{section.3.2}{Observables}{chapter.3}% 84
-\BOOKMARK [1][-]{section.3.3}{Time Evolution}{chapter.3}% 85
-\BOOKMARK [2][-]{subsection.3.3.1}{Schrodinger Picture}{section.3.3}% 86
-\BOOKMARK [2][-]{subsection.3.3.2}{Heisenberg Picture}{section.3.3}% 87
-\BOOKMARK [1][-]{section.3.4}{Measurement}{chapter.3}% 88
-\BOOKMARK [1][-]{section.3.5}{Summary of Postulates}{chapter.3}% 89
-\BOOKMARK [1][-]{section.3.6}{Normalization}{chapter.3}% 90
-\BOOKMARK [1][-]{section.3.7}{Generalized Uncertainty Principle}{chapter.3}% 91
-\BOOKMARK [1][-]{section.3.8}{Summary of Consequences}{chapter.3}% 92
-\BOOKMARK [1][-]{section.3.9}{Generalized Statistical Interpretation}{chapter.3}% 93
-\BOOKMARK [2][-]{subsection.3.9.1}{Position Measurements}{section.3.9}% 94
-\BOOKMARK [2][-]{subsection.3.9.2}{Momentum Measurements}{section.3.9}% 95
-\BOOKMARK [1][-]{section.3.10}{Stationary State}{chapter.3}% 96
-\BOOKMARK [1][-]{section.3.11}{The Density Matrix}{chapter.3}% 97
-\BOOKMARK [-1][-]{part.4}{IV Toy Models}{}% 98
-\BOOKMARK [0][-]{chapter.4}{Toy Models}{part.4}% 99
-\BOOKMARK [1][-]{section.4.1}{The Infinite Square Well}{chapter.4}% 100
-\BOOKMARK [2][-]{subsection.4.1.1}{Properties of n\(x\)}{section.4.1}% 101
-\BOOKMARK [1][-]{section.4.2}{Harmonic Oscillator}{chapter.4}% 102
-\BOOKMARK [1][-]{section.4.3}{Free Particle}{chapter.4}% 103
-\BOOKMARK [1][-]{section.4.4}{Delta-Function Potential}{chapter.4}% 104
-\BOOKMARK [1][-]{section.4.5}{Finite Square Well}{chapter.4}% 105
-\BOOKMARK [1][-]{section.4.6}{Wave-Packets}{chapter.4}% 106
-\BOOKMARK [-1][-]{part.5}{V Applications}{}% 107
-\BOOKMARK [0][-]{chapter.5}{Symmetries and their Consequences}{part.5}% 108
-\BOOKMARK [1][-]{section.5.1}{What is a Symmetry?}{chapter.5}% 109
-\BOOKMARK [1][-]{section.5.2}{Translational Invariance in Quantum Mechanics}{chapter.5}% 110
-\BOOKMARK [1][-]{section.5.3}{Time Translational Invariance}{chapter.5}% 111
-\BOOKMARK [1][-]{section.5.4}{Parity Invariance}{chapter.5}% 112
-\BOOKMARK [1][-]{section.5.5}{Time-Reversal Symmetry}{chapter.5}% 113
-\BOOKMARK [1][-]{section.5.6}{Translationals in Two Dimensions}{chapter.5}% 114
-\BOOKMARK [1][-]{section.5.7}{Rotations in Two Dimensions}{chapter.5}% 115
-\BOOKMARK [1][-]{section.5.8}{The Eigenvalue Problem of LZ}{chapter.5}% 116
-\BOOKMARK [1][-]{section.5.9}{Angular Momentum in 3-Dimensions}{chapter.5}% 117
-\BOOKMARK [1][-]{section.5.10}{The Eigenvalue Problem of L2 and LZ}{chapter.5}% 118
-\BOOKMARK [1][-]{section.5.11}{Solution to Rotationally Invariant Problems}{chapter.5}% 119
-\BOOKMARK [1][-]{section.5.12}{What is Spin?}{chapter.5}% 120
-\BOOKMARK [1][-]{section.5.13}{Kinematics of Spin}{chapter.5}% 121
-\BOOKMARK [1][-]{section.5.14}{Spin Dynamics}{chapter.5}% 122
-\BOOKMARK [1][-]{section.5.15}{Return of Orbital Degrees of Freedom}{chapter.5}% 123
-\BOOKMARK [1][-]{section.5.16}{Addition of Angular Momentum }{chapter.5}% 124
-\BOOKMARK [2][-]{subsection.5.16.1}{The General Problem}{section.5.16}% 125
-\BOOKMARK [2][-]{subsection.5.16.2}{Irreducible Tensor Operators}{section.5.16}% 126
-\BOOKMARK [2][-]{subsection.5.16.3}{Explaining some "Accidental" Degeneracies}{section.5.16}% 127
-\BOOKMARK [0][-]{chapter.6}{Systems with N degrees of freedom}{part.5}% 128
-\BOOKMARK [1][-]{section.6.1}{Schrodinger Equation in 3 Dimensions}{chapter.6}% 129
-\BOOKMARK [1][-]{section.6.2}{The Hydrogen Atom}{chapter.6}% 130
-\BOOKMARK [1][-]{section.6.3}{N Particles in One Dimension}{chapter.6}% 131
-\BOOKMARK [1][-]{section.6.4}{More Particles in More Dimensions}{chapter.6}% 132
-\BOOKMARK [1][-]{section.6.5}{Identical Particles}{chapter.6}% 133
-\BOOKMARK [0][-]{chapter.7}{Approximations}{part.5}% 134
-\BOOKMARK [1][-]{section.7.1}{Variational Theory}{chapter.7}% 135
-\BOOKMARK [1][-]{section.7.2}{Ground State of Helium}{chapter.7}% 136
-\BOOKMARK [1][-]{section.7.3}{The Hydrogen Molecule Ion}{chapter.7}% 137
-\BOOKMARK [1][-]{section.7.4}{The "Classical" Region}{chapter.7}% 138
-\BOOKMARK [1][-]{section.7.5}{Tunneling}{chapter.7}% 139
-\BOOKMARK [1][-]{section.7.6}{The Connection Formulae}{chapter.7}% 140
-\BOOKMARK [1][-]{section.7.7}{The Adiabatic Theorem}{chapter.7}% 141
-\BOOKMARK [1][-]{section.7.8}{Berry's Phase}{chapter.7}% 142
-\BOOKMARK [0][-]{chapter.8}{Perturbation Theory}{part.5}% 143
-\BOOKMARK [1][-]{section.8.1}{Non-Degenerate Perturbation Theory}{chapter.8}% 144
-\BOOKMARK [2][-]{subsection.8.1.1}{General Formulation}{section.8.1}% 145
-\BOOKMARK [2][-]{subsection.8.1.2}{First order perturbation theory}{section.8.1}% 146
-\BOOKMARK [2][-]{subsection.8.1.3}{Second order perturbation theory}{section.8.1}% 147
-\BOOKMARK [1][-]{section.8.2}{Degenerate Perturbation Theory}{chapter.8}% 148
-\BOOKMARK [2][-]{subsection.8.2.1}{Motivation}{section.8.2}% 149
-\BOOKMARK [2][-]{subsection.8.2.2}{Twofold Degeneracy}{section.8.2}% 150
-\BOOKMARK [2][-]{subsection.8.2.3}{Higher-Order Degeneracy}{section.8.2}% 151
-\BOOKMARK [2][-]{subsection.8.2.4}{Lamb Shift}{section.8.2}% 152
-\BOOKMARK [1][-]{section.8.3}{The Zeeman Effect}{chapter.8}% 153
-\BOOKMARK [2][-]{subsection.8.3.1}{Weak-Field Zeeman Effect}{section.8.3}% 154
-\BOOKMARK [2][-]{subsection.8.3.2}{Strong-Field Zeeman Effect}{section.8.3}% 155
-\BOOKMARK [2][-]{subsection.8.3.3}{Intermediate Zeeman Effect}{section.8.3}% 156
-\BOOKMARK [1][-]{section.8.4}{Hyperfine Splitting in Hydrogen}{chapter.8}% 157
-\BOOKMARK [0][-]{chapter.9}{Scattering}{part.5}% 158
-\BOOKMARK [1][-]{section.9.1}{Classical Scattering}{chapter.9}% 159
-\BOOKMARK [2][-]{subsection.9.1.1}{Motivation}{section.9.1}% 160
-\BOOKMARK [2][-]{subsection.9.1.2}{The problem}{section.9.1}% 161
-\BOOKMARK [2][-]{subsection.9.1.3}{Solving for differential cross-section}{section.9.1}% 162
-\BOOKMARK [1][-]{section.9.2}{Quantum Scattering}{chapter.9}% 163
-\BOOKMARK [2][-]{subsection.9.2.1}{Defining the problem}{section.9.2}% 164
-\BOOKMARK [2][-]{subsection.9.2.2}{Determining scattering amplitude}{section.9.2}% 165
-\BOOKMARK [1][-]{section.9.3}{Partial Wave Analysis}{chapter.9}% 166
-\BOOKMARK [2][-]{subsection.9.3.1}{Formalism}{section.9.3}% 167
-\BOOKMARK [2][-]{subsection.9.3.2}{Exact wavefunction and the partial wave amplitude}{section.9.3}% 168
-\BOOKMARK [1][-]{section.9.4}{Phase Shift}{chapter.9}% 169
-\BOOKMARK [1][-]{section.9.5}{Born Approximation}{chapter.9}% 170
-\BOOKMARK [2][-]{subsection.9.5.1}{Integral Form of the Schrodinger Equation}{section.9.5}% 171
-\BOOKMARK [2][-]{subsection.9.5.2}{The First Born Approximation}{section.9.5}% 172
-\BOOKMARK [2][-]{subsection.9.5.3}{Examples}{section.9.5}% 173
-\BOOKMARK [2][-]{subsection.9.5.4}{The Born series}{section.9.5}% 174
-\BOOKMARK [0][-]{chapter.10}{Path Integral Formulation}{part.5}% 175
-\BOOKMARK [1][-]{section.10.1}{The Path Integral Recepie}{chapter.10}% 176
-\BOOKMARK [1][-]{section.10.2}{An Approximation to U\(t\) for a Free Particle}{chapter.10}% 177
-\BOOKMARK [1][-]{section.10.3}{Path Integral Evaluation of the Free-Particle Propagator}{chapter.10}% 178
-\BOOKMARK [1][-]{section.10.4}{Equivalence to the Schrodinger Equation}{chapter.10}% 179
-\BOOKMARK [1][-]{section.10.5}{Potentials of the form V = a + bx + cx2 + d \040+ ex }{chapter.10}% 180
-\BOOKMARK [1][-]{section.10.6}{Derivation of the Path Integral}{chapter.10}% 181
-\BOOKMARK [1][-]{section.10.7}{Imaginary Time Formalism}{chapter.10}% 182
-\BOOKMARK [1][-]{section.10.8}{Spin and Fermion Path Integrals}{chapter.10}% 183
-\BOOKMARK [1][-]{section.10.9}{Summary}{chapter.10}% 184
-\BOOKMARK [0][-]{chapter.11}{Dirac Equation}{part.5}% 185
-\BOOKMARK [1][-]{section.11.1}{The Klein-Gordon Equation}{chapter.11}% 186
-\BOOKMARK [1][-]{section.11.2}{The Free-Particle Dirac Equation}{chapter.11}% 187
-\BOOKMARK [1][-]{section.11.3}{Electromagnetic Interaction of the Dirac Particle}{chapter.11}% 188
-\BOOKMARK [1][-]{section.11.4}{More on Relativistic Quantum Mechanics}{chapter.11}% 189
-\BOOKMARK [1][-]{section.11.5}{Covariant Formalism}{chapter.11}% 190
-\BOOKMARK [2][-]{subsection.11.5.1}{The Adjoint Spinor and the Covariant Current}{section.11.5}% 191
-\BOOKMARK [1][-]{section.11.6}{Solutions to the Dirac Equation}{chapter.11}% 192
-\BOOKMARK [2][-]{subsection.11.6.1}{Particles at Rest}{section.11.6}% 193
-\BOOKMARK [2][-]{subsection.11.6.2}{General Free-Particle Solutions}{section.11.6}% 194
-\BOOKMARK [1][-]{section.11.7}{Antiparticles}{chapter.11}% 195
-\BOOKMARK [2][-]{subsection.11.7.1}{The Dirac Sea Interpretation}{section.11.7}% 196
-\BOOKMARK [2][-]{subsection.11.7.2}{The Feynman-Stuckelberg Interpretation}{section.11.7}% 197
-\BOOKMARK [2][-]{subsection.11.7.3}{Antiparticle Spinors}{section.11.7}% 198
-\BOOKMARK [0][-]{chapter.12}{Epilogue: What lies ahead}{part.5}% 199
+\BOOKMARK [2][-]{subsection.2.18.1}{Parseval\220s theorem}{section.2.18}% 50
+\BOOKMARK [1][-]{section.2.19}{Delta Function}{chapter.2}% 51
+\BOOKMARK [2][-]{subsection.2.19.1}{The Divergence of r2}{section.2.19}% 52
+\BOOKMARK [2][-]{subsection.2.19.2}{The One-Dimensional Dirac Delta Functional}{section.2.19}% 53
+\BOOKMARK [2][-]{subsection.2.19.3}{The Three-Dimensional Dirac Delta Function}{section.2.19}% 54
+\BOOKMARK [2][-]{subsection.2.19.4}{Integral representation}{section.2.19}% 55
+\BOOKMARK [1][-]{section.2.20}{Complex Analysis}{chapter.2}% 56
+\BOOKMARK [2][-]{subsection.2.20.1}{Analytic Function}{section.2.20}% 57
+\BOOKMARK [2][-]{subsection.2.20.2}{A few important relations}{section.2.20}% 58
+\BOOKMARK [1][-]{section.2.21}{Gaussian Integrals}{chapter.2}% 59
+\BOOKMARK [2][-]{subsection.2.21.1}{Special Cases}{section.2.21}% 60
+\BOOKMARK [2][-]{subsection.2.21.2}{Gamma function}{section.2.21}% 61
+\BOOKMARK [1][-]{section.2.22}{The i \040Prescription}{chapter.2}% 62
+\BOOKMARK [1][-]{section.2.23}{Permutation Functions}{chapter.2}% 63
+\BOOKMARK [2][-]{subsection.2.23.1}{Kronecker delta}{section.2.23}% 64
+\BOOKMARK [2][-]{subsection.2.23.2}{Levi-Civita Pseudotensor}{section.2.23}% 65
+\BOOKMARK [1][-]{section.2.24}{Tensors}{chapter.2}% 66
+\BOOKMARK [2][-]{subsection.2.24.1}{Vector Transformation Rules}{section.2.24}% 67
+\BOOKMARK [2][-]{subsection.2.24.2}{Index Notation}{section.2.24}% 68
+\BOOKMARK [2][-]{subsection.2.24.3}{Covectors}{section.2.24}% 69
+\BOOKMARK [2][-]{subsection.2.24.4}{Linear Maps}{section.2.24}% 70
+\BOOKMARK [2][-]{subsection.2.24.5}{Metric Tensor}{section.2.24}% 71
+\BOOKMARK [2][-]{subsection.2.24.6}{Bilinear Forms}{section.2.24}% 72
+\BOOKMARK [2][-]{subsection.2.24.7}{Tensor Products}{section.2.24}% 73
+\BOOKMARK [2][-]{subsection.2.24.8}{Definition of a Tensor}{section.2.24}% 74
+\BOOKMARK [2][-]{subsection.2.24.9}{Raising and Lowering Indices}{section.2.24}% 75
+\BOOKMARK [1][-]{section.2.25}{Covariant Quantities}{chapter.2}% 76
+\BOOKMARK [2][-]{subsection.2.25.1}{Contravariant Quantities}{section.2.25}% 77
+\BOOKMARK [2][-]{subsection.2.25.2}{Clearer Definitions}{section.2.25}% 78
+\BOOKMARK [2][-]{subsection.2.25.3}{Covariant Differentiation}{section.2.25}% 79
+\BOOKMARK [-1][-]{part.3}{III Rules}{}% 80
+\BOOKMARK [0][-]{chapter.3}{Formalism}{part.3}% 81
+\BOOKMARK [1][-]{section.3.1}{State Vector}{chapter.3}% 82
+\BOOKMARK [1][-]{section.3.2}{Observables}{chapter.3}% 83
+\BOOKMARK [1][-]{section.3.3}{Time Evolution}{chapter.3}% 84
+\BOOKMARK [2][-]{subsection.3.3.1}{Schrodinger Picture}{section.3.3}% 85
+\BOOKMARK [2][-]{subsection.3.3.2}{Heisenberg Picture}{section.3.3}% 86
+\BOOKMARK [1][-]{section.3.4}{Measurement}{chapter.3}% 87
+\BOOKMARK [1][-]{section.3.5}{Summary of Postulates}{chapter.3}% 88
+\BOOKMARK [1][-]{section.3.6}{Normalization}{chapter.3}% 89
+\BOOKMARK [1][-]{section.3.7}{Generalized Uncertainty Principle}{chapter.3}% 90
+\BOOKMARK [1][-]{section.3.8}{Summary of Consequences}{chapter.3}% 91
+\BOOKMARK [1][-]{section.3.9}{Generalized Statistical Interpretation}{chapter.3}% 92
+\BOOKMARK [2][-]{subsection.3.9.1}{Position Measurements}{section.3.9}% 93
+\BOOKMARK [2][-]{subsection.3.9.2}{Momentum Measurements}{section.3.9}% 94
+\BOOKMARK [1][-]{section.3.10}{Stationary State}{chapter.3}% 95
+\BOOKMARK [1][-]{section.3.11}{The Density Matrix}{chapter.3}% 96
+\BOOKMARK [-1][-]{part.4}{IV Toy Models}{}% 97
+\BOOKMARK [0][-]{chapter.4}{Toy Models}{part.4}% 98
+\BOOKMARK [1][-]{section.4.1}{The Infinite Square Well}{chapter.4}% 99
+\BOOKMARK [2][-]{subsection.4.1.1}{Properties of n\(x\)}{section.4.1}% 100
+\BOOKMARK [1][-]{section.4.2}{Harmonic Oscillator}{chapter.4}% 101
+\BOOKMARK [1][-]{section.4.3}{Free Particle}{chapter.4}% 102
+\BOOKMARK [1][-]{section.4.4}{Delta-Function Potential}{chapter.4}% 103
+\BOOKMARK [1][-]{section.4.5}{Finite Square Well}{chapter.4}% 104
+\BOOKMARK [1][-]{section.4.6}{Wave-Packets}{chapter.4}% 105
+\BOOKMARK [-1][-]{part.5}{V Applications}{}% 106
+\BOOKMARK [0][-]{chapter.5}{Symmetries and their Consequences}{part.5}% 107
+\BOOKMARK [1][-]{section.5.1}{What is a Symmetry?}{chapter.5}% 108
+\BOOKMARK [1][-]{section.5.2}{Translational Invariance in Quantum Mechanics}{chapter.5}% 109
+\BOOKMARK [1][-]{section.5.3}{Time Translational Invariance}{chapter.5}% 110
+\BOOKMARK [1][-]{section.5.4}{Parity Invariance}{chapter.5}% 111
+\BOOKMARK [1][-]{section.5.5}{Time-Reversal Symmetry}{chapter.5}% 112
+\BOOKMARK [1][-]{section.5.6}{Translationals in Two Dimensions}{chapter.5}% 113
+\BOOKMARK [1][-]{section.5.7}{Rotations in Two Dimensions}{chapter.5}% 114
+\BOOKMARK [1][-]{section.5.8}{The Eigenvalue Problem of LZ}{chapter.5}% 115
+\BOOKMARK [1][-]{section.5.9}{Angular Momentum in 3-Dimensions}{chapter.5}% 116
+\BOOKMARK [1][-]{section.5.10}{The Eigenvalue Problem of L2 and LZ}{chapter.5}% 117
+\BOOKMARK [1][-]{section.5.11}{Solution to Rotationally Invariant Problems}{chapter.5}% 118
+\BOOKMARK [1][-]{section.5.12}{What is Spin?}{chapter.5}% 119
+\BOOKMARK [1][-]{section.5.13}{Kinematics of Spin}{chapter.5}% 120
+\BOOKMARK [1][-]{section.5.14}{Spin Dynamics}{chapter.5}% 121
+\BOOKMARK [1][-]{section.5.15}{Return of Orbital Degrees of Freedom}{chapter.5}% 122
+\BOOKMARK [1][-]{section.5.16}{Addition of Angular Momentum }{chapter.5}% 123
+\BOOKMARK [2][-]{subsection.5.16.1}{The General Problem}{section.5.16}% 124
+\BOOKMARK [2][-]{subsection.5.16.2}{Irreducible Tensor Operators}{section.5.16}% 125
+\BOOKMARK [2][-]{subsection.5.16.3}{Explaining some "Accidental" Degeneracies}{section.5.16}% 126
+\BOOKMARK [0][-]{chapter.6}{Systems with N degrees of freedom}{part.5}% 127
+\BOOKMARK [1][-]{section.6.1}{Schrodinger Equation in 3 Dimensions}{chapter.6}% 128
+\BOOKMARK [1][-]{section.6.2}{The Hydrogen Atom}{chapter.6}% 129
+\BOOKMARK [1][-]{section.6.3}{N Particles in One Dimension}{chapter.6}% 130
+\BOOKMARK [1][-]{section.6.4}{More Particles in More Dimensions}{chapter.6}% 131
+\BOOKMARK [1][-]{section.6.5}{Identical Particles}{chapter.6}% 132
+\BOOKMARK [0][-]{chapter.7}{Approximations}{part.5}% 133
+\BOOKMARK [1][-]{section.7.1}{Variational Theory}{chapter.7}% 134
+\BOOKMARK [1][-]{section.7.2}{Ground State of Helium}{chapter.7}% 135
+\BOOKMARK [1][-]{section.7.3}{The Hydrogen Molecule Ion}{chapter.7}% 136
+\BOOKMARK [1][-]{section.7.4}{The "Classical" Region}{chapter.7}% 137
+\BOOKMARK [1][-]{section.7.5}{Tunneling}{chapter.7}% 138
+\BOOKMARK [1][-]{section.7.6}{The Connection Formulae}{chapter.7}% 139
+\BOOKMARK [1][-]{section.7.7}{The Adiabatic Theorem}{chapter.7}% 140
+\BOOKMARK [1][-]{section.7.8}{Berry's Phase}{chapter.7}% 141
+\BOOKMARK [0][-]{chapter.8}{Perturbation Theory}{part.5}% 142
+\BOOKMARK [1][-]{section.8.1}{Non-Degenerate Perturbation Theory}{chapter.8}% 143
+\BOOKMARK [2][-]{subsection.8.1.1}{General Formulation}{section.8.1}% 144
+\BOOKMARK [2][-]{subsection.8.1.2}{First order perturbation theory}{section.8.1}% 145
+\BOOKMARK [2][-]{subsection.8.1.3}{Second order perturbation theory}{section.8.1}% 146
+\BOOKMARK [1][-]{section.8.2}{Degenerate Perturbation Theory}{chapter.8}% 147
+\BOOKMARK [2][-]{subsection.8.2.1}{Motivation}{section.8.2}% 148
+\BOOKMARK [2][-]{subsection.8.2.2}{Twofold Degeneracy}{section.8.2}% 149
+\BOOKMARK [2][-]{subsection.8.2.3}{Higher-Order Degeneracy}{section.8.2}% 150
+\BOOKMARK [2][-]{subsection.8.2.4}{Lamb Shift}{section.8.2}% 151
+\BOOKMARK [1][-]{section.8.3}{The Zeeman Effect}{chapter.8}% 152
+\BOOKMARK [2][-]{subsection.8.3.1}{Weak-Field Zeeman Effect}{section.8.3}% 153
+\BOOKMARK [2][-]{subsection.8.3.2}{Strong-Field Zeeman Effect}{section.8.3}% 154
+\BOOKMARK [2][-]{subsection.8.3.3}{Intermediate Zeeman Effect}{section.8.3}% 155
+\BOOKMARK [1][-]{section.8.4}{Hyperfine Splitting in Hydrogen}{chapter.8}% 156
+\BOOKMARK [0][-]{chapter.9}{Scattering}{part.5}% 157
+\BOOKMARK [1][-]{section.9.1}{Classical Scattering}{chapter.9}% 158
+\BOOKMARK [2][-]{subsection.9.1.1}{Motivation}{section.9.1}% 159
+\BOOKMARK [2][-]{subsection.9.1.2}{The problem}{section.9.1}% 160
+\BOOKMARK [2][-]{subsection.9.1.3}{Solving for differential cross-section}{section.9.1}% 161
+\BOOKMARK [1][-]{section.9.2}{Quantum Scattering}{chapter.9}% 162
+\BOOKMARK [2][-]{subsection.9.2.1}{Defining the problem}{section.9.2}% 163
+\BOOKMARK [2][-]{subsection.9.2.2}{Determining scattering amplitude}{section.9.2}% 164
+\BOOKMARK [1][-]{section.9.3}{Partial Wave Analysis}{chapter.9}% 165
+\BOOKMARK [2][-]{subsection.9.3.1}{Formalism}{section.9.3}% 166
+\BOOKMARK [2][-]{subsection.9.3.2}{Exact wavefunction and the partial wave amplitude}{section.9.3}% 167
+\BOOKMARK [1][-]{section.9.4}{Phase Shift}{chapter.9}% 168
+\BOOKMARK [1][-]{section.9.5}{Born Approximation}{chapter.9}% 169
+\BOOKMARK [2][-]{subsection.9.5.1}{Integral Form of the Schrodinger Equation}{section.9.5}% 170
+\BOOKMARK [2][-]{subsection.9.5.2}{The First Born Approximation}{section.9.5}% 171
+\BOOKMARK [2][-]{subsection.9.5.3}{Examples}{section.9.5}% 172
+\BOOKMARK [2][-]{subsection.9.5.4}{The Born series}{section.9.5}% 173
+\BOOKMARK [0][-]{chapter.10}{Path Integral Formulation}{part.5}% 174
+\BOOKMARK [1][-]{section.10.1}{The Path Integral Recepie}{chapter.10}% 175
+\BOOKMARK [1][-]{section.10.2}{An Approximation to U\(t\) for a Free Particle}{chapter.10}% 176
+\BOOKMARK [1][-]{section.10.3}{Path Integral Evaluation of the Free-Particle Propagator}{chapter.10}% 177
+\BOOKMARK [1][-]{section.10.4}{Equivalence to the Schrodinger Equation}{chapter.10}% 178
+\BOOKMARK [1][-]{section.10.5}{Potentials of the form V = a + bx + cx2 + d \040+ ex }{chapter.10}% 179
+\BOOKMARK [1][-]{section.10.6}{Derivation of the Path Integral}{chapter.10}% 180
+\BOOKMARK [1][-]{section.10.7}{Imaginary Time Formalism}{chapter.10}% 181
+\BOOKMARK [1][-]{section.10.8}{Spin and Fermion Path Integrals}{chapter.10}% 182
+\BOOKMARK [1][-]{section.10.9}{Summary}{chapter.10}% 183
+\BOOKMARK [0][-]{chapter.11}{Dirac Equation}{part.5}% 184
+\BOOKMARK [1][-]{section.11.1}{The Klein-Gordon Equation}{chapter.11}% 185
+\BOOKMARK [1][-]{section.11.2}{The Free-Particle Dirac Equation}{chapter.11}% 186
+\BOOKMARK [1][-]{section.11.3}{Electromagnetic Interaction of the Dirac Particle}{chapter.11}% 187
+\BOOKMARK [1][-]{section.11.4}{More on Relativistic Quantum Mechanics}{chapter.11}% 188
+\BOOKMARK [1][-]{section.11.5}{Covariant Formalism}{chapter.11}% 189
+\BOOKMARK [2][-]{subsection.11.5.1}{The Adjoint Spinor and the Covariant Current}{section.11.5}% 190
+\BOOKMARK [1][-]{section.11.6}{Solutions to the Dirac Equation}{chapter.11}% 191
+\BOOKMARK [2][-]{subsection.11.6.1}{Particles at Rest}{section.11.6}% 192
+\BOOKMARK [2][-]{subsection.11.6.2}{General Free-Particle Solutions}{section.11.6}% 193
+\BOOKMARK [1][-]{section.11.7}{Antiparticles}{chapter.11}% 194
+\BOOKMARK [2][-]{subsection.11.7.1}{The Dirac Sea Interpretation}{section.11.7}% 195
+\BOOKMARK [2][-]{subsection.11.7.2}{The Feynman-Stuckelberg Interpretation}{section.11.7}% 196
+\BOOKMARK [2][-]{subsection.11.7.3}{Antiparticle Spinors}{section.11.7}% 197
+\BOOKMARK [0][-]{chapter.12}{Epilogue: What lies ahead}{part.5}% 198
