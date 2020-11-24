@@ -443,3 +443,327 @@ The frequency of the photon emitted when the triplet transitions to a singlet st
 \nu = \frac{\Delta E}{h} = 1420 \text{ MHz}
 \end{equation}
 The corresponding wavelength is $21 $ cm which falls in the microwave region. It permeates the universe and is a very important part of Astrophysics.
+\section{Introduction to quantum dynamics}
+So far, we looked at systems that were time-independent of sorts (quantum statics), and the potentials themselves were time independent, in other words, $V(r,t)=V(r)$. Hence the time-dependent Schrodinger equation took the form,
+\begin{equation}
+	H\psi=i\hbar\frac{\partial \psi}{\partial t}
+\end{equation}
+And solving by separation of variables,
+\begin{equation}
+	\psi(r,t)=\psi(r)e^{iEt/\hbar}
+\end{equation}
+where $\psi(r)$ satisfies the time independent Schrodinger equation,
+\begin{equation}
+	H\psi=E\psi
+\end{equation}
+Due to the nature of the term that carries time dependence, the exponential factor $e^{iEt/\hbar}$, this term cancels out when we construct the physically relevant quantity $|\psi|^2$, which leads to all the expectation values and probabilities to be constant in time, and this is the same case in more complex states where we have linear combinations of these stationary states.\\
+For us, if we want to investigate transitions between one energy level to another, we introduce a time-dependent potential, hence the name of quantum dynamics arises.
+
+\section{Two level systems}
+\subsection{Introduction}
+Let us suppose that there are two states of the unpertubed sustem, $\psi_a$ and $\psi_b$. They are eigenstates of the unpertubed Hamiltonian, $H_0$,
+\begin{align}
+	H_0\psi_a=E_a  \psi_a \; \text{and} \; H_0\psi_b=E_b\psi_b
+\end{align}
+and they are orthonormal,
+\begin{equation}
+	\langle\psi_a|\psi_b\rangle=\delta_{ab}
+\end{equation}
+And any state can be expressed as a linear combination of them, or in particular,
+\begin{equation}
+	\Psi(0)=c_a\psi_a+c_b\psi_b
+\end{equation}
+In the absence of perturbation, each component evolves with its characteristic exponential factor.
+\begin{equation}
+	\Psi(t)=c_a\psi_ae^{-iE_at/\hbar}+c_b\psi_be^{-iE_bt/\hbar}
+\end{equation}
+Calculating $|c_a|^2$ is th probability that the particle is in he state $\psi_a$, and the measurement of the energy will yield $E_a$. Normalizing $\Psi$,
+\begin{equation}
+	|c_a|^2+|c_b|^2=1
+\end{equation}
+
+\subsection{The perturbed system}
+Turning on a time-dependent perturbation $H'(t)$, the coefficients $c_a$ and $c_b$ become functions of $t$ and the equation then becomes,
+\begin{equation}
+	\Psi(t)=c_a(t)\psi_ae^{-iE_at/\hbar}+c_b(t)\psi_be^{-iE_bt/\hbar}
+\end{equation} 
+Now we solve for $c_a(t)$ and $c_b(t)$ by using the time-dependent Schrodinger equation,
+\begin{equation}
+	H\Psi=i\hbar\frac{\partial\Psi}{\partial t}, \: \text{where} \: H=H_0+H'(t)
+\end{equation}
+
+Then we see that,
+\begin{equation}
+	\begin{split}
+		c_a[H_0\psi_a]_e^{-iE_at/\hbar}+c_b[H_0\psi_b]e^{-iE_bt/\hbar}+c_a[H'\psi_a]_e^{-iE_at/\hbar} \\
+		+c_b[H'\psi_b]e^{-iE_bt/\hbar}=i\hbar[ \dot{c_a}\psi_a e^{-iE_at/\hbar}		\dot{c_b}\psi_b e^{-iE_bt/\hbar}\\
+		+c_a\psi_a\left(\frac{iE_a}{\hbar}\right)  e^{-iE_at/\hbar}+ c_b\psi_b\left(\frac{iE_b}{\hbar}\right)  e^{-iE_bt/\hbar}]
+	\end{split}
+\end{equation}
+This then simplifies to,
+\begin{equation}
+	c_a[H'\psi_a]_e^{-iE_at/\hbar}+c_b[H'\psi_b]e^{-iE_bt/\hbar}=i\hbar[ \dot{c_a}\psi_a e^{-iE_at/\hbar}		\dot{c_b}\psi_b e^{-iE_bt/\hbar}
+\end{equation}
+We isolate $\dot{c_a}$ by taking the inner product with $\psi_a$ and exploiting the orthogonality of $\psi_a$ and $\psi_b$.
+\begin{equation}
+	c_a\langle \psi_a| H'|\psi_a\rangle_e^{-iE_at/\hbar}+c_b\langle \psi_a|H'|\psi_b]e^{-iE_bt/\hbar}=i\hbar\dot{c_a}e^{-iE_at/\hbar}
+\end{equation}
+Then we define,
+\begin{equation}
+	H'_{ij}\equiv\langle\psi_i|H'|\psi_j\rangle
+\end{equation}
+The hermiticity of $H'$ says that $H'_{ji}=(H'_ij)^*$. Now multiplying with $-(i/\hbar)e^{iE_at/\hbar}$, we conclude that,
+\begin{equation}
+	\dot{c_a}=-\frac{i}{\hbar}[c_aH'_{aa}+c_bH'_{ab}e^{-i(En-E_a)t/\hbar}]
+\end{equation}
+Similarly the inner product with $\psi_b$ isolate $\dot{c_b}$ and gives the result,
+
+\begin{equation}
+	\dot{c_b}=\frac{i}{\hbar}[c_bH'_{bb}+c_aH'_{ba }e^{-i(En-E_a)t/\hbar}]
+\end{equation}
+Equations (15) and (16) are equivalent to the time-dependent Schrodinger equation for a two level system. And the diagonal matrix elements of $H'$ vanish giving,
+\begin{equation}
+	H'_{aa}=H'_{bb}=0
+\end{equation}
+And the equations simplify to,
+\begin{align}
+	\dot{c_a}=-\frac{i}{\hbar}H'_{ab}e^{-i\omega_0t}c_b \\
+	\dot{c_b}=-\frac{i}{\hbar}H'_{ab}e^{i\omega_0t}c_a
+\end{align}
+Where,
+\begin{equation*}
+	\omega_0=\frac{E_b-E_a}{\hbar}
+\end{equation*}
+
+\subsection{Time-Dependent Perturbation Theory}
+Defining a size for the perturbation $H'$, considering it to be small, we can obtain solutions for equations (18) and (19) by the process of successive approximations.\\
+Suppoe the particle starts out in the lower state,
+\begin{equation}
+	c_a(0)=1. \; c_b(0)=0
+\end{equation}
+If there exists no perturbation, these states remain iike this forever.\\
+
+\textbf{Zeroth Order:} \\
+\begin{equation}
+	c^{(0)}_a(t)=1 \; c^{(0)}_b(t)=0
+\end{equation}
+To calculate the first-order approximation, we insert these values on the right side of equations (18) and (19)\\
+\\
+\textbf{First Order:} \\
+\begin{equation*}
+	\frac{dc_a}{dt}=0 \rightarrow c^{(1)}_a(t)=1;
+\end{equation*}	
+\begin{equation}
+	\frac{dc_b}{dt}=-\frac{i}{\hbar}H'_{ba}e^{i\omega_0t}\rightarrow c^{(1)}_b=\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0t'}dt'
+\end{equation}
+\\
+\textbf{Second Order:}\\
+\begin{equation*}
+	\frac{dc_a}{dt}=-\frac{i}{\hbar}H'_{ba}e^{i\omega_0t}\left(\frac{i}{\hbar}\right)\int_{0}^{t}H'_{ba}(t')e^{i\omega_0t'}dt'\rightarrow
+\end{equation*}
+\begin{equation}
+	c^{(2)}_a(t)=1-\frac{1}{\hbar}\int_{0}^{t}H'_{ab}(t')e^{i\omega_0t'}\left[\int_{0}^{t'}H'_{ba}(t'')e^{i\omega_0t''}dt''\right]dt'
+\end{equation}
+We can continue this process for obtaining n-order approximations.
+
+\subsection{Sinusoidal Perturbations}
+If the perturbation has sinusoida time dependence,
+\begin{equation}
+	H'(r,t)=V(r)cos(\omega t)
+\end{equation}
+so that,
+\begin{equation}
+	H'_{ab}=V_{ab}cos(\omega t)
+\end{equation}
+Where,
+\begin{equation}
+	V_{ab)}\equiv \langle\psi_a|V|\psi_b\rangle
+\end{equation}
+For the first order perturbations, using equation (22),
+\begin{equation}
+	c_b(t)\approx -\frac{i}{\hbar}\int_{0}^{t}cos(\omega t')dt'=-\frac{iV_ba}{2\hbar}\int_{0}^{t}\left[e^{i(\omega_0+\omega)t'}+e^{i(\omega_0-\omega)t'}\right]dt'
+\end{equation}
+\begin{equation}
+	=-\frac{V_{ba}}{2\hbar}\left[\frac{e^{i(\omega_0+\omega)t}-1}{\omega_0+\omega}	+ \frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}	\right]
+\end{equation}
+Simplifying this equation by restricting our attention to driving frequency $\omega$ close to transition frequence $\omega_0$, the second term dominates. To be more specific, we assume,
+\begin{equation}
+	\omega_0+\omega>>|\omega_0-\omega|
+\end{equation}
+Perturbation at other frequencies have negligible probabilty for causing a transistion, so this isnt a limitation. Now the equation simplifies to,
+\begin{equation*}
+	c_b(t)\approx-\frac{V_{ba}}{2\hbar} \frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}[e^{i(\omega_0-\omega)t/2}-e^{-i(\omega_0-\omega)t/2}]
+\end{equation*}
+\begin{equation}
+	=-i\frac{V_{ba}}{\hbar}\frac{sin[(\omega_0-\omega) t/2]}{\omega_0-\omega}e^{i(\omega_0-\omega)t/2}
+\end{equation}
+
+The transition probability, the probability that a particle which started out in the state $ \psi_a $ wil be found at a time $t$, in the state $\psi_b$ is,
+\begin{equation}
+	P_{a\rightarrow b}(t)=|c_b(t)^2\approx \frac{|V_{ba}|^2}{\hbar^2}\frac{sin^2[(\omega_0-\omega) t/2]}{(\omega_0-\omega)^2}
+\end{equation}	
+
+\section{Emission and Absorption of Radiation}
+\subsection{Electromagnetic Waves}
+An atom, in the presence of a passing light wave, responds to the electric component. It is sinusoidal in nature,
+\begin{equation}
+	E= E_0cos(\omega t)\hat{k}
+\end{equation}
+Where $q$ is the charge of the electron. Evidently,
+\begin{equation}
+	H'_{ba}=-\wp E_0cos(\omega t), \; \wp\equiv q\langle\psi_b|z|\psi_a\rangle
+\end{equation}
+When $\psi$ is an even or odd function of $z$, $z|\psi|^2$ is odd and integrates to zero, hence the diagonal matrix elements of $H'$ vanish, hence the perturbation is oscillatory and is of the form,
+\begin{equation}
+	V_{ba}=-\wp E_0
+\end{equation}
+
+\subsection{Absorption, stimulated emission and spontaneous emission}
+If an atom starts in the lower state $\psi_a$ and you shine a polarized moochromatic beam of light on it, the probablilty of a transistion to the "upper" state $\psi_b$ is given by,
+\begin{equation}
+	P_{a\rightarrow b}(t)=\left(\frac{\wp E_0}{\hbar}\right)^2\frac{sin^2[(\omega_0-\omega) t/2]}{(\omega_0-\omega)^2}
+\end{equation}
+The atom absorbs an energy of $E_B-E_a=\hbar\omega_0$ from the electromagnetic field. We could say that it has absorbed a photon.\\
+Now doing the same derivation for the transition from lower to upper state, we get
+\begin{equation}
+	P_{b\rightarrow a}(t)=\left(\frac{\wp E_0}{\hbar}\right)^2\frac{sin^2[(\omega_0-\omega) t/2]}{(\omega_0-\omega)^2}
+\end{equation}
+Here we note that the probability of transition from $a\rightarrow b$ is the same as $b\rightarrow a$, and this was called stimulated emission. The electromagnetic field gains energy $\hbar\omega_0$ from the atom.\\
+Spontaneous emission is when an atom in the excited state makes a transition downward with a release of a photon without the application of any electromagnetic field.
+
+\subsection{Incoherent perturbations}
+The energy density of an electromagnetic wave is,
+\begin{equation}
+	u=\frac{\epsilon_0}{2}E^2_0
+\end{equation}	
+The transition probablity is proportional to the energy density of the fields,
+\begin{equation}
+	P_{b\rightarrow a}(t)=\frac{2u}{\epsilon_0\hbar^2}|\wp|^2\frac{sin^2[(\omega_0-\omega) t/2]}{(\omega_0-\omega)^2}
+\end{equation}
+But this is for a monochromatic perturbation for a single frequency $\omega$, now subjecting the system to a range of frequencies, $u\rightarrow\rho(\omega)d\omega$ where $\rho(\omega)d\omega$ is the enegy density in the frequency range $d\omega$ and the net transistion probability takes the form of an integral,
+\begin{equation}
+	P_{b\rightarrow a}(t)=\frac{2}{\epsilon_0\hbar^2}|\wp|^2 \int_{0}^{\infty}\rho(\omega)\left\{\frac{sin^2[(\omega_0-\omega) t/2]}{(\omega_0-\omega)^2}\right\}d\omega
+\end{equation}	
+The term in the curly brakets is sharply peaked about $\omega_0$. while $\rho(\omega)$ is relatively broad, so we replace $\rho(\omega)$ with $\rho(\omega_0)$ anf tak it outside the integral,
+\begin{equation}
+	P_{b\rightarrow a}(t)\approx\frac{2|\wp|^2}{\epsilon_0\hbar^2}\rho(\omega_0)\ \int_{0}^{\infty}\left\{\frac{sin^2[(\omega_0-\omega) t/2]}{(\omega_0-\omega)^2}\right\}d\omega
+\end{equation}
+Changing variables from $x\equiv(\omega_0-\omega)t/2$, extending the limits of integration to $x=+_-\infty$, looking up the definite integral,
+\begin{equation*}
+	\int_{-\infty}^{\infty}\frac{sin^2x}{x^2}dx=\pi
+\end{equation*}
+we find that,
+\begin{equation}
+	P_{b\rightarrow a}(t)\approx\frac{\pi|\wp|^2}{\epsilon_0\hbar^2}\rho(\omega_0)t
+\end{equation}	
+The transition probability is proportional to $t$. The flopping phenomenon characteristic of a monochromatic perturbation gets washed out when we hit the system with an incoherent spread of frequencies. The transition rate 
+is now a constant,
+\begin{equation}
+	R_{b\rightarrow a}=\frac{\pi}{\epsilon_0\hbar}|\wp|^2\rho(\omega_0)
+\end{equation}	
+We take all possible polarisations and not only from x and z directions, hence instead of $|\wp|^2$, we have an average $|\hat{n}\cdot\bm{\wp}|^2$, where
+\begin{equation}
+	\bm{\wp}=q\langle\psi_b|r|\psi_a\rangle
+\end{equation}	
+And the average is over both polarisations and over all incident directions. This averaging is carried out as follows,\\
+\\
+\textbf{Polarisation:} For propogation in the z-direction, the two possible polarisations are $\hat{i}$ and $\hat{j}$, so the polarisation average ($p$) is,
+\begin{equation}
+	(\hat{n}\cdot\bm{\wp})^2_p=\frac{1}{2}[	(\hat{i}\cdot\bm{\wp})^2+ 	(\hat{j}\cdot\bm{\wp}^2)=\frac{1}{2}\wp^2 sin^2\theta 
+\end{equation}
+Where $\theta$ is the angle between $\bm{\wp}$ and the direction of propogation.\\
+\\
+\textbf{Propogation direction}:	Setting the polar axis along $\bm{\wp}$ and integrate over all propogation directions to get the polarisation-propogation average,
+
+\begin{equation}
+	(\hat{n}\cdot\bm{\wp})^2_pp=\frac{1}{4\pi}\int\left[\frac{1}{2}\wp^2 \sin^2\theta\right]sin\theta d\theta d\phi=\frac{\wp^2}{4}\int_{0}^{\pi}\sin^3\theta d\theta=\frac{\wp^3}{3} 
+\end{equation}
+So the transition rate for the stimulated emission from state $b$ to state $a$, under the influence of incoherent, unpolarized light incident from all directions, is,
+\begin{equation}
+	R_{b\rightarrow a}=\frac{\pi}{3\epsilon_0\hbar^2}|\bm{\wp}|^2\rho(\omega_0)
+\end{equation}
+Where \bm{$\wp$} is the matrix element of the electric dipole moment between the two tate and $\rho(\omega_0)$ is the energy density in the fields, per unit frequency, evaluated at $\omega_0=(E_b-E_a)/\hbar$.
+
+\section{Spontaneous Emission}
+\subsection{Einstein's A and B coefficients}
+Picture a container of atoms, $N_a$ of them in a lower state $\psi_a$ and $N_b$ of them in the upper state $\psi_b$. Let A be the spontaneous emission rate, so that the number of particle leaving the upper state by this process per unit time is $N_bA$. The transition rate for stimulated emission is proportional to the energy density of the electromagnetic field. The number of upper state particles leaving is also similarly found. The absorption rate is proportional to $\rho(\omega_0)$. Now,
+\begin{equation}
+	\frac{dN_b}{dt}=-N_bA-N_bB_{ba}\rho(\omega_0)+N_aB_{ab}\rho(\omega_0)
+\end{equation}
+Supposing that the atoms are in thermal equlibrium with the ambient field so that the number of particles in each level is constant. $dN_b/dt=0$, hence,
+\begin{equation}
+	\rho(\omega_0)=\frac{A}{(N_a/N_b)B_{ab}-B_{ba}}
+\end{equation}
+
+From statistical mechanics, the number of particles with energy $E$. in thermal equilibrium at temperature $T$, is proportional to the Boltzmann factor, $e^{-E/k_bT}$, so
+\begin{equation}
+	\frac{N_a}{N_b}=\frac{e^{-E_a/k_bT}}{e^{E_b/k_bT}}=e^{\hbar\omega_0/k_bT}
+\end{equation}
+and hence,
+\begin{equation}
+	\rho(\omega_0)=\frac{A}{e^{\hbar\omega_0/k_bT}}B_{ab}-B_{ba}
+\end{equation}
+From Planck's blackbody formula,
+\begin{equation}
+	\rho(\omega)=\frac{\hbar}{\pi^2c^3}\frac{\omega^3}{e^{\hbar\omega/k_bT}-1}
+\end{equation}
+And from these two equations we can deduce that,
+\begin{equation}
+	B_{ab}=B_{ba}
+\end{equation}
+And so,
+\begin{equation}
+	A=\frac{\omega^3\hbar}{\pi^2c^3}B_{ba}
+\end{equation}
+We see that from equation (52), that the transition rate for stimulated emission is the same as for absorption. Now, we deduce from equation (46) that,
+\begin{equation}
+	B_{ba}= frac{\pi}{3\epsilon_0\hbar^2}|\bm{\wp}|^2
+\end{equation}
+And spontaneous emission rate is,
+\begin{equation}
+	A=\frac{\omega^3|\bm{\wp}|^2}{3\pi\epsilon_0\hbar c^3}
+\end{equation}
+
+\subsection{The lifetime of an excited state}
+Suppose that you have a bottle full of atoms, with $B_b(t)$ of them in the excited stat. Due to spontaneous emission, this number decreases as time goes on, and to be more specifi, in a time interval $dt$ you will lose a fraction of $Adt$ of them,
+\begin{equation}
+	dN_b=-AN_bdt
+\end{equation}	
+Solving for $N_b(t)$, we get,
+\begin{equation}
+	N_B(t)=N_b(0)e^{-At}
+\end{equation}
+Here we can see that the number remaining in the excited state decreases exponentially, with a time constant,
+\begin{equation}
+	\tau=\frac{1}{A}
+\end{equation}
+We call this the lifetime of a state, or to be more technical, it is the time taken for $N_B(t)$ to reach $1/e\approx0.368$ of its initial value.\\
+Suppose that there are many more states, and many more decays, the transition rates add up, and the net lifetime is,
+\begin{equation}
+	\tau=\frac{1}{A_1+A_2+A_3+...}
+\end{equation}
+
+\subsection{Selection rules}
+The calculation of spontaneous emission rates are reduced to a matter of evaluating matrix elements of the form,
+\begin{equation*}
+	\langle\psi_b|\textbf{r}|\psi_a\rangle
+\end{equation*}
+Specifying the states with quantum numbers $n$, $l$ and $m$,	
+\begin{equation}
+	\langle b'l'm'|\textbf{r}|nlm\rangle
+\end{equation}
+Exploitatio of the angular momentum commutation relations and the hermiticity of the angular momentum operators yield these constraints on this quantity,\\
+\\
+\textbf{Selection rules involving $m$ and $m'$:} No transitions occur unless $\Delta m=+_-1$ or $0$\\
+\\
+\textbf{Selection rules involving $l$ and $l'$:} No transitions occur unless $\Delta l=+_-1$
+
+
+
+
+
+
+
+
+
+

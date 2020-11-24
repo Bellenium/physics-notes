@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  23 NOV 2020 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  24 NOV 2020 21:32
 entering extended mode
 **./AM.tex
 (AM.tex
@@ -629,7 +629,11 @@ LaTeX Warning: Label `norm' multiply defined.
 
 ) (TeX_files/chapter03.aux) (TeX_files/chapter05.aux) (TeX_files/chapter04.aux)
 (TeX_files/chapter07.aux) (TeX_files/chapter08.aux) (TeX_files/chapter09.aux)
-(TeX_files/chapter10.aux) (TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
+(TeX_files/chapter10.aux) (TeX_files/chapter11.aux) (TeX_files/chapter14.aux)
+
+LaTeX Warning: Label `p33' multiply defined.
+
+)
 \openout1 = `AM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -648,8 +652,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
-("D:\0.Library\0. Software\MikTek\tex/context/base/mkii\supp-pdf.mkii"
+ ("D:\0.Library\0. Software\MikTek\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count298
 \scratchdimen=\dimen279
@@ -797,22 +800,22 @@ Chapter 2.
 
 
 ]
-<Images//wessel-plane.png, id=1115, 2007.5pt x 2823.54875pt>
+<Images//wessel-plane.png, id=1090, 2007.5pt x 2823.54875pt>
 File: Images//wessel-plane.png Graphic file (type png)
 <use Images//wessel-plane.png>
-Package pdftex.def Info: Images//wessel-plane.png  used on input line 37.
+Package pdftex.def Info: Images//wessel-plane.png  used on input line 35.
 (pdftex.def)             Requested size: 100.38087pt x 141.1857pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 [12] [13 <./Images//wessel-plane.png>] [14] [15] [16]
-Overfull \hbox (60.01625pt too wide) detected at line 152
+Overfull \hbox (60.01625pt too wide) detected at line 149
 \OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OML/cmm/
 m/it/12 dx \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 x[]x \OT1/cmr/m/n/12 + \OML/cmm
 /m/it/12 dx
@@ -820,185 +823,48 @@ m/it/12 dx \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 x[]x \OT1/cmr/m/n/12 + \OML/cmm
 
 [17] [18]
 
-! Package inputenc Error: Unicode character  (U+0006)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ... wavelength l0=2p>k0.The spatial extent 
-                                                  x of a function f1x2 and t...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 236.
 
 
-! Package inputenc Error: Unicode character  (U+0006)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...ent x of a function f1x2 and the width 
-                                                  k of the Fourier transform...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 236.
 
 
-! Package inputenc Error: Unicode character  (U+0006)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...related through the uncertainty relation
-                                                  kxÚ1.                   ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 236.
 
 
-! Package inputenc Error: Unicode character  (U+0006)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...lated through the uncertainty relationk
-                                                  xÚ1.                     ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@over' on input line 236.
 
 
-! Package inputenc Error: Unicode character  (U+0005)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...ndent wave is represented byf1x,t2=122pL
-                                                  -a1k2ei(kx-v(k)t)dk.     ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 236.
 
 
-! Package inputenc Error: Unicode character  (U+0005)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...ent wave is represented byf1x,t2=122pL-
-                                                  a1k2ei(kx-v(k)t)dk.       ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character  (U+0005)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...in position space or wave-vector space:L
-                                                  -0f1x202dx=L-0a1k202dk.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character  (U+0005)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ... position space or wave-vector space:L-
-                                                  0f1x202dx=L-0a1k202dk.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character  (U+0005)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...ace or wave-vector space:L-0f1x202dx=L
-                                                  -0a1k202dk.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character  (U+0005)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...e or wave-vector space:L-0f1x202dx=L-
-                                                  0a1k202dk.
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 236.
 
 [19]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@over' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Underfull \vbox (badness 4144) has occurred while \output is active []
-
- [20]
-<Images//delta-distribution.png, id=1213, 621.07031pt x 381.67593pt>
+<Images//delta-distribution.png, id=1182, 621.07031pt x 381.67593pt>
 File: Images//delta-distribution.png Graphic file (type png)
 <use Images//delta-distribution.png>
-Package pdftex.def Info: Images//delta-distribution.png  used on input line 266
+Package pdftex.def Info: Images//delta-distribution.png  used on input line 263
 .
 (pdftex.def)             Requested size: 310.5344pt x 190.8375pt.
+ [20]
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 26.39996pt on input line 304.
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 17.59998pt on input line 304.
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 13.19998pt on input line 304.
+ [21 <./Images//delta-distribution.png>]
+Underfull \vbox (badness 4096) has occurred while \output is active []
 
-[21 <./Images//delta-distribution.png>]
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 26.39996pt on input line 307.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 17.59998pt on input line 307.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 13.19998pt on input line 307.
- [22] [23]
+ [22]
+[23]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 38.01593pt on input line 386.
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
@@ -1092,7 +958,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 13.
 
 )
-Underfull \vbox (badness 6961) has occurred while \output is active []
+Underfull \vbox (badness 5970) has occurred while \output is active []
 
  [41
 
@@ -1184,7 +1050,7 @@ Chapter 7.
 ]
 Chapter 8.
 [53] [54] [55] [56] [57]
-<Images//feyn-loop.png, id=1477, 545.03625pt x 132.495pt>
+<Images//feyn-loop.png, id=1452, 545.03625pt x 132.495pt>
 File: Images//feyn-loop.png Graphic file (type png)
 <use Images//feyn-loop.png>
 Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
@@ -1194,12 +1060,12 @@ Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [58] [59 <./Images//feyn-loop.png>] [60]
-<Images//strong-split.png, id=1507, 618.31pt x 532.99126pt>
+<Images//strong-split.png, id=1482, 618.31pt x 532.99126pt>
 File: Images//strong-split.png Graphic file (type png)
 <use Images//strong-split.png>
 Package pdftex.def Info: Images//strong-split.png  used on input line 308.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images//weak-split.png, id=1508, 371.3875pt x 405.515pt>
+<Images//weak-split.png, id=1483, 371.3875pt x 405.515pt>
 File: Images//weak-split.png Graphic file (type png)
 <use Images//weak-split.png>
 Package pdftex.def Info: Images//weak-split.png  used on input line 313.
@@ -1215,12 +1081,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
  [63 <./Images//weak-split.png>]
-<Images//zee-table.png, id=1538, 683.55376pt x 377.41pt>
+<Images//zee-table.png, id=1513, 683.55376pt x 377.41pt>
 File: Images//zee-table.png Graphic file (type png)
 <use Images//zee-table.png>
 Package pdftex.def Info: Images//zee-table.png  used on input line 384.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images//intermediate-split.png, id=1539, 491.8375pt x 646.415pt>
+<Images//intermediate-split.png, id=1514, 491.8375pt x 646.415pt>
 File: Images//intermediate-split.png Graphic file (type png)
 <use Images//intermediate-split.png>
 Package pdftex.def Info: Images//intermediate-split.png  used on input line 389
@@ -1234,23 +1100,193 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [64] [65 <./Images//zee-table.png>] [66 <./Images//intermediate-split.png>]
-<Images//hyp-split.png, id=1568, 748.7975pt x 401.5pt>
+<Images//hyp-split.png, id=1543, 748.7975pt x 401.5pt>
 File: Images//hyp-split.png Graphic file (type png)
 <use Images//hyp-split.png>
 Package pdftex.def Info: Images//hyp-split.png  used on input line 438.
 (pdftex.def)             Requested size: 233.99864pt x 117.00177pt.
-)
-[67 <./Images//hyp-split.png>]
+
+[67 <./Images//hyp-split.png>] [68]
+Overfull \hbox (22.94691pt too wide) in paragraph at lines 514--516
+\OT1/cmr/m/n/12 The her-mitic-ity of $\OML/cmm/m/it/12 H[]$ \OT1/cmr/m/n/12 say
+s that $\OML/cmm/m/it/12 H[] \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 H[]j\OT1/cmr/m
+/n/12 )[]$. Now mul-ti-ply-ing with $\OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 (\OML/cm
+m/m/it/12 i=\U/msb/m/n/12 ~\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 e[]$\OT1/cmr/m/n/1
+2 ,
+ []
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 543--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--553
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--553
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--561
+
+ []
+
+[70]
+Overfull \hbox (4.49956pt too wide) in paragraph at lines 621--621
+[]\OT1/cmr/bx/n/14.4 Absorption, stim-u-lated emis-sion and spon-ta-neous
+ []
+
+[71] [72]
+! Undefined control sequence.
+l.664 ...^2$, we have an average $|\hat{n}\cdot\bm
+                                                  {\wp}|^2$, where
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.666 	\bm
+          {\wp}=q\langle\psi_b|r|\psi_a\rangle
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--671
+
+ []
+
+! Undefined control sequence.
+l.672 	(\hat{n}\cdot\bm
+                       {\wp})^2_p=\frac{1}{2}[	(\hat{i}\cdot\bm{\wp})^2+ 	(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.672 ...m{\wp})^2_p=\frac{1}{2}[	(\hat{i}\cdot\bm
+                                                  {\wp})^2+ 	(\hat{j}\cdot\b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.672 ...hat{i}\cdot\bm{\wp})^2+ 	(\hat{j}\cdot\bm
+                                                  {\wp}^2)=\frac{1}{2}\wp^2 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.674 Where $\theta$ is the angle between $\bm
+                                              {\wp}$ and the direction of pr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.676 ...ction}:	Setting the polar axis along $\bm
+                                                  {\wp}$ and integrate over ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--677
+
+ []
+
+! Undefined control sequence.
+l.679 	(\hat{n}\cdot\bm
+                       {\wp})^2_pp=\frac{1}{4\pi}\int\left[\frac{1}{2}\wp^2 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.683 ...row a}=\frac{\pi}{3\epsilon_0\hbar^2}|\bm
+                                                  {\wp}|^2\rho(\omega_0)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.685 Where \bm
+               {$\wp$} is the matrix element of the electric dipole moment b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[73] [74]
+! Undefined control sequence.
+l.720 	B_{ba}= frac{\pi}{3\epsilon_0\hbar^2}|\bm
+                                                {\wp}|^2
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \omega ^3|\bm 
+                         {\wp }|^2
+l.724 ...a^3|\bm{\wp}|^2}{3\pi\epsilon_0\hbar c^3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 754--760
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--760
+
+ []
+
+) [76]
 \openout2 = `./TeX_files/chapter09.aux'.
 
- (TeX_files/chapter09.tex [68
-
-
-
-
-]
+ (TeX_files/chapter09.tex
 Chapter 9.
-<Images//ClassicalScattering.png, id=1581, 171.64125pt x 132.495pt>
+<Images//ClassicalScattering.png, id=1664, 171.64125pt x 132.495pt>
 File: Images//ClassicalScattering.png Graphic file (type png)
 <use Images//ClassicalScattering.png>
 Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
@@ -1259,22 +1295,27 @@ Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-[70 <./Images//ClassicalScattering.png>]
-<Images//DiffScattering.png, id=1592, 383.031pt x 169.8345pt>
+ [77
+
+
+
+
+]
+[78 <./Images//ClassicalScattering.png>]
+<Images//DiffScattering.png, id=1674, 383.031pt x 169.8345pt>
 File: Images//DiffScattering.png Graphic file (type png)
 <use Images//DiffScattering.png>
 Package pdftex.def Info: Images//DiffScattering.png  used on input line 46.
 (pdftex.def)             Requested size: 306.42522pt x 135.86777pt.
- [71 <./Images//DiffScattering.png>]
+ [79 <./Images//DiffScattering.png>]
 Overfull \hbox (5.34587pt too wide) in paragraph at lines 53--55
 \OT1/cmr/m/n/12 In the quan-tum the-ory of scat-ter-ing, we imag-ine an in-ci-d
 ent plane wave,$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m
 /n/12 ) =
  []
 
-[72] [73]
-<Images//Hankels.png, id=1622, 507.0945pt x 205.9695pt>
+[80] [81]
+<Images//Hankels.png, id=1705, 507.0945pt x 205.9695pt>
 File: Images//Hankels.png Graphic file (type png)
 <use Images//Hankels.png>
 Package pdftex.def Info: Images//Hankels.png  used on input line 119.
@@ -1284,13 +1325,13 @@ Overfull \hbox (15.67613pt too wide) in paragraph at lines 119--120
  [] 
  []
 
-[74 <./Images//Hankels.png>] [75]
-<Images//1d_scatt.png, id=1645, 291.33844pt x 177.66376pt>
+[82 <./Images//Hankels.png>] [83]
+<Images//1d_scatt.png, id=1727, 291.33844pt x 177.66376pt>
 File: Images//1d_scatt.png Graphic file (type png)
 <use Images//1d_scatt.png>
 Package pdftex.def Info: Images//1d_scatt.png  used on input line 184.
 (pdftex.def)             Requested size: 174.8044pt x 106.59906pt.
- [76 <./Images//1d_scatt.png>] [77]
+ [84 <./Images//1d_scatt.png>] [85]
 ! Extra }, or forgotten $.
 l.254 	\psi(\vec{r}) = \int G(\vec{r}}
                                        - \vec{r_{0}}) Q(\vec{r_{0}}) d^{3}\v...
@@ -1300,30 +1341,30 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[78] [79] [80] [81] [82]
-<Images//impulse_scatt.png, id=1721, 348.55219pt x 121.95563pt>
+[86] [87] [88] [89] [90]
+<Images//impulse_scatt.png, id=1803, 348.55219pt x 121.95563pt>
 File: Images//impulse_scatt.png Graphic file (type png)
 <use Images//impulse_scatt.png>
 Package pdftex.def Info: Images//impulse_scatt.png  used on input line 412.
 (pdftex.def)             Requested size: 174.27565pt x 60.97765pt.
- [83 <./Images//impulse_scatt.png>]
-<Images//born_series.png, id=1735, 707.64375pt x 140.02313pt>
+ [91 <./Images//impulse_scatt.png>]
+<Images//born_series.png, id=1817, 707.64375pt x 140.02313pt>
 File: Images//born_series.png Graphic file (type png)
 <use Images//born_series.png>
 Package pdftex.def Info: Images//born_series.png  used on input line 441.
 (pdftex.def)             Requested size: 353.82101pt x 70.01138pt.
-<Images//2000px-Bhabha_S_channel.svg.png, id=1739, 2007.5pt x 2007.5pt>
+<Images//2000px-Bhabha_S_channel.svg.png, id=1821, 2007.5pt x 2007.5pt>
 File: Images//2000px-Bhabha_S_channel.svg.png Graphic file (type png)
 <use Images//2000px-Bhabha_S_channel.svg.png>
 Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
  line 456.
 (pdftex.def)             Requested size: 200.76175pt x 200.76175pt.
-) [84 <./Images//born_series.png>] [85 <./Images//2000px-Bhabha_S_channel.svg.p
+) [92 <./Images//born_series.png>] [93 <./Images//2000px-Bhabha_S_channel.svg.p
 ng>]
 \openout2 = `./TeX_files/chapter10.aux'.
 
 
-(TeX_files/chapter10.tex [86
+(TeX_files/chapter10.tex [94
 
 
 
@@ -1360,8 +1401,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
-[88]
+ [95]
+[96]
 \openout2 = `./TeX_files/chapter11.aux'.
 
  (TeX_files/chapter11.tex
@@ -1374,7 +1415,7 @@ Overfull \hbox (1.46979pt too wide) in paragraph at lines 4--4
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89
+ [97
 
 
 
@@ -1383,22 +1424,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (25.68343pt too high) has occurred while \output is active []
 
 
-[90]
+[98]
 \openout2 = `./TeX_files/chapter14.aux'.
 
  (TeX_files/chapter14.tex
 Chapter 12.
-) [91
+) [99
 
 
 
 
-] [92] [93
+] [100] [101
 
 
 
 
-] [94]
+] [102]
 Underfull \hbox (badness 2662) in paragraph at lines 124--125
 []\OT1/cmr/m/n/12 Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ul-bricht,
  []
@@ -1409,78 +1450,62 @@ Underfull \hbox (badness 2005) in paragraph at lines 124--125
 e-o-ries,
  []
 
-[95] (AM.aux (TeX_files/chapter13.aux) (TeX_files/chapter01.aux)
-(TeX_files/chapter02.aux) (TeX_files/chapter03.aux) (TeX_files/chapter05.aux)
-(TeX_files/chapter04.aux) (TeX_files/chapter07.aux) (TeX_files/chapter08.aux)
-(TeX_files/chapter09.aux) (TeX_files/chapter10.aux) (TeX_files/chapter11.aux)
-(TeX_files/chapter14.aux))
+[103pdfTeX warning (ext4): destination with the same identifier (name{cite.p33}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.135 \end{document}
+                    ] (AM.aux (TeX_files/chapter13.aux)
+(TeX_files/chapter01.aux) (TeX_files/chapter02.aux) (TeX_files/chapter03.aux)
+(TeX_files/chapter05.aux) (TeX_files/chapter04.aux) (TeX_files/chapter07.aux)
+(TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
+(TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
 
 Package rerunfilecheck Warning: File `AM.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `AM.out':
-(rerunfilecheck)             Before: 4687D90F3FA17EE124852709CF120140;14293
-(rerunfilecheck)             After:  D8CABA0117A28297F08AA5C2F91C1224;13761.
+(rerunfilecheck)             Before: EF6C3A1F759055AFAF719A6986B16413;13938
+(rerunfilecheck)             After:  8FE1473BC3790577C4799A7F7663461D;15054.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18893 strings out of 480236
- 349644 string characters out of 2886654
- 732119 words of memory out of 3000000
- 34332 multiletter control sequences out of 15000+200000
+ 18966 strings out of 480236
+ 350631 string characters out of 2886654
+ 732168 words of memory out of 3000000
+ 34326 multiletter control sequences out of 15000+200000
  555698 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,14n,88p,1537b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.2.25.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.25.2} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.25.1} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.25} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.24.9} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.24.8} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.24.7} has been referenced but does not
- exist, replaced by a fixed one
-
- <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1056\
-callig15.pk> <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\tcrm1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts
-/cm/cmbsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmb
-xti10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D
-:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.L
-ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Librar
-y/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. 
-Software/MikTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Softw
-are/MikTek/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/M
-ikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/
-public/amsfonts/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm
-/cmti12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbol
-s/msbm10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/rsfs/rsfs10.pf
-b>
-Output written on AM.pdf (105 pages, 1012016 bytes).
+ 76i,16n,88p,1524b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi105
+6\callig15.pk> <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\tcrm1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
+ts/cm/cmbsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/c
+mbxti10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cme
+x10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0
+.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Libr
+ary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0
+. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Sof
+tware/MikTek/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software
+/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTe
+k/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/font
+s/type1/public/amsfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type
+1/public/amsfonts/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public
+/amsfonts/cm/cmsy6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/rsfs/rsfs10.
+pfb>
+Output written on AM.pdf (113 pages, 1047486 bytes).
 PDF statistics:
- 2057 PDF objects out of 2073 (max. 8388607)
- 635 named destinations out of 1000 (max. 500000)
- 1672 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2158 PDF objects out of 2487 (max. 8388607)
+ 714 named destinations out of 1000 (max. 500000)
+ 1632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

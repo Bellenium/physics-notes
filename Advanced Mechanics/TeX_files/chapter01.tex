@@ -1,8 +1,6 @@
 % !TeX spellcheck = <none>
 \chapter{Mathematical Preliminaries}
 This chapter is a discussion of all the mathematical tools and tricks one would require to master Quantum mechanics. Knowledge of basic matrix manipulation and vector calculus is assumed.
-%\section{Vector Calculus}
-
 \section{Complex Numbers}
 A complex number is an order pair ${} \in \mathbb{C}$ where $a,b \in \mathbb{R}$ where we can denote it as $z = a + ib$ where $i = \sqrt{-1}$
 \subsection{Addition}
@@ -37,7 +35,6 @@ Complex numbers can be represented on a 2-dimentionsal space similar to $\mathbb
 	\includegraphics[scale=0.05]{wessel-plane.png}
 	\caption{Wessel Plane Plot: (Complex conjugate picture.svg from Wikimedia Commons)}
 \end{figure}
-\section{Vector Analysis}
 \section{Solving PDEs}
 What we'll review here is called the variable separable method, 
 \section{Linear Vector Spaces} 
@@ -234,7 +231,7 @@ where  the  expansion  function  a1k2  is  complex.  To  obtain  the  expansion 
 \end{equation}
 which is a projection of the spatial function f1x2 onto the harmonic basis functions eikx>12p. The basis functions are orthogonal and normalized in the Dirac sense, which means their projections onto each other are Dirac delta functions
 \subsection{Parseval’s theorem}
-In each case, $a(k)$ and $f(x)$ are Fourier transforms of each other following Eqs. (D.14) and (D.15). In Fig. D.2, only the real part of the function f1x2 is plotted and each wave has a central wavelength l0=2p>k0.The spatial extent x of a function f1x2 and the width k of the Fourier transform a1k2 in wave-vector space are inversely related through the uncertainty relationkxÚ1.                                                              (D.18)This relation tells us that if want to make a wave that is confined to a small region of space, we need to use a wide range of wave vectors. In quantum mechanics, this concept is the Heisenberg uncertainty relation. To describe a wave f1x,t2, we replace x with x-vt in the Fourier decomposition of the func-tion f1x2, as long as there is no dispersion. This means that the wave retains its initial shape as it moves. When a system has dispersion, this replacement is no longer valid. The different speeds of the different wave-vector components of the superposition f1x,t2 cause the shape of the wave to change as it propa-gates. The expansion function a1k2 remains the same and the time dependent wave is represented byf1x,t2=122pL-a1k2ei(kx-v(k)t)dk.                                        (D.19)We must recalculate the integral at each time to learn how the wave shape evolves.Parseval’s theorem says that the power is the same whether calculated in position space or wave-vector space:L-0f1x202dx=L-0a1k202dk.    
+%In each case, $a(k)$ and $f(x)$ are Fourier transforms of each other following Eqs. (D.14) and (D.15). In Fig. D.2, only the real part of the function f1x2 is plotted and each wave has a central wavelength l0=2p>k0.The spatial extent x of a function f1x2 and the width k of the Fourier transform a1k2 in wave-vector space are inversely related through the uncertainty relationkxÚ1.                                                              (D.18)This relation tells us that if want to make a wave that is confined to a small region of space, we need to use a wide range of wave vectors. In quantum mechanics, this concept is the Heisenberg uncertainty relation. To describe a wave f1x,t2, we replace x with x-vt in the Fourier decomposition of the func-tion f1x2, as long as there is no dispersion. This means that the wave retains its initial shape as it moves. When a system has dispersion, this replacement is no longer valid. The different speeds of the different wave-vector components of the superposition f1x,t2 cause the shape of the wave to change as it propa-gates. The expansion function a1k2 remains the same and the time dependent wave is represented byf1x,t2=122pL-a1k2ei(kx-v(k)t)dk.                                        (D.19)We must recalculate the integral at each time to learn how the wave shape evolves.Parseval’s theorem says that the power is the same whether calculated in position space or wave-vector space:L-0f1x202dx=L-0a1k202dk.    
 \section{Delta Function}
 \subsection{The Divergence of $\frac{\hat{r}}{r^{2}}$}
 We can see why the divergence is,
@@ -336,7 +333,10 @@ Comparing and we find that,
 \end{equation}
 \end{tcolorbox}
 \section{Complex Analysis}
-\subsection{Analytic Function}
+\subsection{Complex Differentiation}
+\subsection{Contour Integrals}
+\subsection{Cauchy-Goursat Theorem}
+\subsection{Cauchy's Integral Formula}
 
 \subsection{A few important relations}
 \subsubsection{Cauchy-Riemann Equations}
