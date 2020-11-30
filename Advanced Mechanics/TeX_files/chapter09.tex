@@ -251,38 +251,45 @@ Suppoase we could find a function that solves the Helmholtz equation with a delt
 \end{equation}
 We can then express as an integral:
 \begin{equation}
-	\psi(\vec{r}) = \int G(\vec{r}} - \vec{r_{0}}) Q(\vec{r_{0}}) d^{3}\vec{r_{0}}
+	\psi(\vec{r}) = \int G(\vec{r} - \vec{r_{0}}) Q(\vec{r_{0}}) d^{3}\vec{r_{0}}
 \end{equation}
 $G(\vec{r})$ is called the Green's function for the Helmholtz equation. Moreover, generally speaking the Green's function for a linear differential equation represents the response to a delta function. Our goal now is to solve this differential equation, we start by Fourier transforming it to turn it into an algebraic equation:
 \begin{equation}
 G(\vec{r}) = \frac{1}{{(2 \pi )}^{3/2}} \int e^{i \vec{s}. \vec{r}} g(\vec{s}) d^{3}\vec{s}
 \end{equation}
 Then,
-$$$$
+$$(\nabla^{2} + k^{2}) G(\vec{r}) = \frac{1}{{(2 \pi)}^{3/2}} (\nabla^{2} + k^{2})\int e^{i \vec{s}. \vec{r}} g(\vec{s}) d^{3}\vec{s}$$
 But,
-$$$$
+$$\nabla^{2}e^{i \vec{s}. \vec{r}} = -s^{2}e^{i \vec{s}. \vec{r}}$$
 and
-$$$$
+$$\delta^{3}(\vec{r}) = \frac{1}{{(2 \pi )}^{3/2}} \int e^{i \vec{s}. \vec{r}} g(\vec{s}) d^{3}\vec{s}$$
 thus,
-$$$$
+$$\frac{1}{den} = \frac{1}{den} \int e^{i \vec{s}. \vec{r}} d^{3}\vec{s}$$
 It follows from Plancherel's theorem that,
-$$$$
+$$g(\vec{s}) = \frac{1}{{(2 \pi)}^{3/2}(k^{2} - 2^{2})}$$
 Plugging this back, we see that
-$$$$
-Text
-$$$$
+$$G(\vec{r}) = \frac{1}{{(2 \pi)}^{3}}  \int e^{i \vec{s}. \vec{r}} \frac{1}{(k^{2} - 2^{2})} d^{3}\vec{s}$$
+We now switch coordinates for convenience. Now $\vec{r}$ is fixed as far as the $s$ integration matters so we'll choose spherical coordinates with the polar axis along $\vec{r}$. Then 
+$$\int^{2 \pi}_{0} e^{isr \sin(\theta)} \sin(\theta) d \theta = - \frac{e^{isr \cos(\theta)}}{isr} \Big \rvert^{\pi}_{0} = \frac{2 \sin(sr)}{sr}$$
+We can represent this visually as,
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.6]{scatter_coord.png}
+	\caption{New coordinates for the integral}
+\end{figure}
 Thus,
-$$$$
+$$G(\vec{r}) =  \frac{1}{{(2 \pi)}^{2}}\frac{2}{r} \int^{\infty}_{0} \frac{s \sin(sr)}{k^{2} - s^{2}} ds = \frac{1}{4 \pi^{2} r}\int^{\infty}_{-\infty} \frac{s \sin(sr)}{k^{2} - s^{2}} ds$$
 We can rewrite this as,
-$$$$
+$$G(\vec{r}) = \frac{i}{8 \pi^{2} r} \left[\int_{-\infty}^{\infty} \frac{se^{isr}}{(s-k)(s+k)} ds - \int_{-\infty}^{\infty} \frac{se^{-isr}}{(s-k)(s+k)} ds \right] = \frac{i}{8 \pi^{2} r}(I_{1}-I_{2})$$
 From Cauchy's integral formula it follows that,
-$$$$
-$$$$
+$$I_{1} = \oint \left[\frac{se^{isr}}{s + k} \right] \frac{1}{s-k}ds = 2 \pi i \left[ \frac{s e^{isr}}{s + k} \right] \Big \rvert_{{s= k}}  = i \pi e^{ikr}$$
+$$I_{2} = \oint \left[\frac{se^{-isr}}{s - k} \right] \frac{1}{s+k}ds = -2 \pi i \left[ \frac{s e^{isr}}{s + k} \right] \Big \rvert_{{s= -k}}  = -i \pi e^{ikr}$$
+%\big{\vert_{s = -k}}
 Therfore,
-\begin{equation}
-	content...
+\begin{equation} \label{b1}
+G(\vec{r}) = \frac{i}{8 \pi^{2} r} \left[ \left(i \pi e^{ikr} \right) - \left(-i \pi e^{ikr} \right) \right] = -\frac{e^{ikr}}{4 \pi r}
 \end{equation}
-Note that $G + G_{0}$ still satisfies Equation (). This is simply due to the multivalued nature of the holomorphic function. Thus, the integral form of the Schrodinger equation can be written as,
+Note that $G + G_{0}$ still satisfies Equation (\ref{b1}). This is simply due to the multivalued nature of the holomorphic function. Thus, the integral form of the Schrodinger equation can be written as,
 \begin{tcolorbox}
 \begin{equation}
 \psi(\vec{r}) = \psi_{0}(\vec{r}) - \frac{m}{2 \pi \hbar^{2}}\int\frac{e^{ik\abs{\vec{r} - \vec{r}_{0}}}}{\abs{\vec{r} - \vec{r}_{0}}}  V(\vec{r}_{0}) \psi(\vec{r}_{0}) d^{3}\vec{r}_{0}

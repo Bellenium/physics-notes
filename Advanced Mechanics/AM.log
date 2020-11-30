@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  24 NOV 2020 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  29 NOV 2020 22:05
 entering extended mode
 **./AM.tex
 (AM.tex
@@ -26,6 +26,14 @@ File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
+)
+("D:\0.Library\0. Software\MikTek\tex/latex/tools\bm.sty"
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
 )
 ("D:\0.Library\0. Software\MikTek\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -84,6 +92,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 ))
 ("D:\0.Library\0. Software\MikTek\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
 \pmbraise@=\dimen142
 )
 ("D:\0.Library\0. Software\MikTek\tex/latex/amsmath\amsopn.sty"
@@ -132,8 +141,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("D:\0.Library\0. Software\MikTek\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
@@ -600,7 +609,7 @@ Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 )
 ("D:\0.Library\0. Software\MikTek\tex/latex/jknappen\mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
+\symrsfs=\mathgroup9
 )
 ("D:\0.Library\0. Software\MikTek\tex/latex/tools\tabularx.sty"
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
@@ -623,17 +632,9 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@cols=\count297
 \TX@ftn=\toks36
 ) (AM.aux
-(TeX_files/chapter13.aux) (TeX_files/chapter01.aux) (TeX_files/chapter02.aux
-
-LaTeX Warning: Label `norm' multiply defined.
-
-) (TeX_files/chapter03.aux) (TeX_files/chapter05.aux) (TeX_files/chapter04.aux)
-(TeX_files/chapter07.aux) (TeX_files/chapter08.aux) (TeX_files/chapter09.aux)
-(TeX_files/chapter10.aux) (TeX_files/chapter11.aux) (TeX_files/chapter14.aux)
-
-LaTeX Warning: Label `p33' multiply defined.
-
-)
+(TeX_files/chapter15.aux) (TeX_files/chapter04.aux) (TeX_files/chapter07.aux)
+(TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
+(TeX_files/chapter11.aux))
 \openout1 = `AM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -652,7 +653,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
- ("D:\0.Library\0. Software\MikTek\tex/context/base/mkii\supp-pdf.mkii"
+
+("D:\0.Library\0. Software\MikTek\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count298
 \scratchdimen=\dimen279
@@ -714,343 +716,60 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {C:/Users/Pugazh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
-] (AM.toc [3] [4]
-[5] [6] [7])
+] (AM.toc [3]
+Overfull \hbox (1.65845pt too wide) in paragraph at lines 43--43
+ [][] [][]\OT1/cmr/m/n/12 Absorption, stim-u-lated emis-sion and spon-ta-neous 
+emis- 
+ []
+
+[4])
 \tf@toc=\write7
 \openout7 = `AM.toc'.
 
- [8] [9
+ [5] [6
 
-] [10
+] [7] [8
 
-] [1
+]
+\openout2 = `./TeX_files/chapter15.aux'.
 
-] [2]
-\openout2 = `./TeX_files/chapter13.aux'.
-
- (TeX_files/chapter13.tex
+ (TeX_files/chapter15.tex
 Chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-[3
+) [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-
- []
-
-[4]
-Overfull \hbox (1.8025pt too wide) in paragraph at lines 26--29
-\OT1/cmr/m/n/12 Where $\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 
-E[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y; z\OT1/cmr/m/n/12 )$ and $\OML/cmm/m/
-it/12 k \OT1/cmr/m/n/12 = [] = []$. As-sum-ing that $\OML/cmm/m/it/12 E[] \OT1/
-cmr/m/n/12 = \OML/cmm/m/it/12 u\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/
-12 )\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 y\OT1/cmr/m/n/12 )\OML/
-cmm/m/it/12 w\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m/n/12 )$
- []
-
-[5]
-
-! LaTeX Error: File `"Oscillation modes"' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ...[width=0.7\linewidth]{"Oscillation modes"}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6]
-Overfull \hbox (183.00584pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 1.4.  FAILURE OF THE RAYLEIGH JEANS THEORY IN EXPLAINING THE S
-TEFAN-BOLTZMANN LAW \OT1/cmr/m/n/12 7
- []
-
-[7]) [8] [9
-
-
-
-] [10]
-\openout2 = `./TeX_files/chapter01.aux'.
-
- (TeX_files/chapter01.tex
-Chapter 2.
-[11
-
-
-]
-<Images//wessel-plane.png, id=1090, 2007.5pt x 2823.54875pt>
-File: Images//wessel-plane.png Graphic file (type png)
-<use Images//wessel-plane.png>
-Package pdftex.def Info: Images//wessel-plane.png  used on input line 35.
-(pdftex.def)             Requested size: 100.38087pt x 141.1857pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-[12] [13 <./Images//wessel-plane.png>] [14] [15] [16]
-Overfull \hbox (60.01625pt too wide) detected at line 149
-\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OML/cmm/
-m/it/12 dx \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 x[]x \OT1/cmr/m/n/12 + \OML/cmm
-/m/it/12 dx
- []
-
-[17] [18]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 236.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 236.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 236.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@over' on input line 236.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 236.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 236.
-
-[19]
-<Images//delta-distribution.png, id=1182, 621.07031pt x 381.67593pt>
-File: Images//delta-distribution.png Graphic file (type png)
-<use Images//delta-distribution.png>
-Package pdftex.def Info: Images//delta-distribution.png  used on input line 263
-.
-(pdftex.def)             Requested size: 310.5344pt x 190.8375pt.
- [20]
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 26.39996pt on input line 304.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 17.59998pt on input line 304.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 13.19998pt on input line 304.
- [21 <./Images//delta-distribution.png>]
-Underfull \vbox (badness 4096) has occurred while \output is active []
-
- [22]
-[23]
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 38.01593pt on input line 386.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 21.99997pt on input line 386.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 386.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\epsilon' on input line 386.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 386.
-
-[24]
-Overfull \hbox (13.6912pt too wide) in paragraph at lines 416--417
-\OT1/cmr/m/n/12 The Levi-Civita Pseu-doten-sor i.e. Ten-sor den-sity is a com-p
-letely anti-symmetric
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-[26]
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 15.39998pt on input line 464.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 10.99998pt on input line 464.
- [27] [28]) [29] [30
-
-
-
-] [31] [32]
-\openout2 = `./TeX_files/chapter02.aux'.
-
- (TeX_files/chapter02.tex
-Chapter 3.
-
-Underfull \vbox (badness 1466) has occurred while \output is active []
-
- [33
-
-
-]
-Overfull \hbox (73.61923pt too wide) detected at line 42
-[][] [][] [][]\OML/cmm/m/it/12 dx \OT1/cmr/m/n/12 = []
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
-
- []
-
-[35]
-Overfull \hbox (20.97621pt too wide) in paragraph at lines 81--95
-\OT1/cmr/m/n/12 sub-sti-tute in the right hand of the equa-tion $2\OML/cmm/m/it
-/12 i[] \OMS/cmsy/m/n/12  jh\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 j[][]j\OML/cmm/
-m/it/12  \OMS/cmsy/m/n/12 i  
- []
-
-[36]) [37] [38
-
-
-
-] [39] [40]
-\openout2 = `./TeX_files/chapter03.aux'.
-
- (TeX_files/chapter03.tex
-Chapter 4.
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 31.67993pt on input line 13.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\psi' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 13.
-
-)
-Underfull \vbox (badness 5970) has occurred while \output is active []
-
- [41
-
-
-]
-[42] [43
-
-
-
-] [44]
-\openout2 = `./TeX_files/chapter05.aux'.
-
- (TeX_files/chapter05.tex
-Chapter 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 10.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 10.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 10.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45
-
-
-]
-Overfull \vbox (36.71681pt too high) has occurred while \output is active []
-
-
-[46]) [47]
 \openout2 = `./TeX_files/chapter04.aux'.
 
- (TeX_files/chapter04.tex [48
+ (TeX_files/chapter04.tex [2
 
 
 
 
 ]
-Chapter 6.
-) [49]
+Chapter 2.
+) [3]
 \openout2 = `./TeX_files/chapter07.aux'.
 
- (TeX_files/chapter07.tex [50
+ (TeX_files/chapter07.tex [4
 
 
 
 
 ]
-Chapter 7.
-) [51]
+Chapter 3.
+) [5]
 \openout2 = `./TeX_files/chapter08.aux'.
 
- (TeX_files/chapter08.tex [52
+ (TeX_files/chapter08.tex [6
 
 
 
 
 ]
-Chapter 8.
-[53] [54] [55] [56] [57]
-<Images//feyn-loop.png, id=1452, 545.03625pt x 132.495pt>
+Chapter 4.
+[7] [8] [9] [10] [11]
+<Images//feyn-loop.png, id=550, 545.03625pt x 132.495pt>
 File: Images//feyn-loop.png Graphic file (type png)
 <use Images//feyn-loop.png>
 Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
@@ -1059,13 +778,13 @@ Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58] [59 <./Images//feyn-loop.png>] [60]
-<Images//strong-split.png, id=1482, 618.31pt x 532.99126pt>
+[12] [13 <./Images//feyn-loop.png>] [14]
+<Images//strong-split.png, id=582, 618.31pt x 532.99126pt>
 File: Images//strong-split.png Graphic file (type png)
 <use Images//strong-split.png>
 Package pdftex.def Info: Images//strong-split.png  used on input line 308.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images//weak-split.png, id=1483, 371.3875pt x 405.515pt>
+<Images//weak-split.png, id=583, 371.3875pt x 405.515pt>
 File: Images//weak-split.png Graphic file (type png)
 <use Images//weak-split.png>
 Package pdftex.def Info: Images//weak-split.png  used on input line 313.
@@ -1077,16 +796,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61] [62 <./Images//strong-split.png>]
+[15] [16 <./Images//strong-split.png>]
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
- [63 <./Images//weak-split.png>]
-<Images//zee-table.png, id=1513, 683.55376pt x 377.41pt>
+ [17 <./Images//weak-split.png>]
+<Images//zee-table.png, id=615, 683.55376pt x 377.41pt>
 File: Images//zee-table.png Graphic file (type png)
 <use Images//zee-table.png>
 Package pdftex.def Info: Images//zee-table.png  used on input line 384.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images//intermediate-split.png, id=1514, 491.8375pt x 646.415pt>
+<Images//intermediate-split.png, id=616, 491.8375pt x 646.415pt>
 File: Images//intermediate-split.png Graphic file (type png)
 <use Images//intermediate-split.png>
 Package pdftex.def Info: Images//intermediate-split.png  used on input line 389
@@ -1099,14 +818,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64] [65 <./Images//zee-table.png>] [66 <./Images//intermediate-split.png>]
-<Images//hyp-split.png, id=1543, 748.7975pt x 401.5pt>
+[18] [19 <./Images//zee-table.png>] [20 <./Images//intermediate-split.png>]
+<Images//hyp-split.png, id=645, 748.7975pt x 401.5pt>
 File: Images//hyp-split.png Graphic file (type png)
 <use Images//hyp-split.png>
 Package pdftex.def Info: Images//hyp-split.png  used on input line 438.
 (pdftex.def)             Requested size: 233.99864pt x 117.00177pt.
 
-[67 <./Images//hyp-split.png>] [68]
+[21 <./Images//hyp-split.png>] [22]
 Overfull \hbox (22.94691pt too wide) in paragraph at lines 514--516
 \OT1/cmr/m/n/12 The her-mitic-ity of $\OML/cmm/m/it/12 H[]$ \OT1/cmr/m/n/12 say
 s that $\OML/cmm/m/it/12 H[] \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 H[]j\OT1/cmr/m
@@ -1115,7 +834,7 @@ m/m/it/12 i=\U/msb/m/n/12 ~\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 e[]$\OT1/cmr/m/n/1
 2 ,
  []
 
-[69]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 543--545
 
  []
@@ -1140,138 +859,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 558--561
 
  []
 
-[70]
+[24]
 Overfull \hbox (4.49956pt too wide) in paragraph at lines 621--621
 []\OT1/cmr/bx/n/14.4 Absorption, stim-u-lated emis-sion and spon-ta-neous
  []
 
-[71] [72]
-! Undefined control sequence.
-l.664 ...^2$, we have an average $|\hat{n}\cdot\bm
-                                                  {\wp}|^2$, where
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.666 	\bm
-          {\wp}=q\langle\psi_b|r|\psi_a\rangle
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
+[25] [26]
 Underfull \hbox (badness 10000) in paragraph at lines 667--671
 
  []
-
-! Undefined control sequence.
-l.672 	(\hat{n}\cdot\bm
-                       {\wp})^2_p=\frac{1}{2}[	(\hat{i}\cdot\bm{\wp})^2+ 	(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.672 ...m{\wp})^2_p=\frac{1}{2}[	(\hat{i}\cdot\bm
-                                                  {\wp})^2+ 	(\hat{j}\cdot\b...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.672 ...hat{i}\cdot\bm{\wp})^2+ 	(\hat{j}\cdot\bm
-                                                  {\wp}^2)=\frac{1}{2}\wp^2 ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bm 
-                    
-l.674 Where $\theta$ is the angle between $\bm
-                                              {\wp}$ and the direction of pr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bm 
-                    
-l.676 ...ction}:	Setting the polar axis along $\bm
-                                                  {\wp}$ and integrate over ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 673--677
 
  []
 
-! Undefined control sequence.
-l.679 	(\hat{n}\cdot\bm
-                       {\wp})^2_pp=\frac{1}{4\pi}\int\left[\frac{1}{2}\wp^2 ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.683 ...row a}=\frac{\pi}{3\epsilon_0\hbar^2}|\bm
-                                                  {\wp}|^2\rho(\omega_0)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.685 Where \bm
-               {$\wp$} is the matrix element of the electric dipole moment b...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[73] [74]
-! Undefined control sequence.
-l.720 	B_{ba}= frac{\pi}{3\epsilon_0\hbar^2}|\bm
-                                                {\wp}|^2
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \omega ^3|\bm 
-                         {\wp }|^2
-l.724 ...a^3|\bm{\wp}|^2}{3\pi\epsilon_0\hbar c^3}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[75]
+[27] [28] [29]
 Underfull \hbox (badness 10000) in paragraph at lines 754--760
 
  []
@@ -1281,12 +884,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--760
 
  []
 
-) [76]
+) [30]
 \openout2 = `./TeX_files/chapter09.aux'.
 
  (TeX_files/chapter09.tex
-Chapter 9.
-<Images//ClassicalScattering.png, id=1664, 171.64125pt x 132.495pt>
+Chapter 5.
+<Images//ClassicalScattering.png, id=754, 171.64125pt x 132.495pt>
 File: Images//ClassicalScattering.png Graphic file (type png)
 <use Images//ClassicalScattering.png>
 Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
@@ -1295,27 +898,27 @@ Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77
+ [31
 
 
 
 
 ]
-[78 <./Images//ClassicalScattering.png>]
-<Images//DiffScattering.png, id=1674, 383.031pt x 169.8345pt>
+[32 <./Images//ClassicalScattering.png>]
+<Images//DiffScattering.png, id=766, 383.031pt x 169.8345pt>
 File: Images//DiffScattering.png Graphic file (type png)
 <use Images//DiffScattering.png>
 Package pdftex.def Info: Images//DiffScattering.png  used on input line 46.
 (pdftex.def)             Requested size: 306.42522pt x 135.86777pt.
- [79 <./Images//DiffScattering.png>]
+ [33 <./Images//DiffScattering.png>]
 Overfull \hbox (5.34587pt too wide) in paragraph at lines 53--55
 \OT1/cmr/m/n/12 In the quan-tum the-ory of scat-ter-ing, we imag-ine an in-ci-d
 ent plane wave,$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m
 /n/12 ) =
  []
 
-[80] [81]
-<Images//Hankels.png, id=1705, 507.0945pt x 205.9695pt>
+[34] [35]
+<Images//Hankels.png, id=797, 507.0945pt x 205.9695pt>
 File: Images//Hankels.png Graphic file (type png)
 <use Images//Hankels.png>
 Package pdftex.def Info: Images//Hankels.png  used on input line 119.
@@ -1325,187 +928,133 @@ Overfull \hbox (15.67613pt too wide) in paragraph at lines 119--120
  [] 
  []
 
-[82 <./Images//Hankels.png>] [83]
-<Images//1d_scatt.png, id=1727, 291.33844pt x 177.66376pt>
+[36 <./Images//Hankels.png>] [37]
+<Images//1d_scatt.png, id=819, 291.33844pt x 177.66376pt>
 File: Images//1d_scatt.png Graphic file (type png)
 <use Images//1d_scatt.png>
 Package pdftex.def Info: Images//1d_scatt.png  used on input line 184.
 (pdftex.def)             Requested size: 174.8044pt x 106.59906pt.
- [84 <./Images//1d_scatt.png>] [85]
-! Extra }, or forgotten $.
-l.254 	\psi(\vec{r}) = \int G(\vec{r}}
-                                       - \vec{r_{0}}) Q(\vec{r_{0}}) d^{3}\v...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+ [38 <./Images//1d_scatt.png>] [39] [40]
+<Images//scatter_coord.png, id=851, 147.55125pt x 126.4725pt>
+File: Images//scatter_coord.png Graphic file (type png)
+<use Images//scatter_coord.png>
+Package pdftex.def Info: Images//scatter_coord.png  used on input line 277.
+(pdftex.def)             Requested size: 88.53142pt x 75.88408pt.
 
-[86] [87] [88] [89] [90]
-<Images//impulse_scatt.png, id=1803, 348.55219pt x 121.95563pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (4.45671pt too wide) detected at line 283
+\OML/cmm/m/it/12 G\OT1/cmr/m/n/12 ([]) = [] [] = [](\OML/cmm/m/it/12 I[] \OMS/c
+msy/m/n/12   \OML/cmm/m/it/12 I[]\OT1/cmr/m/n/12 )
+ []
+
+[41] [42 <./Images//scatter_coord.png>] [43] [44]
+<Images//impulse_scatt.png, id=894, 348.55219pt x 121.95563pt>
 File: Images//impulse_scatt.png Graphic file (type png)
 <use Images//impulse_scatt.png>
-Package pdftex.def Info: Images//impulse_scatt.png  used on input line 412.
+Package pdftex.def Info: Images//impulse_scatt.png  used on input line 419.
 (pdftex.def)             Requested size: 174.27565pt x 60.97765pt.
- [91 <./Images//impulse_scatt.png>]
-<Images//born_series.png, id=1817, 707.64375pt x 140.02313pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45] [46 <./Images//impulse_scatt.png>]
+<Images//born_series.png, id=919, 707.64375pt x 140.02313pt>
 File: Images//born_series.png Graphic file (type png)
 <use Images//born_series.png>
-Package pdftex.def Info: Images//born_series.png  used on input line 441.
+Package pdftex.def Info: Images//born_series.png  used on input line 448.
 (pdftex.def)             Requested size: 353.82101pt x 70.01138pt.
-<Images//2000px-Bhabha_S_channel.svg.png, id=1821, 2007.5pt x 2007.5pt>
+<Images//2000px-Bhabha_S_channel.svg.png, id=923, 2007.5pt x 2007.5pt>
 File: Images//2000px-Bhabha_S_channel.svg.png Graphic file (type png)
 <use Images//2000px-Bhabha_S_channel.svg.png>
 Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
- line 456.
+ line 463.
 (pdftex.def)             Requested size: 200.76175pt x 200.76175pt.
-) [92 <./Images//born_series.png>] [93 <./Images//2000px-Bhabha_S_channel.svg.p
-ng>]
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[47 <./Images//born_series.png>] [48 <./Images//2000px-Bhabha_S_channel.svg.png
+>]
 \openout2 = `./TeX_files/chapter10.aux'.
 
+ (TeX_files/chapter10.tex
+Chapter 6.
 
-(TeX_files/chapter10.tex [94
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 9.
+
+
+Overfull \hbox (25.03978pt too wide) in paragraph at lines 11--11
+[]\OT1/cmr/bx/n/17.28 Path In-te-gral Eval-u-a-tion of the Free-Particle
+ []
+
+) [49
 
 
 
 
 ]
-Chapter 10.
-
-Overfull \hbox (2.7748pt too wide) in paragraph at lines 8--8
-[]\OT1/cmr/bx/n/17.28 An Ap-prox-i-ma-tion to $\OML/cmm/m/it/17.28 U\OT1/cmr/m/
-n/17.28 (\OML/cmm/m/it/17.28 t\OT1/cmr/m/n/17.28 )$ \OT1/cmr/bx/n/17.28 for a F
-ree Par-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 11.
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [95]
-[96]
 \openout2 = `./TeX_files/chapter11.aux'.
 
- (TeX_files/chapter11.tex
-Chapter 11.
-
-Overfull \hbox (1.46979pt too wide) in paragraph at lines 4--4
-[]\OT1/cmr/bx/n/17.28 Electromagnetic In-ter-ac-tion of the Dirac
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97
+ (TeX_files/chapter11.tex [50
 
 
 
 
 ]
-Overfull \vbox (25.68343pt too high) has occurred while \output is active []
-
-
-[98]
-\openout2 = `./TeX_files/chapter14.aux'.
-
- (TeX_files/chapter14.tex
-Chapter 12.
-) [99
+Chapter 7.
+) [51] [52
 
 
 
+] [53
 
-] [100] [101
-
-
-
-
-] [102]
-Underfull \hbox (badness 2662) in paragraph at lines 124--125
-[]\OT1/cmr/m/n/12 Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ul-bricht,
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 124--125
-\OT1/cmr/m/n/12 H. (2013). Mod-els of wave-function col-lapse, un-der-ly-ing th
-e-o-ries,
- []
-
-[103pdfTeX warning (ext4): destination with the same identifier (name{cite.p33}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.135 \end{document}
-                    ] (AM.aux (TeX_files/chapter13.aux)
-(TeX_files/chapter01.aux) (TeX_files/chapter02.aux) (TeX_files/chapter03.aux)
-(TeX_files/chapter05.aux) (TeX_files/chapter04.aux) (TeX_files/chapter07.aux)
-(TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
-(TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
-
-Package rerunfilecheck Warning: File `AM.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AM.out':
-(rerunfilecheck)             Before: EF6C3A1F759055AFAF719A6986B16413;13938
-(rerunfilecheck)             After:  8FE1473BC3790577C4799A7F7663461D;15054.
-
-LaTeX Warning: There were multiply-defined labels.
-
+] [54] (AM.aux (TeX_files/chapter15.aux)
+(TeX_files/chapter04.aux) (TeX_files/chapter07.aux) (TeX_files/chapter08.aux)
+(TeX_files/chapter09.aux) (TeX_files/chapter10.aux) (TeX_files/chapter11.aux))
+Package rerunfilecheck Info: File `AM.out' has not changed.
+(rerunfilecheck)             Checksum: 2D2E2C34041BBE8498638CA91B418B8F;6113.
  ) 
 Here is how much of TeX's memory you used:
- 18966 strings out of 480236
- 350631 string characters out of 2886654
- 732168 words of memory out of 3000000
- 34326 multiletter control sequences out of 15000+200000
- 555698 words of font info for 103 fonts, out of 3000000 for 9000
+ 18495 strings out of 480236
+ 342788 string characters out of 2886654
+ 730579 words of memory out of 3000000
+ 34219 multiletter control sequences out of 15000+200000
+ 555508 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,16n,88p,1524b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi105
-6\callig15.pk> <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
-c/dpi600\tcrm1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
-ts/cm/cmbsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/c
-mbxti10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0
-.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Libr
-ary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0
-. Software/MikTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Sof
-tware/MikTek/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software
-/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTe
-k/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/font
-s/type1/public/amsfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type
-1/public/amsfonts/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
-cm/cmti12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/rsfs/rsfs10.
+ 76i,16n,88p,1047b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbsy1
+0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/
+0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/0.Li
+brary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.Library
+/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Library/0. S
+oftware/MikTek/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/0.Library/0. Soft
+ware/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. Software/
+MikTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Software/MikTe
+k/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/MikTek/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/am
+sfonts/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.p
+fb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm7.
 pfb>
-Output written on AM.pdf (113 pages, 1047486 bytes).
+Output written on AM.pdf (62 pages, 748522 bytes).
 PDF statistics:
- 2158 PDF objects out of 2487 (max. 8388607)
- 714 named destinations out of 1000 (max. 500000)
- 1632 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 392 named destinations out of 1000 (max. 500000)
+ 747 words of extra memory for PDF output out of 10000 (max. 10000000)
 
