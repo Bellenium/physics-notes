@@ -1,0 +1,6 @@
+\contentsline {chapter}{\numberline {1}Dipole Radiation}{1}{}%
+\contentsline {section}{\numberline {1.1}What is Radiation?}{1}{}%
+\contentsline {section}{\numberline {1.2}Electric Dipole Radiation}{1}{}%
+\contentsline {section}{\numberline {1.3}Magnetic Dipole Radiation}{1}{}%
+\contentsline {section}{\numberline {1.4}Radiation from an Arbitary Source}{1}{}%
+\contentsline {chapter}{\numberline {2}The Second Chapter}{3}{}%

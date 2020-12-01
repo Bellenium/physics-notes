@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  29 NOV 2020 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  1 DEC 2020 06:35
 entering extended mode
 **./AM.tex
 (AM.tex
@@ -945,7 +945,7 @@ Package pdftex.def Info: Images//scatter_coord.png  used on input line 277.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (4.45671pt too wide) detected at line 283
+Overfull \hbox (4.45671pt too wide) detected at line 284
 \OML/cmm/m/it/12 G\OT1/cmr/m/n/12 ([]) = [] [] = [](\OML/cmm/m/it/12 I[] \OMS/c
 msy/m/n/12   \OML/cmm/m/it/12 I[]\OT1/cmr/m/n/12 )
  []
@@ -954,7 +954,7 @@ msy/m/n/12   \OML/cmm/m/it/12 I[]\OT1/cmr/m/n/12 )
 <Images//impulse_scatt.png, id=894, 348.55219pt x 121.95563pt>
 File: Images//impulse_scatt.png Graphic file (type png)
 <use Images//impulse_scatt.png>
-Package pdftex.def Info: Images//impulse_scatt.png  used on input line 419.
+Package pdftex.def Info: Images//impulse_scatt.png  used on input line 420.
 (pdftex.def)             Requested size: 174.27565pt x 60.97765pt.
 
 
@@ -964,13 +964,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images//born_series.png, id=919, 707.64375pt x 140.02313pt>
 File: Images//born_series.png Graphic file (type png)
 <use Images//born_series.png>
-Package pdftex.def Info: Images//born_series.png  used on input line 448.
+Package pdftex.def Info: Images//born_series.png  used on input line 449.
 (pdftex.def)             Requested size: 353.82101pt x 70.01138pt.
 <Images//2000px-Bhabha_S_channel.svg.png, id=923, 2007.5pt x 2007.5pt>
 File: Images//2000px-Bhabha_S_channel.svg.png Graphic file (type png)
 <use Images//2000px-Bhabha_S_channel.svg.png>
 Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
- line 463.
+ line 464.
 (pdftex.def)             Requested size: 200.76175pt x 200.76175pt.
 )
 
@@ -1025,7 +1025,7 @@ Package rerunfilecheck Info: File `AM.out' has not changed.
 Here is how much of TeX's memory you used:
  18495 strings out of 480236
  342788 string characters out of 2886654
- 730579 words of memory out of 3000000
+ 730578 words of memory out of 3000000
  34219 multiletter control sequences out of 15000+200000
  555508 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1052,7 +1052,7 @@ y8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.
 pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm7.
 pfb>
-Output written on AM.pdf (62 pages, 748522 bytes).
+Output written on AM.pdf (62 pages, 748477 bytes).
 PDF statistics:
  1137 PDF objects out of 1200 (max. 8388607)
  392 named destinations out of 1000 (max. 500000)

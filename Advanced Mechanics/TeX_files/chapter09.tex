@@ -264,19 +264,20 @@ $$\nabla^{2}e^{i \vec{s}. \vec{r}} = -s^{2}e^{i \vec{s}. \vec{r}}$$
 and
 $$\delta^{3}(\vec{r}) = \frac{1}{{(2 \pi )}^{3/2}} \int e^{i \vec{s}. \vec{r}} g(\vec{s}) d^{3}\vec{s}$$
 thus,
-$$\frac{1}{den} = \frac{1}{den} \int e^{i \vec{s}. \vec{r}} d^{3}\vec{s}$$
+$$\frac{1}{{(2 \pi)}^{3/2}} \int (-s^{2} + k^{2}) e^{i \vec{s}. \vec{r}} g(\vec{s}) d^{3}\vec{s} = \frac{1}{{(2 \pi)}^{3}} \int e^{i \vec{s}. \vec{r}} d^{3}\vec{s}$$
 It follows from Plancherel's theorem that,
 $$g(\vec{s}) = \frac{1}{{(2 \pi)}^{3/2}(k^{2} - 2^{2})}$$
 Plugging this back, we see that
 $$G(\vec{r}) = \frac{1}{{(2 \pi)}^{3}}  \int e^{i \vec{s}. \vec{r}} \frac{1}{(k^{2} - 2^{2})} d^{3}\vec{s}$$
 We now switch coordinates for convenience. Now $\vec{r}$ is fixed as far as the $s$ integration matters so we'll choose spherical coordinates with the polar axis along $\vec{r}$. Then 
-$$\int^{2 \pi}_{0} e^{isr \sin(\theta)} \sin(\theta) d \theta = - \frac{e^{isr \cos(\theta)}}{isr} \Big \rvert^{\pi}_{0} = \frac{2 \sin(sr)}{sr}$$
+$$\int^{ \pi}_{0} e^{isr \sin(\theta)} \sin(\theta) d \theta = - \frac{e^{isr \cos(\theta)}}{isr} \Big \rvert^{\pi}_{0} = \frac{2 \sin(sr)}{sr}$$
 We can represent this visually as,
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.6]{scatter_coord.png}
 	\caption{New coordinates for the integral}
 \end{figure}
+\\
 Thus,
 $$G(\vec{r}) =  \frac{1}{{(2 \pi)}^{2}}\frac{2}{r} \int^{\infty}_{0} \frac{s \sin(sr)}{k^{2} - s^{2}} ds = \frac{1}{4 \pi^{2} r}\int^{\infty}_{-\infty} \frac{s \sin(sr)}{k^{2} - s^{2}} ds$$
 We can rewrite this as,
