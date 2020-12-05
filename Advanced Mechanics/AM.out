@@ -1,96 +1,80 @@
-\BOOKMARK [0][-]{chapter*.2}{Preface}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Addition of Angular Momentum}{}% 2
-\BOOKMARK [1][-]{section.1.1}{The General Problem}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.1}{Addition of \040and }{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.2}{Modified Spectroscopic Notation}{section.1.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Irreducible Tensor Operators}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{Tensor Operators}{section.1.2}% 7
-\BOOKMARK [0][-]{chapter.2}{Systems with N degrees of freedom}{}% 8
-\BOOKMARK [1][-]{section.2.1}{N Particles in One Dimension}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.1.1}{The Two-Particle Hilbert Space}{section.2.1}% 10
-\BOOKMARK [2][-]{subsection.2.1.2}{V1 2 as a Direct Product Space}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.3}{N particles in d=1}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{More Particles in More Dimensions}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.1}{For d=2}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.2}{For d=3}{section.2.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Identical Particles}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.3.1}{The Classical Case}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.2}{Two-Particle Systems: Symmetric and Antisymmetric States}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.3}{Bosons and Fermions}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.4}{Bosonic and Fermionic Hilbert Spaces}{section.2.3}% 20
-\BOOKMARK [0][-]{chapter.3}{Approximations}{}% 21
-\BOOKMARK [1][-]{section.3.1}{The Variational Principle}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.1.1}{Theorem}{section.3.1}% 23
-\BOOKMARK [2][-]{subsection.3.1.2}{Proof}{section.3.1}% 24
-\BOOKMARK [2][-]{subsection.3.1.3}{The Ground State of Helium}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.4}{The Hydrogen Molecule Ion}{section.3.1}% 26
-\BOOKMARK [1][-]{section.3.2}{The WKB Approximation}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.2.1}{Introduction}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.2}{The Classical Region}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.3}{Tunneling}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.4}{The connection formulas}{section.3.2}% 31
-\BOOKMARK [1][-]{section.3.3}{The Adiabatic Approximation}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.1}{Adiabatic processes}{section.3.3}% 33
-\BOOKMARK [2][-]{subsection.3.3.2}{Berry's Phase}{section.3.3}% 34
-\BOOKMARK [0][-]{chapter.4}{Perturbation Theory}{}% 35
-\BOOKMARK [1][-]{section.4.1}{Non-Degenerate Perturbation Theory}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.1.1}{General Formulation}{section.4.1}% 37
-\BOOKMARK [2][-]{subsection.4.1.2}{First order perturbation theory}{section.4.1}% 38
-\BOOKMARK [2][-]{subsection.4.1.3}{Second order perturbation theory}{section.4.1}% 39
-\BOOKMARK [1][-]{section.4.2}{Degenerate Perturbation Theory}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.2.1}{Motivation}{section.4.2}% 41
-\BOOKMARK [2][-]{subsection.4.2.2}{Twofold Degeneracy}{section.4.2}% 42
-\BOOKMARK [2][-]{subsection.4.2.3}{Higher-Order Degeneracy}{section.4.2}% 43
-\BOOKMARK [2][-]{subsection.4.2.4}{Lamb Shift}{section.4.2}% 44
-\BOOKMARK [1][-]{section.4.3}{The Zeeman Effect}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.3.1}{Weak-Field Zeeman Effect}{section.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.3.2}{Strong-Field Zeeman Effect}{section.4.3}% 47
-\BOOKMARK [2][-]{subsection.4.3.3}{Intermediate Zeeman Effect}{section.4.3}% 48
-\BOOKMARK [1][-]{section.4.4}{Hyperfine Splitting in Hydrogen}{chapter.4}% 49
-\BOOKMARK [1][-]{section.4.5}{Introduction to quantum dynamics}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.6}{Two level systems}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.6.1}{Introduction}{section.4.6}% 52
-\BOOKMARK [2][-]{subsection.4.6.2}{The perturbed system}{section.4.6}% 53
-\BOOKMARK [2][-]{subsection.4.6.3}{Time-Dependent Perturbation Theory}{section.4.6}% 54
-\BOOKMARK [2][-]{subsection.4.6.4}{Sinusoidal Perturbations}{section.4.6}% 55
-\BOOKMARK [1][-]{section.4.7}{Emission and Absorption of Radiation}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.7.1}{Electromagnetic Waves}{section.4.7}% 57
-\BOOKMARK [2][-]{subsection.4.7.2}{Absorption, stimulated emission and spontaneous emission}{section.4.7}% 58
-\BOOKMARK [2][-]{subsection.4.7.3}{Incoherent perturbations}{section.4.7}% 59
-\BOOKMARK [1][-]{section.4.8}{Spontaneous Emission}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.8.1}{Einstein's A and B coefficients}{section.4.8}% 61
-\BOOKMARK [2][-]{subsection.4.8.2}{The lifetime of an excited state}{section.4.8}% 62
-\BOOKMARK [2][-]{subsection.4.8.3}{Selection rules}{section.4.8}% 63
-\BOOKMARK [0][-]{chapter.5}{Scattering}{}% 64
-\BOOKMARK [1][-]{section.5.1}{Classical Scattering}{chapter.5}% 65
-\BOOKMARK [2][-]{subsection.5.1.1}{Motivation}{section.5.1}% 66
-\BOOKMARK [2][-]{subsection.5.1.2}{The problem}{section.5.1}% 67
-\BOOKMARK [2][-]{subsection.5.1.3}{Solving for differential cross-section}{section.5.1}% 68
-\BOOKMARK [1][-]{section.5.2}{Quantum Scattering}{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.2.1}{Defining the problem}{section.5.2}% 70
-\BOOKMARK [2][-]{subsection.5.2.2}{Determining scattering amplitude}{section.5.2}% 71
-\BOOKMARK [1][-]{section.5.3}{Partial Wave Analysis}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.3.1}{Formalism}{section.5.3}% 73
-\BOOKMARK [2][-]{subsection.5.3.2}{Exact wavefunction and the partial wave amplitude}{section.5.3}% 74
-\BOOKMARK [1][-]{section.5.4}{Phase Shift}{chapter.5}% 75
-\BOOKMARK [1][-]{section.5.5}{Born Approximation}{chapter.5}% 76
-\BOOKMARK [2][-]{subsection.5.5.1}{Integral Form of the Schrodinger Equation}{section.5.5}% 77
-\BOOKMARK [2][-]{subsection.5.5.2}{The First Born Approximation}{section.5.5}% 78
-\BOOKMARK [2][-]{subsection.5.5.3}{Examples}{section.5.5}% 79
-\BOOKMARK [2][-]{subsection.5.5.4}{The Born series}{section.5.5}% 80
-\BOOKMARK [0][-]{chapter.6}{Path Integral Formulation}{}% 81
-\BOOKMARK [1][-]{section.6.1}{The Path Integral Recepie}{chapter.6}% 82
-\BOOKMARK [1][-]{section.6.2}{Equivalence to the Schrodinger Equation}{chapter.6}% 83
-\BOOKMARK [1][-]{section.6.3}{Path Integral Evaluation of the Free-Particle Propagator}{chapter.6}% 84
-\BOOKMARK [0][-]{chapter.7}{Dirac Equation}{}% 85
-\BOOKMARK [1][-]{section.7.1}{The Klein-Gordon Equation}{chapter.7}% 86
-\BOOKMARK [1][-]{section.7.2}{Covariant Formalism}{chapter.7}% 87
-\BOOKMARK [2][-]{subsection.7.2.1}{The Adjoint Spinor and the Covariant Current}{section.7.2}% 88
-\BOOKMARK [1][-]{section.7.3}{Solutions to the Dirac Equation}{chapter.7}% 89
-\BOOKMARK [2][-]{subsection.7.3.1}{Particles at Rest}{section.7.3}% 90
-\BOOKMARK [2][-]{subsection.7.3.2}{General Free-Particle Solutions}{section.7.3}% 91
-\BOOKMARK [1][-]{section.7.4}{Antiparticles}{chapter.7}% 92
-\BOOKMARK [2][-]{subsection.7.4.1}{The Dirac Sea Interpretation}{section.7.4}% 93
-\BOOKMARK [2][-]{subsection.7.4.2}{The Feynman-Stuckelberg Interpretation}{section.7.4}% 94
-\BOOKMARK [2][-]{subsection.7.4.3}{Antiparticle Spinors}{section.7.4}% 95
-\BOOKMARK [0][-]{chapter.8}{Epilogue: What lies ahead}{}% 96
+\BOOKMARK [0][-]{chapter.1}{Addition of Angular Momentum}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The General Problem}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Clebsch-Gordan Coeeficients}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Modified Spectroscopic Notation}{section.1.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Approximations}{}% 5
+\BOOKMARK [1][-]{section.2.1}{The Variational Principle}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Theorem}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Proof}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.3}{The Ground State of Helium}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.4}{The Hydrogen Molecule Ion}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{The WKB Approximation}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Introduction}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{The Classical Region}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{Tunneling}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.4}{The connection formulas}{section.2.2}% 15
+\BOOKMARK [1][-]{section.2.3}{The Adiabatic Approximation}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.3.1}{Adiabatic processes}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.2}{Berry's Phase}{section.2.3}% 18
+\BOOKMARK [0][-]{chapter.3}{Perturbation Theory}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Non-Degenerate Perturbation Theory}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{General Formulation}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{First order perturbation theory}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.3}{Second order perturbation theory}{section.3.1}% 23
+\BOOKMARK [1][-]{section.3.2}{Degenerate Perturbation Theory}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{Motivation}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.2}{Twofold Degeneracy}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.3}{Higher-Order Degeneracy}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.4}{Lamb Shift}{section.3.2}% 28
+\BOOKMARK [1][-]{section.3.3}{The Zeeman Effect}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.1}{Weak-Field Zeeman Effect}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.2}{Strong-Field Zeeman Effect}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.3}{Intermediate Zeeman Effect}{section.3.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Hyperfine Splitting in Hydrogen}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{Introduction to quantum dynamics}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.6}{Two level systems}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.6.1}{Introduction}{section.3.6}% 36
+\BOOKMARK [2][-]{subsection.3.6.2}{The perturbed system}{section.3.6}% 37
+\BOOKMARK [2][-]{subsection.3.6.3}{Time-Dependent Perturbation Theory}{section.3.6}% 38
+\BOOKMARK [2][-]{subsection.3.6.4}{Sinusoidal Perturbations}{section.3.6}% 39
+\BOOKMARK [1][-]{section.3.7}{Emission and Absorption of Radiation}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.7.1}{Electromagnetic Waves}{section.3.7}% 41
+\BOOKMARK [2][-]{subsection.3.7.2}{Absorption, stimulated emission and spontaneous emission}{section.3.7}% 42
+\BOOKMARK [2][-]{subsection.3.7.3}{Incoherent perturbations}{section.3.7}% 43
+\BOOKMARK [1][-]{section.3.8}{Spontaneous Emission}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.8.1}{Einstein's A and B coefficients}{section.3.8}% 45
+\BOOKMARK [2][-]{subsection.3.8.2}{The lifetime of an excited state}{section.3.8}% 46
+\BOOKMARK [2][-]{subsection.3.8.3}{Selection rules}{section.3.8}% 47
+\BOOKMARK [0][-]{chapter.4}{Scattering}{}% 48
+\BOOKMARK [1][-]{section.4.1}{Classical Scattering}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.1.1}{Motivation}{section.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.1.2}{The problem}{section.4.1}% 51
+\BOOKMARK [2][-]{subsection.4.1.3}{Solving for differential cross-section}{section.4.1}% 52
+\BOOKMARK [1][-]{section.4.2}{Quantum Scattering}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.2.1}{Defining the problem}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.2}{Determining scattering amplitude}{section.4.2}% 55
+\BOOKMARK [1][-]{section.4.3}{Partial Wave Analysis}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.3.1}{Formalism}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.2}{Exact wavefunction and the partial wave amplitude}{section.4.3}% 58
+\BOOKMARK [1][-]{section.4.4}{Phase Shift}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.5}{Born Approximation}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.5.1}{Integral Form of the Schrodinger Equation}{section.4.5}% 61
+\BOOKMARK [2][-]{subsection.4.5.2}{The First Born Approximation}{section.4.5}% 62
+\BOOKMARK [2][-]{subsection.4.5.3}{Examples}{section.4.5}% 63
+\BOOKMARK [2][-]{subsection.4.5.4}{The Born series}{section.4.5}% 64
+\BOOKMARK [0][-]{chapter.5}{Path Integral Formulation}{}% 65
+\BOOKMARK [1][-]{section.5.1}{The Path Integral Recepie}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.2}{Equivalence to the Schrodinger Equation}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.3}{Path Integral Evaluation of the Free-Particle Propagator}{chapter.5}% 68
+\BOOKMARK [0][-]{chapter.6}{Dirac Equation}{}% 69
+\BOOKMARK [1][-]{section.6.1}{The Klein-Gordon Equation}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.2}{Covariant Formalism}{chapter.6}% 71
+\BOOKMARK [2][-]{subsection.6.2.1}{The Adjoint Spinor and the Covariant Current}{section.6.2}% 72
+\BOOKMARK [1][-]{section.6.3}{Solutions to the Dirac Equation}{chapter.6}% 73
+\BOOKMARK [2][-]{subsection.6.3.1}{Particles at Rest}{section.6.3}% 74
+\BOOKMARK [2][-]{subsection.6.3.2}{General Free-Particle Solutions}{section.6.3}% 75
+\BOOKMARK [1][-]{section.6.4}{Antiparticles}{chapter.6}% 76
+\BOOKMARK [2][-]{subsection.6.4.1}{The Dirac Sea Interpretation}{section.6.4}% 77
+\BOOKMARK [2][-]{subsection.6.4.2}{The Feynman-Stuckelberg Interpretation}{section.6.4}% 78
+\BOOKMARK [2][-]{subsection.6.4.3}{Antiparticle Spinors}{section.6.4}% 79
+\BOOKMARK [0][-]{chapter.7}{Epilogue: What lies ahead}{}% 80

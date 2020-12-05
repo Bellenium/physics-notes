@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  5 DEC 2020 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  5 DEC 2020 23:23
 entering extended mode
 **./AM.tex
 (AM.tex
@@ -632,9 +632,9 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@cols=\count297
 \TX@ftn=\toks36
 ) (AM.aux
-(TeX_files/chapter15.aux) (TeX_files/chapter04.aux) (TeX_files/chapter07.aux)
-(TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
-(TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
+(TeX_files/chapter15.aux) (TeX_files/chapter07.aux) (TeX_files/chapter08.aux)
+(TeX_files/chapter09.aux) (TeX_files/chapter10.aux) (TeX_files/chapter11.aux)
+(TeX_files/chapter14.aux))
 \openout1 = `AM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -717,7 +717,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 {C:/Users/Pugazh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
 ] (AM.toc [3]
-Overfull \hbox (1.65845pt too wide) in paragraph at lines 58--58
+Overfull \hbox (1.65845pt too wide) in paragraph at lines 42--42
  [][] [][]\OT1/cmr/m/n/12 Absorption, stim-u-lated emis-sion and spon-ta-neous 
 emis- 
  []
@@ -728,123 +728,38 @@ emis-
 
  [5] [6
 
-] [7] [8
-
 ]
 \openout2 = `./TeX_files/chapter15.aux'.
 
  (TeX_files/chapter15.tex
 Chapter 1.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
-
 [1
 
 
 ]) [2]
-\openout2 = `./TeX_files/chapter04.aux'.
+\openout2 = `./TeX_files/chapter07.aux'.
 
- (TeX_files/chapter04.tex
+ (TeX_files/chapter07.tex
 Chapter 2.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\otimes' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
 [3
 
 
 
 
-]
-\c@enumTemp=\count305
-\c@counterr=\count306
-
-Overfull \hbox (20.92413pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/12 Qauntize the sys-tem di-rectly by pro-mot-ing the co-or-di-na
-te set $\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x[]; x[]; p[]; p[]\OMS/cmsy/m/n/12 g
-$
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 53.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 53.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 59.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 59.
-
-) [4] [5]
-\openout2 = `./TeX_files/chapter07.aux'.
-
- (TeX_files/chapter07.tex [6
-
-
-
-
-]
-Chapter 3.
-[7] [8]
-<Images//coordinate.png, id=591, 295.1025pt x 236.38312pt>
+] [4]
+<Images//coordinate.png, id=473, 295.1025pt x 236.38312pt>
 File: Images//coordinate.png Graphic file (type png)
 <use Images//coordinate.png>
 Package pdftex.def Info: Images//coordinate.png  used on input line 63.
 (pdftex.def)             Requested size: 147.55087pt x 118.19127pt.
- [9 <./Images//coordinate.png>] [10] [11]
-<Images//variational.png, id=625, 684.30656pt x 375.65344pt>
+ [5 <./Images//coordinate.png>] [6] [7]
+<Images//variational.png, id=507, 684.30656pt x 375.65344pt>
 File: Images//variational.png Graphic file (type png)
 <use Images//variational.png>
 Package pdftex.def Info: Images//variational.png  used on input line 207.
 (pdftex.def)             Requested size: 273.71777pt x 150.2587pt.
- [12 <./Images//variational.png>] [13] [14] [15] [16]
+ [8 <./Images//variational.png>]
+[9] [10] [11] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
@@ -854,18 +769,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
-[17]) [18]
+[13]) [14]
 \openout2 = `./TeX_files/chapter08.aux'.
 
  (TeX_files/chapter08.tex
-Chapter 4.
-[19
+Chapter 3.
+[15
 
 
 
 
-] [20] [21] [22] [23]
-<Images//feyn-loop.png, id=752, 545.03625pt x 132.495pt>
+] [16] [17] [18] [19]
+<Images//feyn-loop.png, id=634, 545.03625pt x 132.495pt>
 File: Images//feyn-loop.png Graphic file (type png)
 <use Images//feyn-loop.png>
 Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
@@ -874,13 +789,13 @@ Package pdftex.def Info: Images//feyn-loop.png  used on input line 218.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24] [25 <./Images//feyn-loop.png>] [26]
-<Images//strong-split.png, id=782, 618.31pt x 532.99126pt>
+[20] [21 <./Images//feyn-loop.png>] [22]
+<Images//strong-split.png, id=664, 618.31pt x 532.99126pt>
 File: Images//strong-split.png Graphic file (type png)
 <use Images//strong-split.png>
 Package pdftex.def Info: Images//strong-split.png  used on input line 308.
 (pdftex.def)             Requested size: 233.99791pt x 194.9997pt.
-<Images//weak-split.png, id=783, 371.3875pt x 405.515pt>
+<Images//weak-split.png, id=665, 371.3875pt x 405.515pt>
 File: Images//weak-split.png Graphic file (type png)
 <use Images//weak-split.png>
 Package pdftex.def Info: Images//weak-split.png  used on input line 313.
@@ -892,16 +807,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28 <./Images//strong-split.png>]
+[23] [24 <./Images//strong-split.png>]
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
- [29 <./Images//weak-split.png>]
-<Images//zee-table.png, id=813, 683.55376pt x 377.41pt>
+ [25 <./Images//weak-split.png>]
+<Images//zee-table.png, id=695, 683.55376pt x 377.41pt>
 File: Images//zee-table.png Graphic file (type png)
 <use Images//zee-table.png>
 Package pdftex.def Info: Images//zee-table.png  used on input line 384.
 (pdftex.def)             Requested size: 234.00102pt x 117.00165pt.
-<Images//intermediate-split.png, id=814, 491.8375pt x 646.415pt>
+<Images//intermediate-split.png, id=696, 491.8375pt x 646.415pt>
 File: Images//intermediate-split.png Graphic file (type png)
 <use Images//intermediate-split.png>
 Package pdftex.def Info: Images//intermediate-split.png  used on input line 389
@@ -914,14 +829,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31 <./Images//zee-table.png>] [32 <./Images//intermediate-split.png>]
-<Images//hyp-split.png, id=843, 748.7975pt x 401.5pt>
+[26] [27 <./Images//zee-table.png>] [28 <./Images//intermediate-split.png>]
+<Images//hyp-split.png, id=725, 748.7975pt x 401.5pt>
 File: Images//hyp-split.png Graphic file (type png)
 <use Images//hyp-split.png>
 Package pdftex.def Info: Images//hyp-split.png  used on input line 438.
 (pdftex.def)             Requested size: 233.99864pt x 117.00177pt.
 
-[33 <./Images//hyp-split.png>] [34]
+[29 <./Images//hyp-split.png>] [30]
 Overfull \hbox (22.94691pt too wide) in paragraph at lines 514--516
 \OT1/cmr/m/n/12 The her-mitic-ity of $\OML/cmm/m/it/12 H[]$ \OT1/cmr/m/n/12 say
 s that $\OML/cmm/m/it/12 H[] \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 H[]j\OT1/cmr/m
@@ -930,7 +845,7 @@ m/m/it/12 i=\U/msb/m/n/12 ~\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 e[]$\OT1/cmr/m/n/1
 2 ,
  []
 
-[35]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 543--545
 
  []
@@ -955,12 +870,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 558--561
 
  []
 
-[36]
+[32]
 Overfull \hbox (4.49956pt too wide) in paragraph at lines 621--621
 []\OT1/cmr/bx/n/14.4 Absorption, stim-u-lated emis-sion and spon-ta-neous
  []
 
-[37] [38]
+[33] [34]
 Underfull \hbox (badness 10000) in paragraph at lines 667--671
 
  []
@@ -970,7 +885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 673--677
 
  []
 
-[39] [40] [41]
+[35] [36] [37]
 Underfull \hbox (badness 10000) in paragraph at lines 754--760
 
  []
@@ -980,12 +895,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--760
 
  []
 
-) [42]
+) [38]
 \openout2 = `./TeX_files/chapter09.aux'.
 
  (TeX_files/chapter09.tex
-Chapter 5.
-<Images//ClassicalScattering.png, id=950, 171.64125pt x 132.495pt>
+Chapter 4.
+<Images//ClassicalScattering.png, id=832, 171.64125pt x 132.495pt>
 File: Images//ClassicalScattering.png Graphic file (type png)
 <use Images//ClassicalScattering.png>
 Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
@@ -994,27 +909,27 @@ Package pdftex.def Info: Images//ClassicalScattering.png  used on input line 14
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [39
 
 
 
 
 ]
-[44 <./Images//ClassicalScattering.png>]
-<Images//DiffScattering.png, id=962, 383.031pt x 169.8345pt>
+[40 <./Images//ClassicalScattering.png>]
+<Images//DiffScattering.png, id=844, 383.031pt x 169.8345pt>
 File: Images//DiffScattering.png Graphic file (type png)
 <use Images//DiffScattering.png>
 Package pdftex.def Info: Images//DiffScattering.png  used on input line 46.
 (pdftex.def)             Requested size: 306.42522pt x 135.86777pt.
- [45 <./Images//DiffScattering.png>]
+ [41 <./Images//DiffScattering.png>]
 Overfull \hbox (5.34587pt too wide) in paragraph at lines 53--55
 \OT1/cmr/m/n/12 In the quan-tum the-ory of scat-ter-ing, we imag-ine an in-ci-d
 ent plane wave,$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m
 /n/12 ) =
  []
 
-[46] [47]
-<Images//Hankels.png, id=993, 507.0945pt x 205.9695pt>
+[42] [43]
+<Images//Hankels.png, id=875, 507.0945pt x 205.9695pt>
 File: Images//Hankels.png Graphic file (type png)
 <use Images//Hankels.png>
 Package pdftex.def Info: Images//Hankels.png  used on input line 119.
@@ -1024,14 +939,14 @@ Overfull \hbox (15.67613pt too wide) in paragraph at lines 119--120
  [] 
  []
 
-[48 <./Images//Hankels.png>] [49]
-<Images//1d_scatt.png, id=1015, 291.33844pt x 177.66376pt>
+[44 <./Images//Hankels.png>] [45]
+<Images//1d_scatt.png, id=897, 291.33844pt x 177.66376pt>
 File: Images//1d_scatt.png Graphic file (type png)
 <use Images//1d_scatt.png>
 Package pdftex.def Info: Images//1d_scatt.png  used on input line 184.
 (pdftex.def)             Requested size: 174.8044pt x 106.59906pt.
- [50 <./Images//1d_scatt.png>] [51] [52]
-<Images//scatter_coord.png, id=1046, 147.55125pt x 126.4725pt>
+ [46 <./Images//1d_scatt.png>] [47] [48]
+<Images//scatter_coord.png, id=928, 147.55125pt x 126.4725pt>
 File: Images//scatter_coord.png Graphic file (type png)
 <use Images//scatter_coord.png>
 Package pdftex.def Info: Images//scatter_coord.png  used on input line 277.
@@ -1046,8 +961,8 @@ Overfull \hbox (4.45671pt too wide) detected at line 284
 msy/m/n/12   \OML/cmm/m/it/12 I[]\OT1/cmr/m/n/12 )
  []
 
-[53] [54 <./Images//scatter_coord.png>] [55] [56]
-<Images//impulse_scatt.png, id=1089, 348.55219pt x 121.95563pt>
+[49] [50 <./Images//scatter_coord.png>] [51] [52]
+<Images//impulse_scatt.png, id=971, 348.55219pt x 121.95563pt>
 File: Images//impulse_scatt.png Graphic file (type png)
 <use Images//impulse_scatt.png>
 Package pdftex.def Info: Images//impulse_scatt.png  used on input line 420.
@@ -1056,13 +971,13 @@ Package pdftex.def Info: Images//impulse_scatt.png  used on input line 420.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[57] [58 <./Images//impulse_scatt.png>]
-<Images//born_series.png, id=1114, 707.64375pt x 140.02313pt>
+[53] [54 <./Images//impulse_scatt.png>]
+<Images//born_series.png, id=996, 707.64375pt x 140.02313pt>
 File: Images//born_series.png Graphic file (type png)
 <use Images//born_series.png>
 Package pdftex.def Info: Images//born_series.png  used on input line 449.
 (pdftex.def)             Requested size: 353.82101pt x 70.01138pt.
-<Images//2000px-Bhabha_S_channel.svg.png, id=1118, 2007.5pt x 2007.5pt>
+<Images//2000px-Bhabha_S_channel.svg.png, id=1000, 2007.5pt x 2007.5pt>
 File: Images//2000px-Bhabha_S_channel.svg.png Graphic file (type png)
 <use Images//2000px-Bhabha_S_channel.svg.png>
 Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
@@ -1072,53 +987,72 @@ Package pdftex.def Info: Images//2000px-Bhabha_S_channel.svg.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59 <./Images//born_series.png>] [60 <./Images//2000px-Bhabha_S_channel.svg.png
+[55 <./Images//born_series.png>] [56 <./Images//2000px-Bhabha_S_channel.svg.png
 >]
 \openout2 = `./TeX_files/chapter10.aux'.
 
  (TeX_files/chapter10.tex
-Chapter 6.
+Chapter 5.
+[57
 
-Overfull \hbox (25.03978pt too wide) in paragraph at lines 20--20
+
+
+
+]
+Overfull \hbox (18.12816pt too wide) detected at line 23
+[][]\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 ) =
+ [][] [][] [] [] [] [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \O
+T1/cmr/m/n/12 + \OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)\OML/cmm/m/it/12 d
+ []
+
+
+Overfull \hbox (25.03978pt too wide) in paragraph at lines 32--32
 []\OT1/cmr/bx/n/17.28 Path In-te-gral Eval-u-a-tion of the Free-Particle
  []
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 23.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 35.
 
 ("D:\0.Library\0. Software\MikTek\tex/latex/amsfonts\ueuf.fd"
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [61
+) [58]
+Overfull \hbox (17.90378pt too wide) detected at line 50
+[][]\OML/cmm/m/it/12 U\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; t[]\OT1/cmr/m/n/12
+ ; \OML/cmm/m/it/12 x[]; t[]\OT1/cmr/m/n/12 ) = [][] = [] \OML/cmm/m/it/12 A []
+[] [] [] [] dx[]
+ []
 
+)
+Overfull \hbox (60.34839pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 5.3.  PATH INTEGRAL EVALUATION OF THE FREE-PARTICLE PROPAGATOR
+ \OT1/cmr/m/n/12 59
+ []
 
-
-
-]) [62]
+[59]
 \openout2 = `./TeX_files/chapter11.aux'.
 
-
-(TeX_files/chapter11.tex
-Chapter 7.
-) [63
+ (TeX_files/chapter11.tex [60
 
 
 
 
 ]
+Chapter 6.
+) [61]
 \openout2 = `./TeX_files/chapter14.aux'.
 
- (TeX_files/chapter14.tex [64
+ (TeX_files/chapter14.tex [62
 
 
 
 
 ]
-Chapter 8.
-[65]) [66] [67
+Chapter 7.
+[63]) [64] [65
 
 
 
 
-] [68]
+] [66]
 Underfull \hbox (badness 2662) in paragraph at lines 125--126
 []\OT1/cmr/m/n/12 Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ul-bricht,
  []
@@ -1129,17 +1063,17 @@ Underfull \hbox (badness 2005) in paragraph at lines 125--126
 e-o-ries,
  []
 
-[69] (AM.aux (TeX_files/chapter15.aux) (TeX_files/chapter04.aux)
-(TeX_files/chapter07.aux) (TeX_files/chapter08.aux) (TeX_files/chapter09.aux)
-(TeX_files/chapter10.aux) (TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
+[67] (AM.aux (TeX_files/chapter15.aux) (TeX_files/chapter07.aux)
+(TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
+(TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
 Package rerunfilecheck Info: File `AM.out' has not changed.
-(rerunfilecheck)             Checksum: 000701DA337C8F4D4B8A1AB9EED4838E;7080.
+(rerunfilecheck)             Checksum: CCAD0D0471434FAEF8FB187D9515F1C8;5901.
  ) 
 Here is how much of TeX's memory you used:
- 18709 strings out of 480236
- 345878 string characters out of 2886654
- 731882 words of memory out of 3000000
- 34288 multiletter control sequences out of 15000+200000
+ 18648 strings out of 480236
+ 344791 string characters out of 2886654
+ 731234 words of memory out of 3000000
+ 34259 multiletter control sequences out of 15000+200000
  554899 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,88p,1047b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1167,9 +1101,9 @@ b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D
 :/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:
 /0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D
 :/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on AM.pdf (77 pages, 947995 bytes).
+Output written on AM.pdf (73 pages, 937819 bytes).
 PDF statistics:
- 1428 PDF objects out of 1440 (max. 8388607)
- 524 named destinations out of 1000 (max. 500000)
- 861 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1321 PDF objects out of 1440 (max. 8388607)
+ 499 named destinations out of 1000 (max. 500000)
+ 733 words of extra memory for PDF output out of 10000 (max. 10000000)
 

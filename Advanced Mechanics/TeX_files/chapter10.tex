@@ -9,14 +9,26 @@ So far our stratergy has been to find the eigenstates of H then express the prop
 \end{enumerate}
 Here we have in a sense that the classical path taken by the particle corresponds to the stationary path. This is analogous to the Lagrangian formulation of classical mechanics in contrast to the approaches we took earlier involving the Hamiltonian.
 \section{Equivalence to the Schrodinger Equation}
-In the Schrodinger formalism, the change in the state vector over an infinitesimal time $\epsilon$ is:
+In the Schrodinger formalism, the change in the state vector over an infinitesimal time $\epsilon$ in the position basis is:
 \begin{equation}
-	\ket{\psi(\epsilon)}
+\psi (x,\epsilon) - \psi (x,0) = \frac{i \epsilon}{\hbar} \left[\frac{-\hbar^{2}}{2m} \frac{\partial^{2}}{\partial x^{2}} + V(x,0)\right] \psi (x,0)
 \end{equation}
-Treating this to be a Gaussian integral we find that:
+to the first order in $\epsilon$, the solution being
+\begin{equation} 
+\psi (x,\epsilon) = \int_{-\infty}^{\infty} U(x, \epsilon; x^{'}) \psi (x^{'},0) dx^{'}
+\end{equation}
+This integral isn't so formidable as $\epsilon$ is simply just one slice in time. 
 \begin{equation}
-\psi(x, \epsilon) = \left[ \right]
+\psi (x,\epsilon) = {\left(\frac{m}{2 \pi \hbar i \epsilon}\right)}^{1/2} \int_{-\infty}^{\infty} \exp \left(\frac{im{\eta}^{2}}{2 \hbar \epsilon}\right) \exp\left[-\left(\frac{i}{\hbar} \epsilon V \left(x + \frac{\eta}{2}, 0\right)\right)\right] \psi(x + \eta, 0) d \eta
 \end{equation}
+Where, $\eta = x^{'}$
+Now, most of the contribution to the propagator must come from the stationary term, thus if we make the approxiation 
+$$\abs{\eta} \leq {\left(\frac{2 \epsilon \hbar \pi}{m}\right)}^{1/2}$$
+and Taylor expand while avoid the $\epsilon \eta$ terms and treating it to be a Gaussian integral we find that:
+\begin{equation}
+\psi (x,\epsilon) - \psi (x,0) = \frac{i \epsilon}{\hbar} \left[\frac{-\hbar^{2}}{2m} \frac{\partial^{2}}{\partial x^{2}} + V(x,0)\right] \psi (x,0)
+\end{equation}
+Which is exactly what we expect to see from the Schrodinger formalism as well.
 \section{Path Integral Evaluation of the Free-Particle Propagator}
 Let us consider the propagator. The problem is to solve for the integral
 \begin{equation}
@@ -24,3 +36,27 @@ Let us consider the propagator. The problem is to solve for the integral
 \end{equation}
 where
 $$\int^{x_{N}}_{x_{0}}\mathfrak{D}[x(t)]$$
+is essentially the sum over all possible paths in configuration space. To do this we first express x(t) with a discrete approximation which is accurate upto N + 1 points i.e. . The gaps between points are interpolated with straight lines. Now the naive hope is that when $N \rightarrow \infty$ the notion of the approximation disappears. Thus we will start by replacing,
+\begin{equation}
+S = \int_{t_{0}}^{t_{N}}\mathcal{L} dt = \int_{t_{0}}^{t_{N}} \frac{1}{2}m\dot{x}^{2} dt
+\end{equation}
+with,
+\begin{equation}
+	S = \sum_{i=0}^{N-1} \frac{m}{2}{\left(\frac{x_{i+1} - x_{i}}{\epsilon}\right)}^{2}\epsilon
+\end{equation}
+where $x_{i} = x(t_{i})$. Then integral then becomes,
+\begin{equation}
+U(x_{N},t_{N};x_{0},t_{0}) = \int_{t_{0}}^{t_{N}} = \lim_{N \rightarrow \infty, \epsilon \rightarrow 0} A \int_{-\infty}^{\infty} \exp \left[\frac{i}{\hbar} \frac{m}{2} \sum_{i=0}^{N-1}  {\left(\frac{x_{i+1} - x_{i}}{\epsilon}\right)}^{2}\epsilon \right] \prod_{i=1}^{N-1}dx_{i}
+\end{equation}
+Two assumptions are present here:
+\begin{itemize}
+\item $t_{N}$ and $t_{0}$ have values that are implicitly defined
+\item The factor $A$ is chosed so that we have the the correct scale for $U$ when 
+\end{itemize}
+We can intergrate by means of switching the variables up and then considering it to be a Gaussian integral. We then get
+\begin{equation}
+U = A {\left(\frac{2 \pi \hbar \epsilon i}{m}\right)}^{N/2} {\left(\frac{m}{2 \pi \hbar i N \epsilon}\right)}^{1/2} \exp \left[\frac{im{(x_{N}-x_{0})}^{2}}{2 \hbar N \epsilon}\right]
+\end{equation}
+If we now let , we obtain the right result provided,
+$$A = {\left[\frac{2 \pi \hbar \epsilon i}{m}\right]}^{-N/2} = B^{-N}$$
+This $1/B$ is in some senses the weighing function for each path. And thus we can understand how even though there are infinite paths, that only the stationary one is realized (because it has the highest weight) since it is most like the first order term. A similar idea is explored in the Born approximation section as well.

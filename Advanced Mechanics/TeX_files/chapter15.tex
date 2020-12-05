@@ -1,23 +1,46 @@
 \chapter{Addition of Angular Momentum}
 \section{The General Problem}
-\subsection{Addition of $\hat{L}$ and $\hat{S}$}
+How do we add an arbitray $J_{1}$ and $J_{2}$? If we did what are their $\hat{J}^{2}$ and $\hat{J}_{z}$ eigenvalues like? One way to do this would be to construct square matrices of the dimension $2j +1$. However for this we would first need to know the allowed values of $j$. This we conjecture to be
+\begin{equation}
+j_{1} \otimes j_{2} = (j_{1} + j_{2}) \oplus (j_{1} + j_{2} - 1) \oplus ... \oplus (j_{1} - j_{2})
+\end{equation}
+For our example, the total number of kets is:
+$$\ket{jm, j_{1}j_{2}}$$
+where
+$$j_{1} + j_{2} \geq j \leq j_{1} - j_{2}$$
+$$j \geq m \leq -j$$
+with the normalization conditions:
+$$\alpha + \beta = 0$$
+$$\alpha^{2} + \beta^{2} = 1$$
+\subsection{Clebsch-Gordan Coeeficients}
+The completeness of the product kets allows us to write,
+\begin{equation}
+\ket{jm,j_{1}j_{2}} = \sum_{m_{1}} \sum_{m_{2}} \braket{j_{1}m_{1},j_{2}m_{2}}{jm, j_{1}j_{2}} \ket{j_{1}m_{1},j_{2}m_{2}}
+\end{equation}
+Here the coffecients of the expansion are termed "Clebsch-Gordan" coefficients. Here are some of their properties:
+\begin{itemize}
+\item $\braket{j_{1}m_{1},j_{2}m_{2}}{jm}\neq 0$ if and only if $j_{1} - j_{2}\leq j \leq j_{1} + j_{2}$ or $m_{1} + m_{2} = m$
+\item $\in \mathbb{R}$
+\item $\braket{j_{1}m_{1},j_{2}m_{2}}{jm} > 0$
+\item $\braket{j_{1}m_{1},j_{2}m_{2}}{jm} = {(-1)}^{j_{1} + j_{2} - j}\braket{j_{1}(-m_{1}),j_{2}(-m_{2})}{j(-m)}$
+\end{itemize}
+
 \subsection{Modified Spectroscopic Notation}
 In absence of spin using s,p,d.. is sufficient to describe angular momentum. However, in the presence of spin we change out notation to:
 \begin{itemize}
 \item Use capital letters S,P,D or L typically to indicate the value of angular momentum
 \item Append a subscript $J$ to the right of $L$ i.e. $L_{J}$ to indicate the $j$ value
-\item Append a superscript 2S+1 to the left of $L$ i.e $\prescript{14}{2}L$. to indicate the degeneracy due to spin projections
+\item Append a superscript $2S+1$ to the left of $L$ i.e $\prescript{2S+1}{}L$. to indicate the degeneracy due to spin projections
 \end{itemize}
-\section{Irreducible Tensor Operators}
-\subsection{Tensor Operators}
-We know that a vector can be linearly expanded in terms of it's basis,
-\begin{equation}
-\ket{V} = \sum^{3}_{i} v_{i}\ket{i}
-\end{equation}
-A second rank tensor similarly can be expressed as,
-\begin{equation}
-	\ket{T^{(2)}} = \sum^{3}_{i}\sum^{3}_{j} t_{ij}\ket{i}\otimes\ket{j}
-\end{equation}
-\begin{itemize}
-\item 
-\end{itemize}
+%\section{Irreducible Tensor Operators}
+%\subsection{Tensor Operators}
+%We know that a vector can be linearly expanded in terms of it's basis,
+%\begin{equation}
+%\ket{V} = \sum^{3}_{i} v_{i}\ket{i}
+%\end{equation}
+%A second rank tensor similarly can be expressed as,
+%%	\ket{T^{(2)}} = \sum^{3}_{i}\sum^{3}_{j} t_{ij}\ket{i}\otimes\ket{j}
+%\end{equation}
+%\begin{itemize}
+%\item 
+%\end{itemize}
