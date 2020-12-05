@@ -69,15 +69,6 @@
 \contentsline {section}{\numberline {5.1}The Path Integral Recepie}{57}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Equivalence to the Schrodinger Equation}{57}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Path Integral Evaluation of the Free-Particle Propagator}{58}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Dirac Equation}{61}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Relativistic Quantum Mechanics}{61}{chapter.6}%
 \contentsline {section}{\numberline {6.1}The Klein-Gordon Equation}{61}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Covariant Formalism}{61}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}The Adjoint Spinor and the Covariant Current}{61}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Solutions to the Dirac Equation}{61}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Particles at Rest}{61}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}General Free-Particle Solutions}{61}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Antiparticles}{61}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}The Dirac Sea Interpretation}{61}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}The Feynman-Stuckelberg Interpretation}{61}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Antiparticle Spinors}{61}{subsection.6.4.3}%
 \contentsline {chapter}{\numberline {7}Epilogue: What lies ahead}{63}{chapter.7}%

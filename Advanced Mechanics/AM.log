@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  5 DEC 2020 23:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.31)  5 DEC 2020 23:30
 entering extended mode
 **./AM.tex
 (AM.tex
@@ -1037,17 +1037,17 @@ Overfull \hbox (60.34839pt too wide) has occurred while \output is active
 
 ]
 Chapter 6.
-) [61]
+[61]) [62]
 \openout2 = `./TeX_files/chapter14.aux'.
 
- (TeX_files/chapter14.tex [62
-
-
-
-
-]
+ (TeX_files/chapter14.tex
 Chapter 7.
-[63]) [64] [65
+[63
+
+
+
+
+]) [64] [65
 
 
 
@@ -1066,44 +1066,77 @@ e-o-ries,
 [67] (AM.aux (TeX_files/chapter15.aux) (TeX_files/chapter07.aux)
 (TeX_files/chapter08.aux) (TeX_files/chapter09.aux) (TeX_files/chapter10.aux)
 (TeX_files/chapter11.aux) (TeX_files/chapter14.aux))
-Package rerunfilecheck Info: File `AM.out' has not changed.
-(rerunfilecheck)             Checksum: CCAD0D0471434FAEF8FB187D9515F1C8;5901.
+
+Package rerunfilecheck Warning: File `AM.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `AM.out':
+(rerunfilecheck)             Before: CCAD0D0471434FAEF8FB187D9515F1C8;5901
+(rerunfilecheck)             After:  A4CD101B4B293EC427780CFD9A061884;5211.
  ) 
 Here is how much of TeX's memory you used:
- 18648 strings out of 480236
- 344791 string characters out of 2886654
+ 18652 strings out of 480236
+ 344847 string characters out of 2886654
  731234 words of memory out of 3000000
  34259 multiletter control sequences out of 15000+200000
  554899 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,88p,1047b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
-m1200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbsy1
-0.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:
-/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/0
-.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/0.Lib
-rary/0. Software/MikTek/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><D:/0.Lib
-rary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/0.Library
-/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.Library/0. S
-oftware/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Library/0. Softwa
-re/MikTek/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/0.Library/0. Software/
-MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. Software/MikTe
-k/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Software/MikTek/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/MikTek/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfont
-s/cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cms
-y6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D
-:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:
-/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D
-:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on AM.pdf (73 pages, 937819 bytes).
+pdfTeX warning (dest): name{subsection.6.4.3} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\Pugazh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbsy10.
+pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/0
+.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/0.L
+ibrary/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/0.Libra
+ry/0. Software/MikTek/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><D:/0.Libra
+ry/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/0.Library/0
+. Software/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/0.Library/0. Sof
+tware/MikTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/0.Library/0. Software
+/MikTek/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/0.Library/0. Software/Mi
+kTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/0.Library/0. Software/MikTek/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/0.Library/0. Software/MikTek/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><D:/0.Library/0. Software/MikTek/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/
+cm/cmsl12.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb><D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<D:/0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/
+0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/0
+.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/
+0.Library/0. Software/MikTek/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on AM.pdf (73 pages, 940606 bytes).
 PDF statistics:
- 1321 PDF objects out of 1440 (max. 8388607)
- 499 named destinations out of 1000 (max. 500000)
+ 1325 PDF objects out of 1440 (max. 8388607)
+ 503 named destinations out of 1000 (max. 500000)
  733 words of extra memory for PDF output out of 10000 (max. 10000000)
 

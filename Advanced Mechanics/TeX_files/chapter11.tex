@@ -1,11 +1,51 @@
-\chapter{Dirac Equation}
+\chapter{Relativistic Quantum Mechanics}
 \section{The Klein-Gordon Equation}
-\section{Covariant Formalism}
-\subsection{The Adjoint Spinor and the Covariant Current}
-\section{Solutions to the Dirac Equation}
-\subsection{Particles at Rest}
-\subsection{General Free-Particle Solutions}
-\section{Antiparticles}
-\subsection{The Dirac Sea Interpretation}
-\subsection{The Feynman-Stuckelberg Interpretation}
-\subsection{Antiparticle Spinors}
+In order to develop quantum mechanics relativistically, they started from the relativistic
+energy–momentum relation,
+\begin{equation}
+	E^2 - \big|\vec{p}\big|^2c^2 -m^2c^4 = 0
+\end{equation}
+Substituting $E$ and $p$ for their respective operators,
+
+$$E \Rightarrow i\hbar\frac{\partial }{\partial t},\hspace{50pt}\vec{p} \Rightarrow -i\hbar\vec{\nabla},$$ 
+
+and letting the equation act on a wavefunction $\phi(\vec{x} , t)$  the equation becomes,
+\begin{equation}
+	\Big( -\hbar^2\frac{\partial^2 }{\partial t^2} + \hbar^2c^2\nabla^2 - m^2c^4 \Big)\phi(\vec{x} , t) = 0
+\end{equation}
+
+This is the Klein-Gordon Equation. The wave function $\phi(\vec{x} , t)$ is also an object called a field because its arguments extend over all space and time. Another way to say this is that it exists
+throughout spacetime and its fluctuations are described by the Klein–Gordon
+equation. In natural units,
+$$\Big( \frac{\partial^2}{\partial t^2} + \nabla^2 - m^2 \Big)\phi(\vec{x},t) = 0$$
+
+This equation was the first attempt at a relativistic quantum mehcanical equation of a wave. it tells us how the field of a particle fluctuates.
+
+The Klein-Gordon equation can also be written in the Lorentz-invariant form,
+\begin{equation}
+	(\partial^\mu\partial_\mu+m^2)\psi=0
+\end{equation}
+
+Where,
+\begin{equation*}
+	\partial^\mu\partial_mu\equiv\frac{\partial^2}{\partial t^2}- \frac{\partial^2}{\partial x^2}-\frac{\partial^2}{\partial y^2}-\frac{\partial^2}{\partial z^2}
+\end{equation*}
+The Klein-Gordon equation has plane wave solutions,
+\begin{equation}
+	\psi(x,t)=Ne^{i(p\cdot x-Et)}
+\end{equation}
+
+Substituting in Equation (3),
+\begin{equation*}
+	E^2\psi=p^2\psi+m^2\psi
+\end{equation*}
+
+%\section{Covariant Formalism}
+%\subsection{The Adjoint Spinor and the Covariant Current}
+%\section{Solutions to the Dirac Equation}
+%\subsection{Particles at Rest}
+%\subsection{General Free-Particle Solutions}
+%\section{Antiparticles}
+%\subsection{The Dirac Sea Interpretation}
+%\subsection{The Feynman-Stuckelberg Interpretation}
+%\subsection{Antiparticle Spinors}
