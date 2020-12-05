@@ -4,5 +4,62 @@
 \section{N Particles in One Dimension}
 Consider two particle 
 \subsection{The Two-Particle Hilbert Space}
+\subsection{$\mathbb{V}_{1 \otimes 2}$ as a Direct Product Space}
+\subsection{$N$ particles in $d=1$}
+\begin{itemize}
+\item All the results in the previous sections generalize to an arbitrary N
+\item The only exception being the problem for arbitrary N cannot be reduced to N independent one-particle problems by means of any set of coordinates
+\item There are however exceptions to this including quadratic Hamiltonians which may be reduced to a sum over oscillator hamiltonians by the use of normal coordinates
+\item In such cases the oscillators become independent and their energies add up in the classical and QM cases
+\end{itemize}
+W.k.t that can be decoupled if we use the normal coordinates
+\begin{equation}
+	x_{I,II} = \frac{x_{1} \pm x_{2}}{\sqrt{2}}
+\end{equation}
+and the corresponding momenta,
+\begin{equation}
+	p_{I,II} = \frac{p_{1} \pm p_{2}}{\sqrt{2}}
+\end{equation}
+So here's the algorithm
+\begin{enumerate}
+\item Rewrite $\hat{H}$ in terms of normal coordinates
+\item Verify that the coordinates are canonical i.e.
+\newcounter{enumTemp}
+\setcounter{enumTemp}{\theenumi}
+\end{enumerate}
+\begin{equation}
+\{x_{i}, p_{j}\} = \delta_{ij}
+\end{equation}
+\begin{enumerate}
+\setcounter{enumi}{\theenumTemp}
+\item Now, quantize the system by promoting these variables to operators obeying the equation
+\newcounter{counterr}
+\setcounter{counterr}{\theenumi}
+\end{enumerate}
+\begin{equation}
+[\hat{X}_{i}, \hat{P}_{j}] = i \hbar \delta_{ij}
+\end{equation}
+\begin{enumerate}
+	\setcounter{enumi}{\thecounterr}
+\item Write the eigenvalue equation for $\hat{H}$ in the simultaneous basis of $X_{I}$ and $X_{II}$
+\end{enumerate}
+Analogously,
+\begin{enumerate}
+\item Qauntize the system directly by promoting the coordinate set $\{x_{1},x_{2},p_{1},p_{2} \}$ to a set of operators
+\item Write the eigenvalue equation for $H$ in the simultaneous eigenbasis of $X_{1}$ and $X_{2}$
+\item Now relabel the coordinates from $\{x_{1},x_{2}\}$ to $\{x_{I},x_{II}\}$
+\end{enumerate}
 \section{More Particles in More Dimensions}
+\subsection{For $d=2$}
+\begin{itemize}
+\item Mathematically, a single particle in $d=2$ is equivalent to that of 2 particles in $d=1$
+\item For the sake of convenience we use different notation in the two cases
+\item The Cartesian coordinates of the two 
+\end{itemize}
+\subsection{For $d=3$}
 \section{Identical Particles}
+In this section we will apply the formalism that we have developed to identical particles (i.e. particles which are exact replicas of each other in terms of their intrinsic properties such as mass, charge and so on via experiment).
+\subsection{The Classical Case}
+\subsection{Two-Particle Systems: Symmetric and Antisymmetric States}
+\subsection{Bosons and Fermions}
+\subsection{Bosonic and Fermionic Hilbert Spaces}

@@ -86,7 +86,7 @@ f(x) = \sum_{n = 1}^{\infty} c_{n} f_{n}(x)
 \end{equation}
 Where, $c_{n} \in \mathbb{C}$
 \section{Linear Operators}
-\section{Eigenvalue Problem}
+%\section{Eigenvalue Problem}
 \section{Eigenfunctions of a Hermitian Operator}
 
 \section{Transformations}
@@ -101,8 +101,8 @@ From our discussion before it is also clear that the same transformation can be 
 This is a very different viewpoint, we can understand this by visualizing it to be a 
 \subsection{Equivalence of Transformation types}
 It's pretty simple to see that both types of transformation constitute the same physical picture. Thus, we can take both viewpoints to mean the same physical transformation in each case, and later on we will see how this leads us two different pictures of Quantum Mechanics and how they are related.
-\section{Functions of Operators}
-\section{Generalization to Infinite Dimensions}
+%\section{Functions of Operators}
+%\section{Generalization to Infinite Dimensions}
 \section{Probability}
 \subsection{Discrete Variables}
 Suppose we have a frequency distribution 
@@ -203,17 +203,17 @@ where,
 $$k_{n} = \frac{n \pi}{L}$$
 Here $c_{n} \in \mathbb{C}$. All $f(x) \in \mathbb{R}$ can be written as:
 \begin{equation}
-f(x) = 
+f(x) = \frac{a_{0}}{2} + \sum^{\infty}_{n=1} \left[a_{n}\cos \left(\frac{n \pi x}{L} \right) + b_{n}\sin \left(\frac{n \pi x}{L}\right) \right]
 \end{equation}
 Where,
 \begin{equation}
-	f(x) = 
+	a_{n} = \frac{1}{L} \int_{0}^{2L} f(x) \cos\left(\frac{n \pi x}{L}\right) dx
 \end{equation}
 \begin{equation}
-	f(x) = 
+	b_{n} = \frac{1}{L} \int_{0}^{2L} f(x) \sin\left(\frac{n \pi x}{L}\right) dx
 \end{equation}
 \begin{equation}
-	f(x) = 
+	c_{n} = \frac{1}{2L} \int_{0}^{2L} f(x) e^{-ik_{n}x}dx
 \end{equation}
 obtained by calculating the overlap integrals (i.e., projections or inner products) of the desired function with the harmonic basis functions. That is provided $f(x)$, obeys the following conditions i.e. \textbf{Dirichlet conditions}:
 \begin{itemize}
@@ -223,15 +223,24 @@ obtained by calculating the overlap integrals (i.e., projections or inner produc
 \end{itemize}
 A Fourier transform is appropriate when the system has no boundary conditions that limit the allowed wave vectors. In this case, the Fourier decomposition is an integral over a continuum of wave vectors:
 \begin{equation}
-	f(x) = 
+	f(x) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\infty} a(k)e^{ikx}dk
 \end{equation}
-where  the  expansion  function  a1k2  is  complex.  To  obtain  the  expansion  function  a1k2  for  a  givenspatial function f1x2 requires the inverse Fourier transform
+where  the  expansion  function  $a1k2$  is  complex.  To  obtain  the  expansion  function  $a(k)$  for  a  givenspatial function $f(x)$ requires the inverse Fourier transform
 \begin{equation}
-	f(x) = 
+	a(k) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\infty} f(x)e^{-ikx}dx
 \end{equation}
-which is a projection of the spatial function f1x2 onto the harmonic basis functions eikx>12p. The basis functions are orthogonal and normalized in the Dirac sense, which means their projections onto each other are Dirac delta functions
+which is a projection of the spatial function $f(x)$ onto the harmonic basis functions $e^{ikx}/\sqrt{2 \pi}$. The basis functions are orthogonal and normalized in the Dirac sense, which means their projections onto each other are Dirac delta functions
+\begin{equation}
+\begin{split}
+	\frac{1}{2 \pi} & \int_{-\infty}^{\infty} e^{ik^{'}x}e^{-ikx}dx = \delta(k-k^{'})\\
+	\frac{1}{2 \pi} & \int_{-\infty}^{\infty} e^{ikx^{'}}e^{-ikx}dk = \delta(x-x^{'})
+\end{split}
+\end{equation}
 \subsection{Parseval’s theorem}
-%In each case, $a(k)$ and $f(x)$ are Fourier transforms of each other following Eqs. (D.14) and (D.15). In Fig. D.2, only the real part of the function f1x2 is plotted and each wave has a central wavelength l0=2p>k0.The spatial extent x of a function f1x2 and the width k of the Fourier transform a1k2 in wave-vector space are inversely related through the uncertainty relationkxÚ1.                                                              (D.18)This relation tells us that if want to make a wave that is confined to a small region of space, we need to use a wide range of wave vectors. In quantum mechanics, this concept is the Heisenberg uncertainty relation. To describe a wave f1x,t2, we replace x with x-vt in the Fourier decomposition of the func-tion f1x2, as long as there is no dispersion. This means that the wave retains its initial shape as it moves. When a system has dispersion, this replacement is no longer valid. The different speeds of the different wave-vector components of the superposition f1x,t2 cause the shape of the wave to change as it propa-gates. The expansion function a1k2 remains the same and the time dependent wave is represented byf1x,t2=122pL-a1k2ei(kx-v(k)t)dk.                                        (D.19)We must recalculate the integral at each time to learn how the wave shape evolves.Parseval’s theorem says that the power is the same whether calculated in position space or wave-vector space:L-0f1x202dx=L-0a1k202dk.    
+Parseval’s theorem states that the power is the same whether calculated in position space or wave-vector space:
+\begin{equation}
+\int^{\infty}_{-\infty} \abs{f(x)}^{2}dx = \int^{\infty}_{-\infty} \abs{a(k)}^{2}dk
+\end{equation}
 \section{Delta Function}
 \subsection{The Divergence of $\frac{\hat{r}}{r^{2}}$}
 We can see why the divergence is,

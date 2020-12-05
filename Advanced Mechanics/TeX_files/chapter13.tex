@@ -1,7 +1,12 @@
 \chapter{A Historical Overview}
-Rishi's article + JP sir's slides
+We begin by a lucid overview of the history of Quantum Mechanics . Here we have avoided going into details of some very important Quantum Mechanical phenomena such as the Hydrogen atom, Spin and theiry history. You may refer to \cite{p34} to learn more about them. \cite{} is an excellent exposition of "spin" which we'll come to understand in the next few chapters.
+\section{The Pre-Quantum Era}
+In the 1850s, when Fraunhofer used his experimental setup to analyze the spectra of sunlight he found something remarkable.
+
+Dark lines 
+
+Thus, they concluded that Sun must contain Sodium.
 \section{Blackbody Radiation}
-\section{Premise}
 We can consider a black body to consist of electromagnetic radiation in thermal equilibrium with the walls of the cavity. When they are in thermal equilibrium, the average rate of emission of radiation equals their average rate of absorption of radiation. \\
 
 \noindent The Rayleigh Jeans theory was constructed on the notion that when the walls of an object is in thermal equilibrium, in other words, the temperature of the walls is equal to the "temperature" of radiation. We will see what we mean by the "temperature" of an electromagnetic wave. \\
@@ -16,7 +21,6 @@ Hence the energy of the wave is also taken to be $k_BT$, and can be thought to h
 
 \noindent This forms the foundation of the Rayleigh Jeans theory, following which we will derive the Rayleigh-Jeans formula.
 
-\newpage
 \section{Deriving the Rayleigh-Jeans Formula}
 We start off with the axiom that the energy distribution of a black-body radiation does not depend on the shape of the cavity (which can be proven experimentally). For ease of calculations, we take te shape of the cavity to be a cube. We also assume that the waves vanish at the walls, or in other words, do not pass through them.\\
 \noindent The number of standing electromagnetic waves in a cube of length L needs to be calculated. \\
@@ -90,10 +94,66 @@ Here we see that the energy density is infinite, which is easy to figure out tha
 \subsection{Consequences}
 As the Rayeigh-Jeans formula failed to address shorter wavelengths, Planck decided to use a different approach to explain the black body radiation curve. He decided not to assume that the average energy of an oscillator in the wall to be $k_BT$. He knew how $u(\lambda)$ varies for short wavelengths, using the Wien's formula and wanted u($\lambda$) to be proportional to T for longer wavelengths. This lead to the formulation of the Planck's formula, which perfectly described the radiation curve.
 \section{Planck's Law}
+Max Planck, suggested that the energy transfer can radiation i.e. standing waves and walls of container
+i.e. atoms must be discrete not continuous as fundamental discrete energy units $E = nhv$. Thus he came up with the relation:
+\begin{equation}
+\expval{E} = \frac{\sum^{\infty}_{n=0} nhve^{-nhv/kT}}{\sum^{\infty}_{n=0}e^{-nhv/kT}}
+\end{equation}
+Now,
+\begin{equation}
+u(\lambda, T) = N \expval{E} = \frac{8 \pi}{\lambda^{4}}.\frac{hc/ \lambda}{e^{\frac{hc}{\lambda k T}}-1}
+\end{equation}
+This turned out to be right distribution! However, nobody at that time understood what it meant. Planck himself considered this to be a mathematical trick. In a sense, it implies that energy transfer is quantized. But almost no one took it seriously. It would take a revolutionary mind to truly understand it and push it to the extreme.
+\section{Photoelectric Effect}
+It was only Albert Einstein who took Planck's idea to the extreme. He postulated that energy transfer itself must be quantized and transmitted through discrete packets of energy called photons. Einstein drew this conclusion as an interpretation of Phillip Lenard's experimentation of what is called the "Photoelectric effect" i.e. a phenomenon in which electromagnetic radiation incident on a metallic surface causes electron to be emitted from the surface.
+\subsection{Experimental Setup}
+\begin{itemize}
+\item Evacuated tube, with a metallic photosurface $P$, in which light passes through a small opening and causes electrons to be ejected
+\item These
+electrons are collected by a collecting surface $C$
+\item Since the collecting plate is connected to the negative
+terminal of the power supply, it will repel normally repel
+electrons and only absorb the energetic ones
+\item  As the voltage is made more negative, there is a point at
+which the current ceases, called stopping
+voltage/potential $V_{S}$
+\end{itemize}
+\subsection{Observation}
+\begin{itemize}
+\item The intensity of the incident light neither affects the
+kinetic energy or the stopping voltage, solely the
+number of electrons emitted
+\item  The frequency of light influences the emitted
+electrons' energy
+\item  Electrons are emitted without a time delay.
+\item  There is a minimum/threshold frequency, $\phi$, below
+which no electrons are emitted
+\end{itemize}
 
+\subsection{Interpretation}
+If light were a wave:
+\begin{itemize}
+\item Intense beams, which have more energy, should cause
+the emissions of electrons with higher kinetic energy
+\item Frequency should play a role in the energy of
+electrons
+\item Low intensity beams should cause a time delay, since
+energy would need to accumulate before the emission
+of an electron.
+
+\end{itemize}
+Einstein created this equation for it,
+\begin{equation}
+	E_{Photon} = h \gamma = T + \phi
+\end{equation}
+Where,
+$$\phi = hv_{0}$$
+$$T = \frac{1}{2}mv^{2}$$
+In summary, Planck said "energy exchange is quantized" whereas Einstein said "energy itself is quantized".
 \section{The de Broglie Hypothesis}
 In , the French physicist de Brogile proposed that this wave like structure applies to electrons too and follows the equation:
 \begin{equation}
 	p = \frac{h}{\lambda} = \frac{2 \pi \hbar}{ \lambda}
 \end{equation}
-\section{Davidsson-Germer Experiment}
+\section{The Davidsson-Germer Experiment}
+\section{The Compton Effect}

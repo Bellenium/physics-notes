@@ -1,4 +1,5 @@
 \chapter{Path Integral Formulation}
+In this section we'll review the Path integral formulation, it's equivalence to the Schrodinger formalism and a toy model in this context.
 \section{The Path Integral Recepie}
 So far our stratergy has been to find the eigenstates of H then express the propagator in terms of this. However, the path integral formulation cuts one step and gets to the propagator directly. For a single particle in one dimension we follow the following procedure to find $U(x,t;x^{'}, t^{'})$:
 \begin{enumerate}
@@ -6,12 +7,20 @@ So far our stratergy has been to find the eigenstates of H then express the prop
 	\item Find the action $S[x(t)]$ for each path $x(t)$
 	\item $U(x,t;x^{'}, t^{'}) = A \sum_{All paths} e^{i\frac{S[x(t)]}{\hbar} }$  ; where $A$ is a normalization factor
 \end{enumerate}
-\section{An Approximation to $U(t)$ for a Free Particle}
-
-\section{Path Integral Evaluation of the Free-Particle Propagator}
-
+Here we have in a sense that the classical path taken by the particle corresponds to the stationary path. This is analogous to the Lagrangian formulation of classical mechanics in contrast to the approaches we took earlier involving the Hamiltonian.
 \section{Equivalence to the Schrodinger Equation}
-
-\section{Derivation of the Path Integral}
-
-\section{Imaginary Time Formalism}
+In the Schrodinger formalism, the change in the state vector over an infinitesimal time $\epsilon$ is:
+\begin{equation}
+	\ket{\psi(\epsilon)}
+\end{equation}
+Treating this to be a Gaussian integral we find that:
+\begin{equation}
+\psi(x, \epsilon) = \left[ \right]
+\end{equation}
+\section{Path Integral Evaluation of the Free-Particle Propagator}
+Let us consider the propagator. The problem is to solve for the integral
+\begin{equation}
+\int^{x_{N}}_{x_{0}}e^{iS[x(t)]/ \hbar}\mathfrak{D}[x(t)]
+\end{equation}
+where
+$$\int^{x_{N}}_{x_{0}}\mathfrak{D}[x(t)]$$

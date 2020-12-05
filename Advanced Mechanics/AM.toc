@@ -1,85 +1,99 @@
+\contentsline {chapter}{Preface}{vii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Addition of Angular Momentum}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}The General Problem}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Addition of $\hat {L}$ and $\hat {S}$}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Modified Spectroscopic Notation}{1}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Irreducible Tensor Operators}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Explaining some "Accidental" Degeneracies}{1}{section.1.3}%
+\contentsline {subsection}{\numberline {1.2.1}Tensor Operators}{1}{subsection.1.2.1}%
 \contentsline {chapter}{\numberline {2}Systems with N degrees of freedom}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}N Particles in One Dimension}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}The Two-Particle Hilbert Space}{3}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}More Particles in More Dimensions}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Identical Particles}{3}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Approximations}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Variational Theory}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Ground State of Helium}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The Hydrogen Molecule Ion}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The "Classical" Region}{5}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Tunneling}{5}{section.3.5}%
-\contentsline {section}{\numberline {3.6}The Connection Formulae}{5}{section.3.6}%
-\contentsline {section}{\numberline {3.7}The Adiabatic Theorem}{5}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Berry's Phase}{5}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Perturbation Theory}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Non-Degenerate Perturbation Theory}{7}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}General Formulation}{7}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}First order perturbation theory}{8}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Second order perturbation theory}{9}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Degenerate Perturbation Theory}{10}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Motivation}{10}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Twofold Degeneracy}{10}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Higher-Order Degeneracy}{12}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Lamb Shift}{12}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}The Zeeman Effect}{14}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Weak-Field Zeeman Effect}{15}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Strong-Field Zeeman Effect}{16}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Intermediate Zeeman Effect}{17}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Hyperfine Splitting in Hydrogen}{19}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Introduction to quantum dynamics}{21}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Two level systems}{22}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Introduction}{22}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}The perturbed system}{22}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Time-Dependent Perturbation Theory}{24}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Sinusoidal Perturbations}{24}{subsection.4.6.4}%
-\contentsline {section}{\numberline {4.7}Emission and Absorption of Radiation}{25}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Electromagnetic Waves}{25}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Absorption, stimulated emission and spontaneous emission}{26}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Incoherent perturbations}{26}{subsection.4.7.3}%
-\contentsline {section}{\numberline {4.8}Spontaneous Emission}{28}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Einstein's A and B coefficients}{28}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}The lifetime of an excited state}{29}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Selection rules}{30}{subsection.4.8.3}%
-\contentsline {chapter}{\numberline {5}Scattering}{31}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Classical Scattering}{31}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Motivation}{31}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}The problem}{31}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Solving for differential cross-section}{33}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Quantum Scattering}{34}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Defining the problem}{34}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Determining scattering amplitude}{34}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Partial Wave Analysis}{35}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Formalism}{35}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Exact wavefunction and the partial wave amplitude}{36}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Phase Shift}{38}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Born Approximation}{40}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Integral Form of the Schrodinger Equation}{40}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}The First Born Approximation}{42}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Examples}{44}{subsection.5.5.3}%
-\contentsline {subsubsection}{Low-energy soft-sphere scattering}{44}{section*.2}%
-\contentsline {subsubsection}{Yukawa Scattering}{45}{section*.3}%
-\contentsline {subsubsection}{Rutherford Scattering}{45}{section*.4}%
-\contentsline {subsection}{\numberline {5.5.4}The Born series}{46}{subsection.5.5.4}%
-\contentsline {chapter}{\numberline {6}Path Integral Formulation}{49}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The Path Integral Recepie}{49}{section.6.1}%
-\contentsline {section}{\numberline {6.2}An Approximation to $U(t)$ for a Free Particle}{49}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Path Integral Evaluation of the Free-Particle Propagator}{49}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Equivalence to the Schrodinger Equation}{49}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Derivation of the Path Integral}{49}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Imaginary Time Formalism}{49}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Dirac Equation}{51}{chapter.7}%
-\contentsline {section}{\numberline {7.1}The Klein-Gordon Equation}{51}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Covariant Formalism}{51}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}The Adjoint Spinor and the Covariant Current}{51}{subsection.7.2.1}%
-\contentsline {section}{\numberline {7.3}Solutions to the Dirac Equation}{51}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Particles at Rest}{51}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}General Free-Particle Solutions}{51}{subsection.7.3.2}%
-\contentsline {section}{\numberline {7.4}Antiparticles}{51}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}The Dirac Sea Interpretation}{51}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}The Feynman-Stuckelberg Interpretation}{51}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Antiparticle Spinors}{51}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {2.1.2}$\mathbb {V}_{1 \otimes 2}$ as a Direct Product Space}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}$N$ particles in $d=1$}{3}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}More Particles in More Dimensions}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}For $d=2$}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}For $d=3$}{5}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Identical Particles}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}The Classical Case}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Two-Particle Systems: Symmetric and Antisymmetric States}{5}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Bosons and Fermions}{5}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Bosonic and Fermionic Hilbert Spaces}{5}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}Approximations}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Variational Principle}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Theorem}{7}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Proof}{7}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}The Ground State of Helium}{8}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}The Hydrogen Molecule Ion}{11}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}The WKB Approximation}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Introduction}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}The Classical Region}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Tunneling}{16}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}The connection formulas}{16}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}The Adiabatic Approximation}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Adiabatic processes}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Berry's Phase}{18}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Perturbation Theory}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Non-Degenerate Perturbation Theory}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}General Formulation}{19}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}First order perturbation theory}{20}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Second order perturbation theory}{21}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Degenerate Perturbation Theory}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Motivation}{22}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Twofold Degeneracy}{22}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Higher-Order Degeneracy}{24}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Lamb Shift}{24}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}The Zeeman Effect}{26}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Weak-Field Zeeman Effect}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Strong-Field Zeeman Effect}{28}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Intermediate Zeeman Effect}{29}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Hyperfine Splitting in Hydrogen}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Introduction to quantum dynamics}{33}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Two level systems}{34}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Introduction}{34}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}The perturbed system}{34}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Time-Dependent Perturbation Theory}{36}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Sinusoidal Perturbations}{36}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.7}Emission and Absorption of Radiation}{37}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Electromagnetic Waves}{37}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Absorption, stimulated emission and spontaneous emission}{38}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Incoherent perturbations}{38}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}Spontaneous Emission}{40}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Einstein's A and B coefficients}{40}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}The lifetime of an excited state}{41}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Selection rules}{42}{subsection.4.8.3}%
+\contentsline {chapter}{\numberline {5}Scattering}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Classical Scattering}{43}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Motivation}{43}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}The problem}{43}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Solving for differential cross-section}{45}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Quantum Scattering}{46}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Defining the problem}{46}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Determining scattering amplitude}{46}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Partial Wave Analysis}{47}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Formalism}{47}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Exact wavefunction and the partial wave amplitude}{48}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Phase Shift}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Born Approximation}{52}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Integral Form of the Schrodinger Equation}{52}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}The First Born Approximation}{54}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Examples}{56}{subsection.5.5.3}%
+\contentsline {subsubsection}{Low-energy soft-sphere scattering}{56}{section*.3}%
+\contentsline {subsubsection}{Yukawa Scattering}{57}{section*.4}%
+\contentsline {subsubsection}{Rutherford Scattering}{57}{section*.5}%
+\contentsline {subsection}{\numberline {5.5.4}The Born series}{58}{subsection.5.5.4}%
+\contentsline {chapter}{\numberline {6}Path Integral Formulation}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The Path Integral Recepie}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Equivalence to the Schrodinger Equation}{61}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Path Integral Evaluation of the Free-Particle Propagator}{62}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Dirac Equation}{63}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The Klein-Gordon Equation}{63}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Covariant Formalism}{63}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}The Adjoint Spinor and the Covariant Current}{63}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Solutions to the Dirac Equation}{63}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Particles at Rest}{63}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}General Free-Particle Solutions}{63}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Antiparticles}{63}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}The Dirac Sea Interpretation}{63}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}The Feynman-Stuckelberg Interpretation}{63}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Antiparticle Spinors}{63}{subsection.7.4.3}%
+\contentsline {chapter}{\numberline {8}Epilogue: What lies ahead}{65}{chapter.8}%
